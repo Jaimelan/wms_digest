@@ -6,7 +6,10 @@ platforms = ["linux-64"]
 version = "0.1.0"
 
 [tasks]
+digest = "python scripts/run_digest.py"
 
 [dependencies]
 python = "3.10.*"
-openai = "2.0.0.*"
+
+[pypi-dependencies]
+edge-tts = ">=7.0.0"

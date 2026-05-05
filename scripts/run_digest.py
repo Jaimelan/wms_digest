@@ -2,9 +2,11 @@
 from __future__ import annotations
 
 import argparse
+import asyncio
 import configparser
 import dataclasses
 import datetime as dt
+import difflib
 import html
 import json
 import os
@@ -17,7 +19,6 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
-import wave
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from typing import Any
@@ -68,6 +69,7 @@ def main() -> int:
     print(f"Collecting papers from {start_date.isoformat()} through {today.isoformat()}")
     papers = collect_papers(config, start_date, today)
     ranked = rank_and_filter(papers, config, min_score=min_score, max_papers=max_papers)
+    ranked = resolve_missing_dois(ranked, config)
 
     output_dir.mkdir(parents=True, exist_ok=True)
     write_outputs(config, output_dir, today, start_date, ranked)
@@ -96,7 +98,7 @@ def resolve_output_dir(value: str | Path) -> Path:
 
 
 def load_config(path: Path) -> dict[str, Any]:
-    parser = configparser.ConfigParser()
+    parser = configparser.ConfigParser(interpolation=None)
     read_files = parser.read(path)
     if not read_files:
         raise FileNotFoundError(path)
@@ -111,10 +113,23 @@ def load_config(path: Path) -> dict[str, Any]:
             "podcast_target_minutes": parser.getint("digest", "podcast_target_minutes"),
             "output_dir": parser.get("digest", "output_dir", fallback="docs"),
         },
-        "openai": {
-            "summary_model": parser.get("openai", "summary_model"),
-            "tts_model": parser.get("openai", "tts_model"),
-            "voice": parser.get("openai", "voice"),
+        "sources": {
+            "enable_europe_pmc": parser.getboolean("sources", "enable_europe_pmc", fallback=True),
+            "enable_arxiv": parser.getboolean("sources", "enable_arxiv", fallback=False),
+        },
+        "audio": {
+            "enabled": parser.getboolean("audio", "enabled", fallback=True),
+            "provider": parser.get("audio", "provider", fallback="edge_tts"),
+            "voice": parser.get("audio", "voice", fallback="en-GB-RyanNeural"),
+            "rate": parser.get("audio", "rate", fallback="+0%"),
+        },
+        "doi": {
+            "enable_crossref_lookup": parser.getboolean("doi", "enable_crossref_lookup", fallback=True),
+            "crossref_mailto": parser.get("doi", "crossref_mailto", fallback="").strip(),
+        },
+        "notion": {
+            "enabled": parser.getboolean("notion", "enabled", fallback=False),
+            "title_property": parser.get("notion", "title_property", fallback="Name"),
         },
         "queries": {
             "europe_pmc": parser.get("queries", "europe_pmc"),
@@ -139,14 +154,33 @@ def load_config(path: Path) -> dict[str, Any]:
 
 
 def collect_papers(config: dict[str, Any], start_date: dt.date, end_date: dt.date) -> list[Paper]:
-    europe_pmc = fetch_europe_pmc(config["queries"]["europe_pmc"], start_date, end_date)
-    arxiv = fetch_arxiv(config["queries"]["arxiv"], start_date, end_date)
-    if europe_pmc is None and arxiv is None:
-        raise RuntimeError("All literature sources failed; refusing to write an empty digest.")
+    enabled_sources: list[str] = []
+    failed_sources: list[str] = []
 
     papers: list[Paper] = []
-    papers.extend(europe_pmc or [])
-    papers.extend(arxiv or [])
+    if config["sources"].get("enable_europe_pmc", True):
+        enabled_sources.append("Europe PMC")
+        europe_pmc = fetch_europe_pmc(config["queries"]["europe_pmc"], start_date, end_date)
+        if europe_pmc is None:
+            failed_sources.append("Europe PMC")
+        else:
+            papers.extend(europe_pmc)
+
+    if config["sources"].get("enable_arxiv", False):
+        enabled_sources.append("arXiv")
+        arxiv = fetch_arxiv(config["queries"]["arxiv"], start_date, end_date)
+        if arxiv is None:
+            failed_sources.append("arXiv")
+        else:
+            papers.extend(arxiv)
+    else:
+        print("arXiv source is disabled in config; skipping arXiv fetch.")
+
+    if not enabled_sources:
+        raise RuntimeError("No literature sources are enabled.")
+    if len(failed_sources) == len(enabled_sources):
+        raise RuntimeError("All enabled literature sources failed; refusing to write an empty digest.")
+
     return dedupe_papers(papers)
 
 
@@ -162,6 +196,26 @@ def fetch_text(url: str, params: dict[str, str], timeout: int = 30) -> str:
     request = urllib.request.Request(full_url, headers={"User-Agent": USER_AGENT})
     with urllib.request.urlopen(request, timeout=timeout) as response:
         return response.read().decode("utf-8")
+
+
+def fetch_text_with_retries(
+    url: str,
+    params: dict[str, str],
+    *,
+    timeout: int = 30,
+    retries: int = 2,
+    backoff_seconds: int = 15,
+) -> str:
+    for attempt in range(retries + 1):
+        try:
+            return fetch_text(url, params, timeout=timeout)
+        except urllib.error.HTTPError as exc:
+            if exc.code != 429 or attempt == retries:
+                raise
+            wait_seconds = backoff_seconds * (attempt + 1)
+            print(f"arXiv rate-limited the request; retrying in {wait_seconds} seconds.", file=sys.stderr)
+            time.sleep(wait_seconds)
+    raise RuntimeError("unreachable arXiv retry state")
 
 
 def fetch_europe_pmc(query: str, start_date: dt.date, end_date: dt.date) -> list[Paper] | None:
@@ -240,7 +294,7 @@ def fetch_arxiv(query: str, start_date: dt.date, end_date: dt.date) -> list[Pape
     }
 
     try:
-        text = fetch_text("https://export.arxiv.org/api/query", params)
+        text = fetch_text_with_retries("https://export.arxiv.org/api/query", params)
     except (urllib.error.URLError, TimeoutError) as exc:
         print(f"arXiv fetch failed: {exc}", file=sys.stderr)
         return None
@@ -374,6 +428,61 @@ def score_paper(paper: Paper, ranking: dict[str, list[str]]) -> Paper:
     return dataclasses.replace(paper, score=score, score_reasons=unique_preserving_order(reasons))
 
 
+def resolve_missing_dois(papers: list[Paper], config: dict[str, Any]) -> list[Paper]:
+    if not config.get("doi", {}).get("enable_crossref_lookup", True):
+        return papers
+
+    resolved: list[Paper] = []
+    mailto = config.get("doi", {}).get("crossref_mailto", "")
+    for paper in papers:
+        if paper.doi:
+            resolved.append(paper)
+            continue
+        doi = lookup_crossref_doi(paper.title, mailto=mailto)
+        if doi:
+            resolved.append(dataclasses.replace(paper, doi=doi))
+            print(f"Resolved DOI for '{paper.title}': {doi}")
+        else:
+            resolved.append(paper)
+        time.sleep(1)
+    return resolved
+
+
+def lookup_crossref_doi(title: str, mailto: str = "") -> str:
+    if not title:
+        return ""
+    params = {
+        "query.title": title,
+        "rows": "3",
+        "select": "DOI,title",
+    }
+    if mailto:
+        params["mailto"] = mailto
+    try:
+        payload = fetch_json("https://api.crossref.org/works", params, timeout=20)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"Crossref DOI lookup failed for '{title}': {exc}", file=sys.stderr)
+        return ""
+
+    items = payload.get("message", {}).get("items", [])
+    for item in items:
+        candidate_titles = item.get("title") or []
+        candidate_title = candidate_titles[0] if candidate_titles else ""
+        if titles_match(title, candidate_title):
+            return str(item.get("DOI", "")).strip()
+    return ""
+
+
+def titles_match(left: str, right: str) -> bool:
+    left_norm = normalize_text(left)
+    right_norm = normalize_text(right)
+    if not left_norm or not right_norm:
+        return False
+    if left_norm == right_norm:
+        return True
+    return difflib.SequenceMatcher(None, left_norm, right_norm).ratio() >= 0.88
+
+
 def write_outputs(
     config: dict[str, Any],
     output_dir: Path,
@@ -388,8 +497,9 @@ def write_outputs(
         directory.mkdir(parents=True, exist_ok=True)
 
     issue_id = today.isoformat()
-    digest_md = render_digest(config, today, start_date, papers)
-    script_md = render_or_generate_podcast_script(config, today, start_date, papers, digest_md)
+    general_summary = render_general_summary(config, today, start_date, papers)
+    digest_md = render_digest(config, today, start_date, papers, general_summary)
+    script_md = render_podcast_script(config, today, start_date, papers, digest_md, general_summary)
 
     (digest_dir / f"{issue_id}.md").write_text(digest_md, encoding="utf-8")
     (podcast_dir / f"{issue_id}-script.md").write_text(script_md, encoding="utf-8")
@@ -399,9 +509,16 @@ def write_outputs(
     )
 
     maybe_generate_audio(config, podcast_dir, issue_id, script_md)
+    maybe_publish_to_notion(config, data_dir, issue_id, today, start_date, papers, general_summary)
 
 
-def render_digest(config: dict[str, Any], today: dt.date, start_date: dt.date, papers: list[Paper]) -> str:
+def render_digest(
+    config: dict[str, Any],
+    today: dt.date,
+    start_date: dt.date,
+    papers: list[Paper],
+    general_summary: str,
+) -> str:
     title = config["digest"]["title"]
     if not papers:
         return textwrap.dedent(
@@ -420,7 +537,11 @@ def render_digest(config: dict[str, Any], today: dt.date, start_date: dt.date, p
         "",
         f"Window: {start_date.isoformat()} to {today.isoformat()}",
         "",
-        "This digest is generated from Europe PMC and arXiv metadata. Audio narration, when present, is AI-generated.",
+        "This digest is generated from free metadata sources. Audio narration, when present, is generated with Edge TTS.",
+        "",
+        "## General Summary",
+        "",
+        general_summary,
         "",
         "## Main Themes",
         "",
@@ -441,79 +562,26 @@ def render_digest(config: dict[str, Any], today: dt.date, start_date: dt.date, p
                 f"- **Source**: {venue} ({status}, {paper.published or 'date unavailable'})",
                 f"- **Authors**: {authors}",
                 f"- **Why it matters**: {make_takeaway(paper)}",
+                f"- **Study summary**: {make_study_summary(paper)}",
                 f"- **Topic signals**: {reasons}; relevance score {paper.score}",
+                f"- **DOI**: {format_doi(paper.doi)}",
                 f"- **Link**: {paper.url}",
             ]
         )
-        if paper.doi:
-            lines.append(f"- **DOI**: {paper.doi}")
-        lines.append("")
-        lines.append(shorten_abstract(paper.abstract, max_words=110))
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
 
 
-def render_or_generate_podcast_script(
+def render_podcast_script(
     config: dict[str, Any],
     today: dt.date,
     start_date: dt.date,
     papers: list[Paper],
     digest_md: str,
+    general_summary: str,
 ) -> str:
-    openai_key = os.environ.get("OPENAI_API_KEY")
-    if openai_key and papers:
-        generated = generate_script_with_openai(config, today, start_date, papers)
-        if generated:
-            return generated
-    return render_deterministic_script(config, today, start_date, papers, digest_md)
-
-
-def generate_script_with_openai(
-    config: dict[str, Any], today: dt.date, start_date: dt.date, papers: list[Paper]
-) -> str:
-    try:
-        from openai import OpenAI
-    except ImportError:
-        print("OpenAI package is not installed; writing deterministic podcast script.", file=sys.stderr)
-        return ""
-
-    client = OpenAI()
-    model = first_nonempty(os.environ.get("OPENAI_SUMMARY_MODEL"), config["openai"]["summary_model"])
-    target_minutes = int(config["digest"]["podcast_target_minutes"])
-    target_words = max(1200, target_minutes * 145)
-    payload = {
-        "date": today.isoformat(),
-        "window": {"start": start_date.isoformat(), "end": today.isoformat()},
-        "target_minutes": target_minutes,
-        "papers": [paper_for_prompt(paper) for paper in papers],
-    }
-    instructions = (
-        "Write a polished solo-host science podcast script for a technically literate biomedical audience. "
-        "Focus on whole metagenome sequencing and microbiome/metagenomics in medicine, human health, "
-        "and especially female reproductive health. Keep plant, agriculture, food, animal, and environmental "
-        "metagenomics out of the framing unless a paper is explicitly about human clinical relevance. "
-        "Synthesize papers into themes instead of reading the list mechanically. Be accurate to the provided "
-        "metadata, do not invent results beyond titles and abstracts, and explicitly say when a paper is a preprint. "
-        "Include a brief AI-generated audio disclosure. Use plain Markdown. "
-        f"Target about {target_words} words, suitable for roughly {target_minutes} minutes of narration."
-    )
-    try:
-        response = client.responses.create(
-            model=model,
-            instructions=instructions,
-            input=json.dumps(payload, ensure_ascii=False),
-            max_output_tokens=7000,
-        )
-    except Exception as exc:  # noqa: BLE001 - keep scheduled job resilient.
-        print(f"OpenAI script generation failed: {exc}", file=sys.stderr)
-        return ""
-
-    text = getattr(response, "output_text", "") or ""
-    if not text.strip():
-        print("OpenAI script generation returned no text; writing deterministic script.", file=sys.stderr)
-        return ""
-    return text.rstrip() + "\n"
+    return render_deterministic_script(config, today, start_date, papers, digest_md, general_summary)
 
 
 def render_deterministic_script(
@@ -522,6 +590,7 @@ def render_deterministic_script(
     start_date: dt.date,
     papers: list[Paper],
     digest_md: str,
+    general_summary: str,
 ) -> str:
     title = config["digest"]["title"]
     if not papers:
@@ -529,7 +598,7 @@ def render_deterministic_script(
             f"""\
             # Podcast Script: {today.isoformat()}
 
-            This is an AI-generated audio disclosure: if this script is converted to speech, the voice is synthetic.
+            Audio disclosure: if this script is converted to speech, the voice is synthetic and generated with Edge TTS.
 
             No matching papers or preprints were found for {start_date.isoformat()} through {today.isoformat()}.
             """
@@ -539,10 +608,11 @@ def render_deterministic_script(
     lines = [
         f"# Podcast Script: {title} - {today.isoformat()}",
         "",
-        "This is an AI-generated audio disclosure: if this script is converted to speech, the voice is synthetic.",
+        "Audio disclosure: this script is converted to speech with Edge TTS.",
         "",
         f"Welcome to this week in {title.lower()}, covering {start_date.isoformat()} through {today.isoformat()}.",
-        f"This episode covers {len(papers)} papers and preprints selected from Europe PMC and arXiv.",
+        f"This episode covers {len(papers)} papers and preprints selected from free literature metadata sources.",
+        general_summary,
         "",
         "The main themes this week are "
         + natural_join([f"{theme.lower()} ({count})" for theme, count in theme_counts])
@@ -555,8 +625,9 @@ def render_deterministic_script(
             [
                 f"Segment {index}: {paper.title}.",
                 f"{format_authors(paper.authors)} report this in {paper.venue or paper.source}.{preprint_note}",
+                f"DOI: {paper.doi or 'not available from metadata or Crossref lookup'}.",
                 make_takeaway(paper),
-                shorten_abstract(paper.abstract, max_words=145),
+                make_study_summary(paper),
                 "",
             ]
         )
@@ -579,100 +650,88 @@ def render_deterministic_script(
 
 
 def maybe_generate_audio(config: dict[str, Any], podcast_dir: Path, issue_id: str, script_md: str) -> None:
-    if not os.environ.get("OPENAI_API_KEY"):
-        print("OPENAI_API_KEY is not set; skipping audio generation.")
+    audio_config = config.get("audio", {})
+    if not audio_config.get("enabled", True):
+        print("Audio generation is disabled in config.")
+        return
+    if audio_config.get("provider", "edge_tts") != "edge_tts":
+        print(f"Unsupported audio provider '{audio_config.get('provider')}'; skipping audio generation.")
         return
     try:
-        from openai import OpenAI
+        import edge_tts
     except ImportError:
-        print("OpenAI package is not installed; skipping audio generation.", file=sys.stderr)
+        print("edge-tts is not installed; skipping audio generation.", file=sys.stderr)
         return
 
-    client = OpenAI()
-    tts_model = first_nonempty(os.environ.get("OPENAI_TTS_MODEL"), config["openai"]["tts_model"])
-    voice = first_nonempty(os.environ.get("OPENAI_TTS_VOICE"), config["openai"]["voice"])
+    voice = audio_config.get("voice", "en-GB-RyanNeural")
+    rate = audio_config.get("rate", "+0%")
     narration_text = markdown_to_narration(script_md)
-    chunks = chunk_text(narration_text, limit=3200)
+    chunks = chunk_text(narration_text, limit=3500)
     if not chunks:
         print("Podcast script is empty; skipping audio generation.", file=sys.stderr)
         return
 
-    wav_parts: list[Path] = []
-    for index, chunk in enumerate(chunks, start=1):
-        part_path = podcast_dir / f"{issue_id}-part{index:02d}.wav"
-        try:
-            with client.audio.speech.with_streaming_response.create(
-                model=tts_model,
-                voice=voice,
-                input=chunk,
-                instructions=(
-                    "Narrate as a calm, precise science podcast host. Use clear pacing, "
-                    "natural transitions, and avoid exaggerated enthusiasm."
-                ),
-                response_format="wav",
-            ) as response:
-                response.stream_to_file(part_path)
-        except Exception as exc:  # noqa: BLE001 - keep scheduled job resilient.
-            print(f"OpenAI audio generation failed: {exc}", file=sys.stderr)
-            for existing in wav_parts:
-                existing.unlink(missing_ok=True)
-            part_path.unlink(missing_ok=True)
-            return
-        wav_parts.append(part_path)
-
-    combined_wav = podcast_dir / f"{issue_id}.wav"
-    combine_wav_files(wav_parts, combined_wav)
-    for part in wav_parts:
-        part.unlink(missing_ok=True)
-
     mp3_path = podcast_dir / f"{issue_id}.mp3"
-    if convert_wav_to_mp3(combined_wav, mp3_path):
-        combined_wav.unlink(missing_ok=True)
-        print(f"Wrote podcast audio to {mp3_path}")
-    else:
-        print(f"Wrote podcast audio to {combined_wav}; install ffmpeg to convert MP3.")
+    part_paths = [podcast_dir / f"{issue_id}-part{index:02d}.mp3" for index in range(1, len(chunks) + 1)]
+    try:
+        asyncio.run(write_edge_tts_parts(edge_tts, chunks, part_paths, voice=voice, rate=rate))
+        if combine_mp3_files(part_paths, mp3_path):
+            for part_path in part_paths:
+                part_path.unlink(missing_ok=True)
+            print(f"Wrote podcast audio to {mp3_path}")
+        else:
+            print("Could not combine podcast audio parts; leaving per-part MP3 files in place.", file=sys.stderr)
+    except Exception as exc:  # noqa: BLE001 - keep scheduled job resilient.
+        print(f"Edge TTS audio generation failed: {exc}", file=sys.stderr)
+        for part_path in part_paths:
+            part_path.unlink(missing_ok=True)
 
 
-def combine_wav_files(parts: list[Path], destination: Path) -> None:
-    if len(parts) == 1:
-        shutil.move(str(parts[0]), destination)
-        return
-
-    with wave.open(str(parts[0]), "rb") as first:
-        params = first.getparams()
-        frames = [first.readframes(first.getnframes())]
-    for part in parts[1:]:
-        with wave.open(str(part), "rb") as current:
-            if current.getparams()[:3] != params[:3]:
-                raise ValueError("WAV chunk parameters differ; cannot concatenate safely.")
-            frames.append(current.readframes(current.getnframes()))
-    with wave.open(str(destination), "wb") as output:
-        output.setparams(params)
-        for frame_blob in frames:
-            output.writeframes(frame_blob)
+async def write_edge_tts_parts(edge_tts_module: Any, chunks: list[str], paths: list[Path], voice: str, rate: str) -> None:
+    for chunk, path in zip(chunks, paths):
+        communicate = edge_tts_module.Communicate(chunk, voice=voice, rate=rate)
+        await communicate.save(str(path))
 
 
-def convert_wav_to_mp3(wav_path: Path, mp3_path: Path) -> bool:
-    if not shutil.which("ffmpeg"):
+def combine_mp3_files(parts: list[Path], destination: Path) -> bool:
+    existing_parts = [part for part in parts if part.exists()]
+    if not existing_parts:
         return False
+    if len(existing_parts) == 1:
+        shutil.move(str(existing_parts[0]), destination)
+        return True
+
+    if not shutil.which("ffmpeg"):
+        print("ffmpeg is not installed; cannot combine MP3 chunks.", file=sys.stderr)
+        return False
+
+    concat_file = destination.with_suffix(".concat.txt")
+    concat_file.write_text(
+        "".join(f"file '{part.resolve()}'\n" for part in existing_parts),
+        encoding="utf-8",
+    )
     command = [
         "ffmpeg",
         "-y",
         "-loglevel",
         "error",
+        "-f",
+        "concat",
+        "-safe",
+        "0",
         "-i",
-        str(wav_path),
-        "-codec:a",
-        "libmp3lame",
-        "-b:a",
-        "96k",
-        str(mp3_path),
+        str(concat_file),
+        "-c",
+        "copy",
+        str(destination),
     ]
     try:
         subprocess.run(command, check=True)
     except (OSError, subprocess.CalledProcessError) as exc:
-        print(f"ffmpeg MP3 conversion failed: {exc}", file=sys.stderr)
+        print(f"ffmpeg MP3 concatenation failed: {exc}", file=sys.stderr)
         return False
+    finally:
+        concat_file.unlink(missing_ok=True)
     return True
 
 
@@ -722,6 +781,158 @@ def write_index(config: dict[str, Any], output_dir: Path, today: dt.date) -> Non
             links.append(f"[script](podcasts/{script.name})")
         lines.append(f"- **{issue_id}**: " + " | ".join(links))
     (output_dir / "index.md").write_text("\n".join(lines).rstrip() + "\n", encoding="utf-8")
+
+
+def maybe_publish_to_notion(
+    config: dict[str, Any],
+    data_dir: Path,
+    issue_id: str,
+    today: dt.date,
+    start_date: dt.date,
+    papers: list[Paper],
+    general_summary: str,
+) -> None:
+    notion_config = config.get("notion", {})
+    if not notion_config.get("enabled", False):
+        return
+
+    token = os.environ.get("NOTION_TOKEN")
+    database_id = os.environ.get("NOTION_DATABASE_ID")
+    if not token or not database_id:
+        print("Notion publishing is enabled, but NOTION_TOKEN or NOTION_DATABASE_ID is not set; skipping.")
+        return
+
+    state_path = data_dir / f"{issue_id}-notion.json"
+    if state_path.exists():
+        print(f"Notion page already recorded in {state_path}; skipping duplicate publish.")
+        return
+
+    title = config["digest"]["title"]
+    page_title = f"{title}: {issue_id}"
+    payload = {
+        "parent": {"database_id": database_id},
+        "properties": {
+            notion_config.get("title_property", "Name"): {
+                "title": [{"text": {"content": page_title}}],
+            }
+        },
+        "children": notion_blocks_for_digest(config, today, start_date, papers, general_summary),
+    }
+
+    try:
+        response = notion_request("POST", "https://api.notion.com/v1/pages", payload, token)
+    except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
+        print(f"Notion publish failed: {exc}", file=sys.stderr)
+        return
+
+    state_path.write_text(
+        json.dumps(
+            {
+                "page_id": response.get("id", ""),
+                "url": response.get("url", ""),
+                "published_at": dt.datetime.now(dt.timezone.utc).isoformat(),
+            },
+            indent=2,
+        )
+        + "\n",
+        encoding="utf-8",
+    )
+    print(f"Published digest to Notion: {response.get('url', response.get('id', 'unknown page'))}")
+
+
+def notion_blocks_for_digest(
+    config: dict[str, Any],
+    today: dt.date,
+    start_date: dt.date,
+    papers: list[Paper],
+    general_summary: str,
+) -> list[dict[str, Any]]:
+    blocks: list[dict[str, Any]] = [
+        notion_heading("General summary"),
+        notion_paragraph(f"Window: {start_date.isoformat()} to {today.isoformat()}. {general_summary}"),
+        notion_heading("Papers"),
+    ]
+    for index, paper in enumerate(papers, start=1):
+        doi_text = paper.doi or "not available from source metadata or Crossref lookup"
+        blocks.extend(
+            [
+                notion_heading(f"{index}. {paper.title}", level=3),
+                notion_paragraph(
+                    f"{paper.venue or paper.source}; {paper.published or 'date unavailable'}. "
+                    f"DOI: {doi_text}. Source: {paper.url}"
+                ),
+                notion_paragraph(make_study_summary(paper)),
+            ]
+        )
+    if not papers:
+        blocks.append(notion_paragraph("No matching papers or preprints were found in this window."))
+    return blocks[:100]
+
+
+def notion_heading(text: str, level: int = 2) -> dict[str, Any]:
+    block_type = "heading_3" if level == 3 else "heading_2"
+    return {
+        "object": "block",
+        "type": block_type,
+        block_type: {"rich_text": notion_rich_text(text)},
+    }
+
+
+def notion_paragraph(text: str) -> dict[str, Any]:
+    return {
+        "object": "block",
+        "type": "paragraph",
+        "paragraph": {"rich_text": notion_rich_text(text)},
+    }
+
+
+def notion_rich_text(text: str) -> list[dict[str, Any]]:
+    return [{"type": "text", "text": {"content": text[:2000]}}]
+
+
+def notion_request(method: str, url: str, payload: dict[str, Any], token: str) -> dict[str, Any]:
+    request = urllib.request.Request(
+        url,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {token}",
+            "Content-Type": "application/json",
+            "Notion-Version": "2022-06-28",
+            "User-Agent": USER_AGENT,
+        },
+        method=method,
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=30) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        body = exc.read().decode("utf-8", errors="replace")
+        raise urllib.error.URLError(f"HTTP {exc.code}: {body}") from exc
+
+
+def render_general_summary(
+    config: dict[str, Any],
+    today: dt.date,
+    start_date: dt.date,
+    papers: list[Paper],
+) -> str:
+    title = config["digest"]["title"].lower()
+    if not papers:
+        return f"No matching papers or preprints were found for {start_date.isoformat()} through {today.isoformat()}."
+
+    theme_counts = extract_theme_counts(papers)[:3]
+    preprints = sum(1 for paper in papers if paper.is_preprint)
+    doi_count = sum(1 for paper in papers if paper.doi)
+    record_word = "record" if len(papers) == 1 else "records"
+    doi_verb = "includes" if len(papers) == 1 else "include"
+    theme_text = natural_join([f"{theme.lower()} ({count})" for theme, count in theme_counts])
+    preprint_text = f"{preprints} preprint{'s' if preprints != 1 else ''}" if preprints else "no preprints"
+    doi_text = f"{doi_count} of {len(papers)} {record_word} {doi_verb} a DOI after source metadata and Crossref lookup"
+    return (
+        f"This issue of {title} covers {len(papers)} selected {record_word} from the current window, with {preprint_text}. "
+        f"The strongest themes are {theme_text}. {doi_text}. "
+        "The digest emphasizes human medicine and female reproductive health, while filtering plant, agriculture, food, animal, and environmental metagenomics."
+    )
 
 
 def extract_theme_counts(papers: list[Paper]) -> list[tuple[str, int]]:
@@ -815,23 +1026,29 @@ def make_takeaway(paper: Paper) -> str:
     return "This paper matched the configured human medicine and female reproductive health metagenomics themes."
 
 
-def paper_for_prompt(paper: Paper) -> dict[str, Any]:
-    return {
-        "title": paper.title,
-        "authors": paper.authors[:8],
-        "published": paper.published,
-        "venue": paper.venue,
-        "source": paper.source,
-        "url": paper.url,
-        "doi": paper.doi,
-        "is_preprint": paper.is_preprint,
-        "abstract": shorten_abstract(paper.abstract, max_words=190),
-        "score_reasons": paper.score_reasons,
-    }
+def make_study_summary(paper: Paper) -> str:
+    if not paper.abstract:
+        return (
+            "No abstract was available from the metadata source. Based on the title and source metadata, "
+            + make_takeaway(paper)
+        )
+    sentences = split_sentences(paper.abstract)
+    if not sentences:
+        return paper.abstract
+    selected = sentences[:3]
+    summary = " ".join(selected)
+    return summary if summary.endswith((".", "!", "?")) else summary + "."
+
+
+def format_doi(doi: str) -> str:
+    if not doi:
+        return "Not available from source metadata or Crossref lookup"
+    return f"[{doi}](https://doi.org/{doi})"
 
 
 def markdown_to_narration(markdown: str) -> str:
     text = re.sub(r"<!--.*?-->", "", markdown, flags=re.DOTALL)
+    text = re.sub(r"<details>.*?</details>", "", text, flags=re.DOTALL)
     text = re.sub(r"</?details>|</?summary>", "", text)
     text = re.sub(r"^#{1,6}\s*", "", text, flags=re.MULTILINE)
     text = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", text)
@@ -912,15 +1129,6 @@ def format_authors(authors: list[str]) -> str:
     if len(authors) <= 4:
         return ", ".join(authors)
     return ", ".join(authors[:4]) + " et al."
-
-
-def shorten_abstract(abstract: str, max_words: int) -> str:
-    if not abstract:
-        return "No abstract was available from the metadata source."
-    words = abstract.split()
-    if len(words) <= max_words:
-        return abstract
-    return " ".join(words[:max_words]).rstrip(".,;:") + "..."
 
 
 def natural_join(items: list[str]) -> str:

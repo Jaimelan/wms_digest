@@ -12,10 +12,8 @@ jobs:
   build-digest:
     runs-on: ubuntu-latest
     env:
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      OPENAI_SUMMARY_MODEL: ${{ vars.OPENAI_SUMMARY_MODEL }}
-      OPENAI_TTS_MODEL: ${{ vars.OPENAI_TTS_MODEL }}
-      OPENAI_TTS_VOICE: ${{ vars.OPENAI_TTS_VOICE }}
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
 
     steps:
       - name: Check out repository
