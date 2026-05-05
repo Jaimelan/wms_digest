@@ -1,0 +1,50 @@
+name: Science Digest
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "15 7 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  build-digest:
+    runs-on: ubuntu-latest
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_SUMMARY_MODEL: ${{ vars.OPENAI_SUMMARY_MODEL }}
+      OPENAI_TTS_MODEL: ${{ vars.OPENAI_TTS_MODEL }}
+      OPENAI_TTS_VOICE: ${{ vars.OPENAI_TTS_VOICE }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: python3 -m pip install -r requirements.txt
+
+      - name: Install ffmpeg for MP3 podcast output
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Generate digest
+        run: python3 scripts/run_digest.py
+
+      - name: Commit generated digest
+        run: |
+          if [ -z "$(git status --porcelain docs)" ]; then
+            echo "No digest changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git commit -m "Update science digest"
+          git push
