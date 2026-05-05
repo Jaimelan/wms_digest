@@ -6,4 +6,4 @@ Generated digest pages and audio narration for recent human-health metagenomics 
 
 ## Recent Digests
 
-- **2026-05-05**: [digest](digests/2026-05-05.md) | [script](podcasts/2026-05-05-script.md)
+- **2026-05-05**: [digest](digests/2026-05-05.md) | [audio](podcasts/2026-05-05.mp3) | [script](podcasts/2026-05-05-script.md)
