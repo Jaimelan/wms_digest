@@ -1,6 +1,6 @@
 # Science Digest
 
-This repository generates a rolling literature digest for whole metagenome sequencing in human health and metagenomic processing, tools, and benchmarks.
+This repository generates a rolling literature digest for whole metagenome sequencing and microbiome/metagenomics in medicine and human health, with a focus on female reproductive health.
 
 The default workflow runs weekly, keeps roughly the last month of generated files, and publishes:
 
@@ -51,6 +51,6 @@ To make this daily instead of weekly, change the cron schedule and set `lookback
 
 ## Sources
 
-The runner queries Europe PMC for life-sciences papers and preprints, then arXiv for computational preprints that may not be indexed in Europe PMC yet. It deduplicates by DOI, title, and source ID, ranks papers with topic-aware keywords, and writes a concise digest plus a longer podcast script.
+The runner queries Europe PMC for life-sciences papers and preprints, then arXiv for computational preprints that may not be indexed in Europe PMC yet. It deduplicates by DOI, title, and source ID, removes configured off-topic areas such as plant, agriculture, food, animal, and environmental metagenomics, ranks papers with female reproductive health and clinical keywords, and writes a concise digest plus a longer podcast script.
 
 OpenAI is optional for the paper collection step. Without `OPENAI_API_KEY`, the repository still produces a digest and a deterministic podcast script, but no audio.

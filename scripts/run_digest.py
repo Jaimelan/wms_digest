@@ -120,9 +120,19 @@ def load_config(path: Path) -> dict[str, Any]:
             "europe_pmc": parser.get("queries", "europe_pmc"),
             "arxiv": parser.get("queries", "arxiv"),
         },
+        "filters": {
+            "required_human_health_terms": multiline_list(
+                parser.get("filters", "required_human_health_terms", fallback="")
+            ),
+            "required_focus_terms": multiline_list(parser.get("filters", "required_focus_terms", fallback="")),
+            "excluded_terms": multiline_list(parser.get("filters", "excluded_terms", fallback="")),
+        },
         "ranking": {
             "core_terms": multiline_list(parser.get("ranking", "core_terms")),
             "human_health_terms": multiline_list(parser.get("ranking", "human_health_terms")),
+            "female_reproductive_terms": multiline_list(
+                parser.get("ranking", "female_reproductive_terms", fallback="")
+            ),
             "methods_terms": multiline_list(parser.get("ranking", "methods_terms")),
         },
     }
@@ -224,7 +234,7 @@ def fetch_arxiv(query: str, start_date: dt.date, end_date: dt.date) -> list[Pape
     params = {
         "search_query": dated_query,
         "start": "0",
-        "max_results": "100",
+        "max_results": "25",
         "sortBy": "submittedDate",
         "sortOrder": "descending",
     }
@@ -306,24 +316,49 @@ def prefer_richer_paper(left: Paper, right: Paper) -> Paper:
 def rank_and_filter(
     papers: list[Paper], config: dict[str, Any], min_score: int, max_papers: int
 ) -> list[Paper]:
-    scored = [score_paper(paper, config["ranking"]) for paper in papers]
+    scored = [
+        score_paper(paper, config["ranking"])
+        for paper in papers
+        if passes_topic_filters(paper, config.get("filters", {}))
+    ]
+    filtered_count = len(papers) - len(scored)
+    if filtered_count:
+        print(f"Filtered {filtered_count} off-topic papers with the configured medical/female-health filters.")
     filtered = [paper for paper in scored if paper.score >= min_score]
     filtered.sort(key=lambda paper: (paper.score, paper.cited_by, paper.published), reverse=True)
     return filtered[:max_papers]
 
 
+def passes_topic_filters(paper: Paper, filters: dict[str, list[str]]) -> bool:
+    haystack = paper_haystack(paper)
+    excluded_terms = filters.get("excluded_terms", [])
+    if any(has_term(haystack, term) for term in excluded_terms):
+        return False
+
+    human_terms = filters.get("required_human_health_terms", [])
+    if human_terms and not any(has_term(haystack, term) for term in human_terms):
+        return False
+
+    focus_terms = filters.get("required_focus_terms", [])
+    if focus_terms and not any(has_term(haystack, term) for term in focus_terms):
+        return False
+
+    return True
+
+
 def score_paper(paper: Paper, ranking: dict[str, list[str]]) -> Paper:
-    haystack = normalize_text(" ".join([paper.title, paper.abstract, paper.venue] + paper.categories))
+    haystack = paper_haystack(paper)
     score = 0
     reasons: list[str] = []
 
     weighted_groups = [
         ("core metagenomics", ranking.get("core_terms", []), 3),
+        ("female reproductive health", ranking.get("female_reproductive_terms", []), 4),
         ("human health", ranking.get("human_health_terms", []), 2),
         ("methods and benchmarks", ranking.get("methods_terms", []), 2),
     ]
     for label, terms, weight in weighted_groups:
-        hits = [term for term in terms if normalize_text(term) in haystack]
+        hits = [term for term in terms if has_term(haystack, term)]
         if hits:
             score += min(len(hits), 4) * weight
             reasons.append(label)
@@ -455,7 +490,9 @@ def generate_script_with_openai(
     }
     instructions = (
         "Write a polished solo-host science podcast script for a technically literate biomedical audience. "
-        "Focus on whole metagenome sequencing in human health, metagenomic processing, tools, and benchmarks. "
+        "Focus on whole metagenome sequencing and microbiome/metagenomics in medicine, human health, "
+        "and especially female reproductive health. Keep plant, agriculture, food, animal, and environmental "
+        "metagenomics out of the framing unless a paper is explicitly about human clinical relevance. "
         "Synthesize papers into themes instead of reading the list mechanically. Be accurate to the provided "
         "metadata, do not invent results beyond titles and abstracts, and explicitly say when a paper is a preprint. "
         "Include a brief AI-generated audio disclosure. Use plain Markdown. "
@@ -526,8 +563,8 @@ def render_deterministic_script(
     lines.extend(
         [
             "Across the set, the practical thread is clear: whole metagenome sequencing keeps moving in two directions at once.",
-            "One direction is clinical interpretation, where studies connect microbial community signals to health, disease, and treatment contexts.",
-            "The other is infrastructure: better benchmarks, software, databases, quality control, assembly, binning, and profiling methods that make results more reproducible.",
+            "One direction is clinical interpretation, where studies connect microbial community signals to female reproductive health, disease, pregnancy, fertility, and treatment contexts.",
+            "The other is infrastructure: better benchmarks, software, databases, quality control, assembly, binning, and profiling methods that make human clinical results more reproducible.",
             "That is the digest for this window.",
             "",
             "<!-- Source digest used for fallback script generation. -->",
@@ -664,7 +701,7 @@ def write_index(config: dict[str, Any], output_dir: Path, today: dt.date) -> Non
         "",
         f"Last updated: {today.isoformat()}",
         "",
-        "Generated digest pages and audio narration for recent whole metagenome sequencing literature.",
+        "Generated digest pages and audio narration for recent human-health metagenomics literature, with a focus on female reproductive health.",
         "",
         "## Recent Digests",
         "",
@@ -689,23 +726,44 @@ def write_index(config: dict[str, Any], output_dir: Path, today: dt.date) -> Non
 
 def extract_theme_counts(papers: list[Paper]) -> list[tuple[str, int]]:
     themes = {
-        "Clinical and human microbiome applications": [
-            "human",
-            "patient",
-            "clinical",
-            "disease",
-            "health",
-            "infection",
+        "Vaginal and cervicovaginal microbiome": [
+            "vaginal",
+            "vagina",
+            "cervicovaginal",
+            "vulvovaginal",
+            "urogenital",
+        ],
+        "Pregnancy, maternal health, and preterm birth": [
+            "pregnancy",
+            "pregnant",
+            "maternal",
+            "placenta",
+            "placental",
+            "preterm",
+            "miscarriage",
+        ],
+        "Gynecologic disease, cancer, and fertility": [
+            "gynecologic",
+            "gynaecologic",
+            "cervical",
+            "endometrial",
+            "fertility",
+            "infertility",
+            "endometriosis",
+            "PCOS",
+            "HPV",
             "cancer",
         ],
-        "Pathogens and antimicrobial resistance": [
+        "Infection, STI, and antimicrobial resistance": [
             "pathogen",
             "antimicrobial resistance",
             "antibiotic resistance",
             "resistome",
             "infection",
+            "bacterial vaginosis",
+            "sexually transmitted",
         ],
-        "Metagenomic tools, workflows, and benchmarks": [
+        "Clinical metagenomic tools, workflows, and benchmarks": [
             "benchmark",
             "pipeline",
             "workflow",
@@ -730,26 +788,31 @@ def extract_theme_counts(papers: list[Paper]) -> list[tuple[str, int]]:
     }
     counts: dict[str, int] = {theme: 0 for theme in themes}
     for paper in papers:
-        haystack = normalize_text(" ".join([paper.title, paper.abstract]))
+        haystack = paper_haystack(paper)
         for theme, terms in themes.items():
-            if any(normalize_text(term) in haystack for term in terms):
+            if any(has_term(haystack, term) for term in terms):
                 counts[theme] += 1
     ranked = sorted(((theme, count) for theme, count in counts.items() if count), key=lambda item: item[1], reverse=True)
     return ranked or [("General metagenomics", len(papers))]
 
 
 def make_takeaway(paper: Paper) -> str:
-    title_text = normalize_text(paper.title)
-    abstract_text = normalize_text(paper.abstract)
-    if any(term in title_text or term in abstract_text for term in ["benchmark", "benchmarking", "comparison"]):
-        return "This looks useful for comparing methods, databases, or analytical choices in metagenomic workflows."
-    if any(term in title_text or term in abstract_text for term in ["pipeline", "workflow", "software", "tool"]):
-        return "This is relevant to the practical processing layer that shapes reproducibility and interpretation."
-    if any(term in title_text or term in abstract_text for term in ["patient", "clinical", "disease", "infection", "cancer"]):
+    haystack = paper_haystack(paper)
+    if any(has_term(haystack, term) for term in ["vaginal", "cervicovaginal", "vulvovaginal", "urogenital"]):
+        return "This is directly relevant to female reproductive tract microbiome research and clinical interpretation."
+    if any(has_term(haystack, term) for term in ["pregnancy", "pregnant", "maternal", "placenta", "preterm"]):
+        return "This connects metagenomics to pregnancy, maternal health, or birth-outcome questions."
+    if any(has_term(haystack, term) for term in ["fertility", "infertility", "endometriosis", "PCOS", "HPV", "cervical", "endometrial"]):
+        return "This links microbiome or metagenomic signals to gynecologic disease, fertility, or cancer-relevant contexts."
+    if any(has_term(haystack, term) for term in ["benchmark", "benchmarking", "comparison"]):
+        return "This looks useful for comparing methods, databases, or analytical choices in human clinical metagenomic workflows."
+    if any(has_term(haystack, term) for term in ["pipeline", "workflow", "software", "tool"]):
+        return "This is relevant to the practical processing layer that shapes reproducibility and interpretation in human-health metagenomics."
+    if any(has_term(haystack, term) for term in ["patient", "clinical", "disease", "infection", "cancer"]):
         return "This connects metagenomic sequencing to human health questions where study design and interpretation matter."
-    if any(term in title_text or term in abstract_text for term in ["assembly", "binning", "strain"]):
-        return "This is relevant to genome reconstruction or fine-resolution profiling from complex metagenomes."
-    return "This paper matched the configured whole metagenome sequencing and metagenomic methods themes."
+    if any(has_term(haystack, term) for term in ["assembly", "binning", "strain"]):
+        return "This is relevant to genome reconstruction or fine-resolution profiling from human-associated metagenomes."
+    return "This paper matched the configured human medicine and female reproductive health metagenomics themes."
 
 
 def paper_for_prompt(paper: Paper) -> dict[str, Any]:
@@ -815,6 +878,17 @@ def normalize_text(value: str) -> str:
     value = html.unescape(value or "").lower()
     value = re.sub(r"[^a-z0-9]+", " ", value)
     return re.sub(r"\s+", " ", value).strip()
+
+
+def paper_haystack(paper: Paper) -> str:
+    return normalize_text(" ".join([paper.title, paper.abstract, paper.venue] + paper.categories))
+
+
+def has_term(normalized_haystack: str, term: str) -> bool:
+    normalized_term = normalize_text(term)
+    if not normalized_term:
+        return False
+    return f" {normalized_term} " in f" {normalized_haystack} "
 
 
 def normalize_date_string(value: str) -> str:
