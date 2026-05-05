@@ -1,8 +1,8 @@
-# Whole Metagenome Sequencing in Human Health
+# Female Reproductive Health Metagenomics
 
 Last updated: 2026-05-05
 
-Generated digest pages and audio narration for recent whole metagenome sequencing literature.
+Generated digest pages and audio narration for recent human-health metagenomics literature, with a focus on female reproductive health.
 
 ## Recent Digests
 

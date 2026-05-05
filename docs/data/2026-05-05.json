@@ -1,281 +1,258 @@
 [
   {
     "source": "Europe PMC",
-    "source_id": "IND609444190",
-    "title": "Metagenomic analysis of the tomato microbiome in Colombia reveals bacterial diversity, potential pathogens, and resistance determinants",
+    "source_id": "42047468",
+    "title": "Probiotic supplementation during pregnancy for vaginal microbiota improvement and pathogen clearance: A systematic review and meta-analysis.",
     "authors": [
-      "Enciso-Rodríguez Y",
-      "Echeverry-Gallego R",
-      "Franco DC",
-      "Sanchez J",
-      "Moncayo-Lasso A",
-      "Martínez-Pachón D",
-      "Vanegas J."
-    ],
-    "published": "2026-05-01",
-    "venue": "AGR",
-    "abstract": "Tomato (Solanum lycopersicum), a globally consumed crop, can act as a reservoir of microorganisms with potential food safety implications. This study aimed to characterize the bacterial diversity associated with Colombian tomato crops and to identify pathogenic and resistant bacteria in fruits. Rhizospheric soil, irrigation water, and tomato fruit samples were analyzed using 16S rRNA gene sequencing and shotgun metagenomics for the recovery of metagenome-assembled genomes (MAGs) from the fruits. The phyla Proteobacteria, Bacteroidota, Firmicutes, and Actinobacteriota predominated in all three compartments. Soil and water harbored potential human pathogens, including Escherichia-Shigella and Pseudomonas. Soil contained a vast reservoir of 318 bacterial genera, while only 35 genera established within fruits, dominated by Erwinia, Weissella, and Leuconostoc. This strong ecological filtering retained taxa of concern for public health. MAGs from fruit endophytes revealed a notable repertoire of virulence and resistance genes. Hemolysin toxins (tlyC, hlyIII) were detected in 87.5% of MAGs, supporting their pathogenic potential. Clinically relevant antibiotic resistance determinants were also identified, including vanX (vancomycin resistance) in Weissella and Leuconostoc, and multiple tet genes (tetracycline resistance) in Lactococcus. The presence of these genes directly in edible tissues highlights the potential risk of transferring resistant and potentially virulent bacteria to consumers. These findings suggest that Colombian tomatoes internalize microorganisms from contaminated environments, creating a direct link between agricultural practices and foodborne risks. Such vulnerabilities in the production chain underscore the urgent need for proactive monitoring and mitigation strategies to ensure food safety from farm to market.",
-    "url": "https://europepmc.org/article/AGR/IND609444190",
-    "doi": "",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 25,
-    "score_reasons": [
-      "core metagenomics",
-      "human health",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42067590",
-    "title": "Metagenomic detection of novel bacterial combinations associated with citrus decline in Iraq.",
-    "authors": [
-      "Alasadi GJ",
-      "Khakvar R",
-      "Zirak L."
-    ],
-    "published": "2026-05-01",
-    "venue": "MED",
-    "abstract": "Citrus decline diseases pose significant threats to global fruit production, with complex bacterial pathogen interactions remaining poorly understood. In Iraq's Karbala governorate, severe citrus decline has affected orange orchards for 25 years, causing tree mortality within 3-5 years and substantial economic losses. PCR screening was performed on 75 symptomatic orange trees to detect phloem-limited bacterial pathogens, followed by whole-genome metagenomics on three selected PCR-positive samples to characterize associated microbial communities. Raw NGS reads from these three samples were quality-filtered, then MetaPhlAn2 was used to map reads to a curated marker database and identify bacterial, archaeal, viral, and eukaryotic taxa. The analysis revealed complex mixed infections involving three major plant bacterial pathogens: whereas PCR assays identified Candidatus Phytoplasma citri in 13.3% of the 75 samples, two additional phloem-limited pathogens, Ca. Liberibacter asiaticus and Spiroplasma sp., were exclusively detected via metagenomic sequencing across the three analyzed samples. Trimmed reads were assembled into contigs and analyzed phylogenomically against a global reference dataset. Genome assemblies yielded three for Ca. P. citri (576,881 bp, 424,689 bp, and 72,017 bp) and one each for Ca. L. asiaticus (1,151,288 bp) and Spiroplasma sp. (1,833,004 bp). These findings should be considered exploratory given the limited metagenomic sample size (n = 3); independent validation using targeted molecular approaches is required to confirm the presence of Ca. L. asiaticus and Spiroplasma sp. This is the first report documenting the metagenomic detection and characterization of a mixed infection involving Ca. Phytoplasma citri, Ca. Liberibacter asiaticus, and Spiroplasma sp. associated with citrus decline in Iraq. These findings provide crucial insights into pathogen populations and characterization and inform targeted management strategies for emerging bacterial diseases in Iraqi agricultural systems.",
-    "url": "https://doi.org/10.1038/s41598-026-51185-8",
-    "doi": "10.1038/s41598-026-51185-8",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "IM",
-      "Journal Article"
-    ],
-    "score": 18,
-    "score_reasons": [
-      "core metagenomics",
-      "human health",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42020064",
-    "title": "Evidence grows for the gut-kidney axis, but questions still remain.",
-    "authors": [
-      "Peters BA."
-    ],
-    "published": "2026-05-01",
-    "venue": "MED",
-    "abstract": "Lin et al. presented the largest cross-sectional study to date on the gut microbiome and kidney health. Their use of a vast sample size, discovery and validation approach, shotgun metagenomics, and integration with serum metabolomics represents a significant advance. In this commentary, we place these new findings into context with prior research and highlight the need for studies with a prospective design to identify true temporal relationships of the gut microbiome with kidney health.",
-    "url": "https://doi.org/10.1016/j.kint.2026.02.015",
-    "doi": "10.1016/j.kint.2026.02.015",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 17,
-    "score_reasons": [
-      "core metagenomics",
-      "human health"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42062403",
-    "title": "Metagenomic profiling of microbial communities and the resistome within Egyptian hospital wastewater and tap water.",
-    "authors": [
-      "Radwan HM",
-      "El Menofy NG",
-      "Tharwat EK",
-      "Mysara M",
-      "Radwan SMR."
-    ],
-    "published": "2026-04-30",
-    "venue": "MED",
-    "abstract": "Antimicrobial resistance (AMR) is a worldwide health concern that compromises the successful treatment of a growing array of infectious diseases, particularly in low- and middle-income countries. AMR is exaggerated by the spread of antimicrobial resistance genes (ARGs) across humans, animals, and environmental reservoirs like water and soil. Hospital wastewater (HWW) is the main source of antimicrobial resistance in the environment. The current study used high throughput metagenomic nanopore sequencing to investigate the microbial abundance and ARGs associated with both HWW and tap water in five different hospitals in Cairo, Egypt. The bacterial community composition of the HWW microbiome identified 25 taxonomic families. The most abundant genera in HWW were Acinetobacter (6%) and Propioniciclav (5%) out of 101 unique genera while, the most abundant in tap water were Enterococcus (53%), Escherichia (15%), and Francisella (14%) out of 89 unique genera. Alpha diversity analysis revealed significantly greater microbial diversity in the HWW samples than in the tap water samples (P value > 0.05), moreover beta diversity analysis revealed a significant difference in the microbial community composition between the tap water and HWW samples (P value > 0.05) using Chao metric for richness estimation and Shannon metric for richness and evenness estimation. Total ARG analysis revealed absence of ARGs in tap water using the three databases, while comparable levels of ARGs were detected in HWW across the five hospitals. In total, 45, 28, and 28 ARG subtypes were identified in the HWW samples using ResFinder, CARD, and the NCBI AMRFinderPlus databases, respectively. The most abundant AMR mechanisms among the five hospitals were linked to the inhibition of protein synthesis. Using the ResFinder database, streptogramin resistance genes were most prevalent in Hospitals 1 and 5 (15% and 40%, respectively); using CARD, aminoglycoside, lincosamide, and macrolide resistance genes were most predominant (relative abundances 35-60%). Using NCBI AMRFinderPlus, streptomycin, tetracycline, and macrolide resistance genes were most prevalent (relative abundances 30.1-60%). Detection of plasmid replicons in HWW identified 39 different plasmid-associated replication genes via the PlasmidFinder database. The Col440l-1, colRNAI-1 and Col440ll-1 plasmid replicons were the most detected across the five hospitals with relative abundances of 16.6%, 10.9% and 9.6%, respectively. This study revealed different microbial communities among HWW and tap water in addition to the widespread occurrence of ARGs and AMR encoding plasmid replicons in the HWW in the five different hospitals in Cairo, Egypt indicating a significant risk associated with HWW, necessitating the implementation of preventative measures to avert their environmental diffusion. To our knowledge, this is one of the first Egyptian studies to apply Oxford Nanopore long-read metagenomic sequencing for simultaneous profiling of microbial communities and the resistome in HWW and tap water, using three ARG databases across five hospitals in two seasons.",
-    "url": "https://doi.org/10.1038/s41598-026-49481-4",
-    "doi": "10.1038/s41598-026-49481-4",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 17,
-    "score_reasons": [
-      "core metagenomics",
-      "human health",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42057154",
-    "title": "Impact of phage therapy in post-weaning piglets challenged with ETEC strain in a controlled minitrial.",
-    "authors": [
-      "Mahmud MR",
-      "Uddin MK",
-      "Kareljärvi P",
-      "Jalasvuori M",
-      "Peräkylä J",
-      "Eklund T",
-      "Biström M",
-      "Hasan S",
-      "Vatanen T",
-      "Kiljunen S",
-      "Oliviero C."
-    ],
-    "published": "2026-04-29",
-    "venue": "MED",
-    "abstract": "Enterotoxigenic Escherichia coli (ETEC) is a pathogen responsible for post-weaning diarrhea (PWD) in piglets, which results in economic losses in pig production. The rise of antibiotic-resistant ETEC strains together with restrictions on addition of zinc oxide in pig feed require alternative management approaches. Our research examines bacteriophage therapy as a solution to control ETEC infections in newly weaned piglets. A cocktail of phages targeting a strain of ETEC F4LT1ST2 was identified and subsequently multiplicated in laboratory. We conducted a trial including nine piglets divided into three groups. The negative control group was exposed to the phage cocktail by administration with the bedding material (saw dust) on the floor of their pen. The treatment group was exposed to the ETEC strain and to the phage cocktail, and the positive control group was exposed to the ETEC strain only. Shotgun metagenomic sequencing was performed on fecal samples to characterize bacterial and phage dynamics. Throughout a 10-day period we monitored daily the rectal temperature and the diarrheal score of piglets. Subsequently we evaluated phage and bacterial counts in fecal samples to determine phage therapy effect on gut microbiota dynamics and piglet health. The PHAGE+ETEC group showed 19.2% lower cumulative diarrhea burden (p = 0.044) and 61.9% higher average daily gain (p = 0.065). Rectal temperature correlated significantly with diarrhea severity (per-piglet Spearman's ρ = 0.727, p = 0.027). Alpha diversity did not differ between treatment groups across timepoints, suggesting that phage administration did not cause major shifts in microbial diversity. Metagenomic analyses showed significant reduction of E. coli abundance in PHAGE+ETEC group compared to PHAGE groups (p = 0.009). Consistent with these observations, plaque assay results confirmed active phage-bacteria interactions: no plaque formation was detected in the feces of the ETEC-only group, whereas the PHAGE+ETEC group showed phage replication, reaching 106 PFU/ml. This pilot study highlights the potential of phage therapy as an alternative to antibiotics for ETEC infections in piglets. Additional research with larger pig population and longer duration is required to confirm these findings and develop optimal phage application methods for swine production.",
-    "url": "https://doi.org/10.1186/s40813-026-00516-2",
-    "doi": "10.1186/s40813-026-00516-2",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 16,
-    "score_reasons": [
-      "core metagenomics",
-      "human health"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42048337",
-    "title": "Metagenomic and taxonomic profiling of phyllosphere bacteria from Mangifera indica in response to urban air pollutants in Medellín, Colombia.",
-    "authors": [
-      "Bernal Hernández N",
-      "Rodríguez Cabal HA",
-      "Pino NJ",
-      "Ramírez Restrepo S",
-      "Múnera Porras LM."
+      "Liu Z",
+      "Huang R",
+      "Sun T",
+      "Zhu L."
     ],
     "published": "2026-04-28",
     "venue": "MED",
-    "abstract": "Urban trees and their phyllosphere-associated microbiota constitute a promising nature-based solution for mitigating urban air pollution. In this study, we characterized the taxonomic composition, diversity patterns, and functional potential of bacterial communities inhabiting the phyllosphere of Mangifera indica in two urban sites of Medellín, Colombia, with contrasting pollution levels and across two time points, analyzing a total of 12 samples. We integrated 16S rRNA gene amplicon sequencing, performed on the Illumina MiSeq platform, with shotgun metagenomic sequencing generated on the Illumina NovaSeq 6000 platform to assess community structure and the presence of genes involved in the degradation of airborne organic pollutants. Bacterial assemblages were dominated by Pseudomonadota (Proteobacteria), Actinomycetota, and Bacteroidota, with genera such as Methylobacterium, Pseudomonas, and Serratia consistently prevalent. Alpha diversity was higher in the highly polluted downtown, while beta diversity was shaped primarily by temporal variation. Functional annotation of metagenome-assembled genomes (MAGs) uncovered genes encoding complete aromatic hydrocarbon degradation pathways, including naphthalene, toluene, xylenes, and benzoate. Both ortho- and meta-cleavage routes for catechol degradation were detected, with temporal shifts in pathway dominance linked to changes in the abundance of key degraders taxa. These results reflect genetic potential for xenobiotic degradation within the M. indica phyllosphere microbiota, modulated by environmental conditions. Our findings highlight the ecological role of phyllosphere bacteria as contributors of inferred functional capacity relevant to atmospheric bioremediation and supports their integration into microbiome-informed green infrastructure strategies.",
-    "url": "https://doi.org/10.1371/journal.pone.0347959",
-    "doi": "10.1371/journal.pone.0347959",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 16,
-    "score_reasons": [
-      "core metagenomics",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "IND609428196",
-    "title": "Coupled shifts in phosphorus fractions and P-cycling genes driven by long-term cattle manure amendment across the 0–40 cm profile of a Mollisol",
-    "authors": [
-      "Yu Z",
-      "Liu C",
-      "Hu X",
-      "Semenov M",
-      "Liu J",
-      "Jin J",
-      "Chen Y",
-      "Zhang X",
-      "Wang G",
-      "Liu X",
-      "Li Y."
-    ],
-    "published": "2026-05-01",
-    "venue": "AGR",
-    "abstract": "Sustainable intensification of agriculture is dependent on higher fertiliser inputs and balanced nutrient management to increase crop productivity while simultaneously maintaining soil health. Since the long-term use of higher doses of inorganic fertilisers can negatively affect soil ecosystem stability, manure inputs may be a viable alternative that also alters microbial phosphorus (P) metabolism. Using metagenomics and genome binning, we evaluated the shifts in microbial communities and P-cycling genes in a Mollisol after substitution of mineral fertilisers with manure additions. Soil samples were collected at different depths (0–10, 10–20, 20–30, and 30–40 cm) from a field that had undergone 30 years of mineral fertiliser application before transitioning to the following four treatments, each of which was applied for 12 years: no fertilisers (CK), continued mineral fertilisers (CF), CF with 15 Mg ha⁻¹ of cattle manure per year (FM1), and CF with 30 Mg ha⁻¹ of cattle manure per year (FM2). In comparison with CF, CK decreased the concentrations of most P fractions, whereas manure addition had positive effects on P fractions. Different fertilisers yielded distinct P-related microbial communities and networks across various soil depths. At the functional gene level, manure application increased the relative abundance of inorganic P solubilisation genes, particularly in the 0–10 cm and 30–40 cm layers, while reducing the abundance of P-starvation-response genes across all layers. Both mineral fertilisers and manure enhanced the abundance of organic P mineralisation genes in the 10–20 cm and 30–40 cm layers. The abundance of the gcd gene showed a positive relationship with inorganic P solubilisation in the surface layer, whereas those of the ppk1, ppa, and ppx genes were positively correlated with inorganic P solubilisation in the subsoil layers. The construction of metagenome-assembled genomes (MAGs) showed that deeper soil layers offer greater potential for harbouring novel and undescribed microbial lineages and functional genes involved in the P cycle. Overall, supplementation of mineral fertilisers with manure additions significantly affected not only the P fractions but also the P metabolic capacities of the soil microbiome, influencing the soil P cycle in fertilised ecosystems.",
-    "url": "https://europepmc.org/article/AGR/IND609428196",
-    "doi": "",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 15,
-    "score_reasons": [
-      "core metagenomics",
-      "human health",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "IND609456783",
-    "title": "Unveiling temporal dynamics of microbiomes and ARGs in apple cultivation ecosystems: microenvironment-specific patterns and management impacts",
-    "authors": [
-      "Shen Y",
-      "Zhang J",
-      "Li H",
-      "Ma N",
-      "Liu B",
-      "Wang Q."
-    ],
-    "published": "2026-05-01",
-    "venue": "AGR",
-    "abstract": "Apple, a globally significant fruit, can harbor antibiotic resistance genes (ARGs) during cultivation, raising public health concerns about its potential role in disseminating antibiotic resistance. This study performed a spatiotemporal investigation using metagenomics to characterize the microbiome and resistome in apple fruits, leaves, and soil from both conventional and pesticide-free orchards across four key developmental stages. The microbial community structures and ARG profiles in phyllosphere and soil were distinct, and both shifted dynamically during fruit development. Microbial diversity and ARG abundance in the phyllosphere were positively correlated and increased progressively during the cultivation period. Reconstruction of metagenome-assembled genomes (MAGs) identified key taxa including the species Brevundimonas vesicularis, Pseudescherichia sp002298805, and the genera Chryseobacterium that co-occurred with the dominant fruit-associated ARGs. In contrast, soil ARG abundance exhibited minimal variation across developmental stages. Comparative analysis revealed that pesticide application in the conventional system significantly altered both microbial community assembly and ARG dynamics compared to pesticide-free system. Specifically, increased carbendazim applications in the conventional orchard led to pronounced restructuring of the microbial community in early stages; however, its effect on the total ARGs was relatively modest, reflecting a notable resilience of the orchard resistome to carbendazim. This study enhances our understanding of microbiome and resistome in apple orchard agroecosystems, providing a foundation for assessing ARG dissemination risks in apple production.",
-    "url": "https://europepmc.org/article/AGR/IND609456783",
-    "doi": "",
-    "is_preprint": false,
-    "cited_by": 0,
-    "categories": [
-      "Journal Article"
-    ],
-    "score": 15,
-    "score_reasons": [
-      "core metagenomics",
-      "human health",
-      "methods and benchmarks"
-    ]
-  },
-  {
-    "source": "Europe PMC",
-    "source_id": "42058649",
-    "title": "Brukina in Focus: A Narrative Review on Metagenomic Approaches to Fermentation and Food Safety.",
-    "authors": [
-      "Kwarteng A",
-      "Amedorme D",
-      "Addy HPK",
-      "Amewu EKA",
-      "Osei-Poku P",
-      "Larbi A."
-    ],
-    "published": "2026-04-28",
-    "venue": "MED",
-    "abstract": "Brukina, a traditional fermented beverage smoothie made from milk and millet, is popular in Ghana and other West African countries due to its tasty flavor, high nutritional content, and affordability. Despite its widespread consumption, the nature of its production through artisanal fermentation processes presents concerns regarding microbial consistency, nutritional optimization, and food safety. This literature review explores the potential of metagenomic approaches to uncover microbial diversity, functional capacity, and safety profiles of Brukina. By integrating insights from amplicon-targeted and shotgun whole-genome sequencing studies on fermented foods, we highlight how next-generation sequencing technologies can characterize lactic acid bacteria, yeast, and other microorganisms that drive fermentation. Additionally, we discuss how metagenomics can identify functional genes influencing carbohydrate metabolism, flavor and aroma generation, and production of antimicrobial resistance compounds. Thus, metagenomics provides a powerful framework for assessing public health risks and nutritional benefits. Bioinformatic tools have also been highlighted, and their relevant application in analyzing sequenced data to achieve taxonomic classification, identification of biochemical pathways, and functional profiling of microbial ecology of fermented foods. This review outlines key research gaps and recommends future directions, including starter culture development, standardization of Brukina production, multi-omics integration in metagenomics, and microbiome-informed food safety standards. Metagenomic profiling of Brukina holds promise for improving product quality, consumer safety, and scientific understanding of traditional fermented foods. By tackling the challenges raised, metagenomic techniques can be extremely helpful in maximizing Brukina fermentation, guaranteeing food safety, and maintaining the customs that give this product its distinctive character.",
-    "url": "https://doi.org/10.1155/ijm/6677609",
-    "doi": "10.1155/ijm/6677609",
+    "abstract": "IntroductionPregnancy is associated with susceptibility to vaginal dysbiosis, including Group B Streptococcus (GBS), bacterial vaginosis (BV), and vulvovaginal candidiasis (VVC). Probiotic supplementation has emerged as a potential strategy to restore vaginal microecology, yet its effectiveness during pregnancy remains uncertain.Material and methodsTo evaluate whether probiotic supplementation during pregnancy increases the likelihood of clearance of GBS colonization, BV, and VVC. We systematically searched PubMed, Embase, Cochrane CENTRAL, and Web of Science from inception to 16 April 2025. Eligible studies were randomized or non-randomized studies comparing probiotic supplementation with placebo or no treatment in pregnant women, reporting outcomes related to vaginal microbiota, pathogen decolonization, or infection resolution. Two reviewers independently screened studies and extracted data. Randomized controlled trials (RCT) were evaluated using the Cochrane ROB-1 tool, and the single non-RCT was assessed using ROBINS-I. Meta-analyses were performed for co-primary outcomes, with subgroup analyses by timing, comparator type (placebo-controlled vs. no-treatment control), and duration of intervention.ResultsEighteen studies (n = 3705) were included. For the co-primary outcomes, a statistically significant increase in the odds of GBS decolonization was observed (OR 1.38, 95% CI 1.08-1.76; I2 = 2%). This association was no longer statistically significant in analyses restricted to RCTs (OR = 1.28, 95% CI 0.93-1.76; I2 = 9%) and remained non-significant when further restricted to placebo-controlled RCTs (OR = 1.32, 95% CI 0.94-1.85; I2 = 31%). No significant effects were found for BV (OR 0.91) or VVC (OR 0.65). An exploratory pooled analysis across infection types showed no significant overall improvement in infection clearance (OR 1.13, 95% CI 0.94-1.36; I2 = 16%). Subgroup analysis indicated greater efficacy in interventions initiated during the third trimester or lasting ≤4 weeks, though interaction tests were not significant.ConclusionsProbiotic supplementation during pregnancy may increase the likelihood of GBS decolonization. However, this association was not statistically significant in sensitivity analyses restricted to randomized and placebo-controlled trials. No consistent benefit was observed for BV or VVC. Standardized probiotic regimens and harmonized diagnostic frameworks are needed.",
+    "url": "https://doi.org/10.1111/aogs.70234",
+    "doi": "10.1111/aogs.70234",
     "is_preprint": false,
     "cited_by": 0,
     "categories": [
       "Review",
       "Journal Article"
     ],
-    "score": 15,
+    "score": 26,
     "score_reasons": [
       "core metagenomics",
+      "female reproductive health",
       "human health",
       "methods and benchmarks"
     ]
   },
   {
     "source": "Europe PMC",
-    "source_id": "42050730",
-    "title": "LEMMIv2: benchmarking framework for metagenomic and 16S amplicon profilers with a catalogue of evaluated tools.",
+    "source_id": "42062939",
+    "title": "Distribution of lactic acid bacteria in vaginal samples from Cameroonian women.",
     "authors": [
-      "Seppey M",
-      "Benavides A",
-      "Berkeley MR",
-      "Manni M",
-      "Zdobnov EM."
+      "Waita Vilidina PC",
+      "Assiene S",
+      "Nodem Sohanang FS",
+      "Messina Ngah RL",
+      "Abanda M",
+      "Eboumbou Moukoko CE",
+      "Ngaba GP",
+      "Adiogo D."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "BackgroundNumerous bacteria coexist in the human body and constitute the 'normal microbiota'. Data on the normal vaginal microbiota are limited in Africa, particularly in Cameroon. This study aimed to determine the distribution of lactic acid bacteria (LAB) isolated from vaginal samples of Cameroonian women.MethodsThis cross-sectional analytical study was conducted in Douala, Cameroon, from March 2024 to March 2025. It included non-menopausal women aged 18 to 50 years without gynaecological infections. Vaginal swabs were cultured on MRS and M17 media and identified by MALDI-TOF mass spectrometry at the Pasteur Centre for lactic acid bacteria, and by API mini-galleries for pathogenic organisms. Microbiota typing was performed using the Nugent scoring system. Descriptive and inferential statistics were conducted using SPSS v25.0, XLSTAT, and the VITEK MS Knowledge Base. Logistic regression and Poisson regression were applied where appropriate; significance was set at p ResultsA total of 783 participants were enrolled; the majority were aged 29-39 years (44.2%). Microbiota type IV (depleted) was the most prevalent (48.1%). Overall, 67.6% of samples harboured pathogenic bacteria, while 32.4% yielded LAB. Among 260 LAB isolates, Enterococcus spp. dominated (59.2%), mainly E. faecalis (33.5%) and E. faecium (22.3%). Bacteria belonging to the former Lactobacillus group accounted for only 18.8% of all LAB. Age (p = 0.019), region of origin (p = 0.012), and marital status (p = 0.011) were significantly associated with LAB prevalence.ConclusionThe distribution of vaginal lactic acid bacteria in Cameroonian women depends on age, marital status, and region of origin. The predominance of Enterococcus spp. over canonical lactobacilli represents a distinctive microbiological signature, potentially reflecting biogeographical and socio-cultural adaptations, which calls for region-specific approaches to vaginal health management.",
+    "url": "https://doi.org/10.1186/s12879-026-13468-3",
+    "doi": "10.1186/s12879-026-13468-3",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42060851",
+    "title": "Microbe on the move: Akkermansia in infectious diseases and emerging roles in gynecological health.",
+    "authors": [
+      "Marroquin SM",
+      "Doran KS."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "The genus Akkermansia was first described in 2004 following the identification of Akkermansia muciniphila, a Gram-negative, mucin-degrading bacterium of the intestine that constitutes 1-3% of the total adult fecal content. Since the interest in A. muciniphila in human health has increased over the past decade, an extensive amount of research examining the impact of A. muciniphila on metabolic disorders, non-communicable diseases, and during infection has been published. Furthermore, a rapidly evolving area of research is the role of A. muciniphila in gynecological health. Many studies have shown that the presence of A. muciniphila may decrease the chances of negative health outcomes. Some of these protective effects include enhancement of epithelial barrier integrity and metabolism, immune modulation, and attenuation of inflammatory responses. As such, A. muciniphila has gained significant interest for its promising role as a next-generation probiotic. Notably, most of the in vivo evidence reviewed here demonstrates the probiotic potential of A. muciniphila. However, some findings suggest that its role is context-dependent, which may be influenced by the type of infection, diet, and microbiota composition. Herein, we review associations between Akkermansia species and an array of infectious diseases caused by diverse pathogen classes, including bacteria, viruses, fungi, and parasites. We also review the impact of Akkermansia species in gynecological conditions, particularly during pregnancy. The emerging role of A. muciniphila in promoting health, and in some cases disease, has important implications for understanding complex microbial-host interactions, as well as for the development of novel therapeutics.",
+    "url": "https://doi.org/10.1128/jb.00491-25",
+    "doi": "10.1128/jb.00491-25",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42059388",
+    "title": "A cross-sectional analysis of the vaginal microenvironment in rheumatoid arthritis.",
+    "authors": [
+      "Mejia ME",
+      "Bowman S",
+      "Lee J",
+      "El-Halwagi A",
+      "Ferguson K",
+      "Maliekel M",
+      "Zhou Y",
+      "Serchejian C",
+      "Robertson CM",
+      "Ballard MB",
+      "Lu LB",
+      "Khan S",
+      "Oladunjoye OO",
+      "Huang S",
+      "Agarwal SK",
+      "Patras KA."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "The human microbiota is implicated in the development and progression of rheumatoid arthritis (RA). Given the increased RA burden in women and well-known correlations between the vaginal microbiota and local inflammation, we seek to understand the vaginal microenvironment in the context of RA pathology. Self-collected vaginal swabs and questionnaires on dietary, menstrual, and health information were obtained from 36 RA and 50 demographically-matched control women, 18-63 years of age. Medication regimen, along with disease activity and severity, was captured for the RA cohort. Vaginal swabs were subjected to long-read 16S rRNA gene sequencing, multiplex cytokine analyses, and quantification of rheumatoid factor, C-reactive protein, and anti-citrullinated protein antibodies (ACPAs). Vaginal microbial richness and Peptoniphilus and Prevotella, among other rare taxa, were elevated in RA versus control samples. Vaginal interleukin (IL)-18 and epidermeal growth factor (EGF) levels were increased in the RA group; IL-18 correlated with multiple microbial features, whereas EGF levels were not associated with bacterial composition or other host factors. When faceted by diet and menopausal status, several immune markers were increased in the RA vaginal environment. Vaginal ACPAs were higher in the RA group and positively correlated with Streptococcus and multiple vaginal inflammatory cytokines. We describe vaginal microbial and immunological differences in women with RA, particularly when accounting for diet and menopausal status, and disease activity and severity. This work opens a new avenue in the multidisciplinary approach to RA patient care.IMPORTANCERheumatoid arthritis (RA) is a debilitating autoimmune disease that disproportionately impacts women. Although it is widely recognized that microbial factors can trigger or aggravate RA symptoms and alter disease progression, it is unknown whether RA impacts the microbiota and immune responses within the vaginal tract. In this study, we compare the vaginal microbial communities and immune (cytokine) profiles in women with RA and healthy controls. Within RA patients, we also evaluate how these factors relate to clinical RA symptoms, RA biomarkers, and RA-related medications. Overall, we found that RA was associated with increased microbial diversity and multiple inflammatory markers, some of which were also associated with RA biomarkers and disease activity. These findings suggest that the vaginal tract may be an additional tissue impacted by RA disease, and further research is needed to understand mechanisms and potential for therapeutic intervention.",
+    "url": "https://doi.org/10.1128/spectrum.03602-25",
+    "doi": "10.1128/spectrum.03602-25",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42062245",
+    "title": "From gut to brain: effects of fecal microbiota transplants from humans to rats on hippocampal gene regulation - a study on anorexia nervosa.",
+    "authors": [
+      "Korten NM",
+      "Blischke L",
+      "Thelen AC",
+      "Schulze Eckel A",
+      "van Egmond M",
+      "Verspohl V",
+      "Neumann M",
+      "Kneisel L",
+      "Tran M",
+      "Beyer C",
+      "Herpertz-Dahlmann B",
+      "Keller L",
+      "Bang C",
+      "Andreani NA",
+      "Seitz J",
+      "Trinh S",
+      "Voelz C."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "Fecal microbiota transplantation (FMT) has emerged as a novel approach for understanding anorexia nervosa (AN), a complex eating disorder characterized by severe underweight, fear of weight gain and distorted body image. Patients with AN show alterations in the gut microbiome, brain structure, and inflammatory processes, indicating the importance of the microbiome‒gut‒brain axis in AN pathology. This study aimed to investigate whether FMT from patients with AN into antibiotic-treated rats could transfer a phenotype associated with the disease inducing AN-like symptoms and hippocampal alterations. Female Wistar rats received antibiotics followed by FMT from healthy controls, patients with AN, or water. Gut microbiota effects were assessed through 16S rRNA gene sequencing, alongside post-mortem analyses of glial cells, neurogenesis markers, and inflammatory markers. The results revealed dysregulated microbial diversity after antibiotic treatment, which was partially restored after FMT. Successful transfer of human bacterial species was observed, but AN-like symptoms and changes in glial/neuronal counts were not detected. Notably, a decrease in hippocampal Bdnf expression was detected in the antibiotic control group, which was reversed by healthy control stool transplantation but not in the AN-transplanted group. Similar patterns were observed for neuroinflammation and Mki67, a marker of cell neogenesis. These findings suggest potential links between microbial changes, neuroinflammation and neuroplasticity in the hippocampus with the potential to correct deficits with FMT. Future studies should extend these findings by exploring the combination of FMT and starvation phases to better understand the roles of specific microbial populations in neuroinflammatory processes and, ultimately, clinical outcomes in AN.",
+    "url": "https://doi.org/10.1038/s41398-026-04056-9",
+    "doi": "10.1038/s41398-026-04056-9",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 19,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42047611",
+    "title": "Exploration of Changes in the Human Skin Microbiome by Mode of Birth and Following First Bath.",
+    "authors": [
+      "Capone K",
+      "Kuller J",
+      "Durand DJ",
+      "Tierney NK",
+      "Lund C."
     ],
     "published": "2026-04-28",
     "venue": "MED",
-    "abstract": "Metagenomics enables culture-independent investigation of microbial communities without prior knowledge of sample composition. However, sequence analysis is complex, and many computational strategies exist. Selecting among them is challenging, and novel tools face visibility issues. Here, we present LEMMIv2, an updated platform for continuous benchmarking of metagenomic profilers, providing developers with impartial benchmarks and offering users a catalogue of evaluated tools. New features include support for alternative taxonomies and long-read applications, and a standalone pipeline for local benchmarking. We also extend the approach to 16S amplicon profiling with LEMMI16S, which evaluates methods across several reference databases.",
-    "url": "https://doi.org/10.1186/s13059-026-04089-9",
-    "doi": "10.1186/s13059-026-04089-9",
+    "abstract": "Background/objectivesMicrobes colonize the skin soon after birth, and the skin microbiome changes over time. However, the effects of bathing and hygiene products on the infant skin microbiome are not well studied. This randomized, single-center trial analyzed the skin microbiome in neonates born vaginally or via cesarean section (c-section), before and after their first bath with or without a mild baby cleanser.MethodsOne hundred healthy full-term neonates were randomized to baths with water alone or with mild baby cleanser, stratified by delivery mode. Volar forearm swabs of neonates (before and after first bath) and their mothers were analyzed by 16S rRNA metagenomic sequencing.ResultsAt birth, neonates born vaginally had greater overall richness of the skin microbiome versus those born via c-section. Vaginally delivered neonates had similar species richness as their mothers, while neonates delivered via c-section had much lower species richness. Shannon diversity was similar regardless of birth mode, but community structure varied. Species richness was similar before and after bath in vaginally delivered neonates, but those born via c-section had higher species richness after their first bath and showed larger changes in community structures, compared with the vaginal group. Whether water alone or baby cleanser was used for the first bath did not greatly affect skin microbiome composition.ConclusionsThe mode of birth had the largest effect on the skin microbiome composition, richness, and structure. Neonates born via c-section showed the largest post-bath changes in the skin microbiome, while the use of water or baby cleanser had little effect.",
+    "url": "https://doi.org/10.1111/pde.70219",
+    "doi": "10.1111/pde.70219",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42067956",
+    "title": "Association of Fontan Circulation With Gut Microbiome Derived Straight and Branched Short Chain Fatty Acids.",
+    "authors": [
+      "Shah AH",
+      "Liu Y",
+      "Armstrong HK",
+      "Han J",
+      "Goodlett DR",
+      "Ravandi A",
+      "Dhingra S."
+    ],
+    "published": "2026-05-01",
+    "venue": "MED",
+    "abstract": "Fontan circulation is associated with progressive multisystem dysfunction, yet its biochemical mechanisms are poorly understood. Gut microbiota-derived metabolites, particularly short-chain fatty acids (SCFAs) and bile acids, shape cardiovascular health. We previously reported elevated secondary bile acids in Fontan patients, but their SCFA profile remains uncharacterized. Fontan patients and matched healthy subjects were evaluated by body composition, frailty, cardiopulmonary exercise testing, hemodynamics, and plasma SCFA quantification. Twenty Fontan patients (25.5 years [IQR: 22.8-30.3]; 35% women) and 20 healthy controls (30.0 years [25.8-34.3]; 30% women) were enrolled. Compared to controls, Fontan patients exhibited elevated plasma levels of several SCFAs: propionic acid (1.84 [1.45-2.68] vs. 1.19 [1.07-1.49] μM; p = 0.002), butyric acid (1.27 [0.90-1.71] vs. 0.75 [0.52-0.94] μM; p = 0.002), valeric acid (0.25 [0.15-0.36] vs. 0.13 [0.11-0.16] μM; p < 0.001), and caproic acid (0.44 [0.35-0.67] vs. 0.25 [0.21-0.39] μM; p < 0.001). Acetic acid levels did not differ significantly between groups. Additionally, branched-chain SCFAs were elevated in Fontan patients: isobutyric acid (0.44 [0.32-0.68] vs. 0.26 [0.23-0.30] μM; p < 0.001) and 2-methylbutyric acid (0.38 [0.27-0.58] vs. 0.19 [0.15-0.25] μM; p < 0.001). Notably, caproic, isobutyric, and 2-methylbutyric acids showed strong correlations with key clinical and hemodynamic parameters. Furthermore, isobutyric and 2-methylbutyric acids were significantly correlated with dehydrolithocholic acid levels (R = 0.67 and 0.54, respectively) and other bile acid components. Fontan patients have elevated plasma straight and branched SCFAs linked to adverse clinical and hemodynamic profiles; further evaluation is warranted.",
+    "url": "https://doi.org/10.1111/jgh.70405",
+    "doi": "10.1111/jgh.70405",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "41758690",
+    "title": "Association of Intratumoral Microbiota with Prognosis in Head and Neck Squamous Cell Carcinoma.",
+    "authors": [
+      "Yin S",
+      "Cheng L",
+      "Hu E",
+      "Li J",
+      "Wu G",
+      "An J",
+      "Nunez L",
+      "Kawachi N",
+      "Zhu J",
+      "Rosenblatt G",
+      "Segall JE",
+      "Ostrer H",
+      "Augustine S",
+      "Song EZ",
+      "Ow TJ",
+      "Smith RV",
+      "Prystowsky MB",
+      "Verma A",
+      "Deng W."
+    ],
+    "published": "2026-05-01",
+    "venue": "MED",
+    "abstract": "PurposeTo evaluate whether intratumoral bacterial load and diversity are associated with survival outcomes in head and neck squamous cell carcinoma (HNSCC) and to examine their relationship with human papillomavirus (HPV) status.Experimental designThis retrospective cohort study included 312 adults with surgically treated, primary HNSCC at Montefiore Einstein Cancer Center (2000-2023). Intratumoral bacterial load was quantified via quantitative PCR (qPCR), and microbial diversity was assessed via 16S ribosomal RNA (rRNA) sequencing in 312 tumor and 34 paired normal tissues. HPV status was determined via p16 immunohistochemistry (IHC) and qPCR. Overall survival (OS)was the primary outcome.ResultsHNSCC tumors showed higher bacterial load and lower bacterial diversity compared with adjacent normal tissues. High bacterial load [hazard ratio (HR), 1.85; 95% confidence interval (CI), 1.31-2.61; P ConclusionsHigh intratumoral bacterial load and low diversity are prognostic factors associated with survival in HNSCC, particularly in HPV-negative patients. Incorporating microbiome assessment into risk stratification may enhance prognostic precision and inform microbiota-directed therapeutic approaches.",
+    "url": "https://doi.org/10.1158/1078-0432.ccr-25-4420",
+    "doi": "10.1158/1078-0432.ccr-25-4420",
     "is_preprint": false,
     "cited_by": 0,
     "categories": [
@@ -284,7 +261,72 @@
     "score": 15,
     "score_reasons": [
       "core metagenomics",
-      "methods and benchmarks"
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "41364072",
+    "title": "A Possible Treatment for Fragility Fractures of the Pelvis? The Impact of Probiotic Treatment on Pelvic Bone Microstructure and Strength in Osteoporotic Rats.",
+    "authors": [
+      "Bartman S",
+      "Dawdy M",
+      "Wang Y",
+      "Akens M",
+      "Whyne C",
+      "Nam D."
+    ],
+    "published": "2026-05-01",
+    "venue": "MED",
+    "abstract": "ObjectivesHealing remains a clinical challenge in nonoperatively treated fragility fractures of the pelvis (FFPs). Modifying gut microbiota has been found to affect cytokine pathways involved in bone formation and resorption. This study examined the impact of probiotic treatment pre- and postunilateral pubic rami fracture on bone microstructure and load-to-failure of healing fractured and intact (unfractured) contralateral hemipelvises.MethodsTwenty-one 6-month-old female Sprague Dawley rats were bilaterally ovariectomized and housed for 3 months to establish an osteoporotic phenotype. At 9 months old, stable unilateral fractures of the superior and inferior pubic rami of the left hemipelvis (type 1a FFP) were created. Before fracture creation, rats were randomly separated into control (phosphate-buffered saline administered for 12 weeks), prefracture treatment (probiotics administered for 12 weeks starting 6 weeks prefracture), and postfracture treatment (probiotics administered for 6 weeks postfracture) groups. At 6 weeks postfracture, rats were sacrificed, and their pelvises were harvested, microcomputed tomography imaged, and evaluated through microstructural analysis and biomechanical testing.ResultsOn the intact hemipelvises, the prefracture treatment group (n = 5) had significantly higher bone volume (BV) ( P = 0.050), bone volume fraction (BV/TV) ( P = 0.019), bone mineral density ( P = 0.019), and tissue mineral density (TMD) ( P = 0.014) than those in the postfracture treatment group (n = 7). The intact hemipelvises of the prefracture treatment group also had significantly increased trabecular thickness (TbTh) ( P = 0.021) when compared with those in the control group (n = 6). On the fractured hemipelvises, the prefracture group had increased total volume (TV) ( P = 0.020), BV ( P = 0.011), and BV/TV ( P = 0.026) when compared with the control group (n = 4). Although load-to-failure was correlated with microstructural parameters (BV/TV (r = 0.42, P = 0.015), trabecular number (TbN) (r = 0.42, P = 0.014), bone mineral density (r = 0.55, P = 0.0008), TMD (r = 0.40, P = 0.019), and trabecular spacing (TbS) (r = -0.58, P = 0.0003), no significant differences in bone strength were found between groups.ConclusionsProbiotic treatment was shown to improve bone microstructure in osteoporotic rats; however, efficacy was related to treatment timing and duration. Administration of probiotics for 12 weeks beginning 6 weeks prefracture significantly enhanced bone quality in both the healing fractured and intact contralateral hemipelvises. This suggests a critical timing threshold exists for probiotic therapy to impact the gut microbiome, facilitating an alteration of the immune response postfracture and producing positive structural changes in osteoporotic pelvic bone.",
+    "url": "https://doi.org/10.1097/bot.0000000000003138",
+    "doi": "10.1097/bot.0000000000003138",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42062589",
+    "title": "Gestational diabetes and risk of type 2 diabetes: exploring the role of the gut microbiome in the Hispanic Community Health Study/Study of Latinos (HCHS/SOL).",
+    "authors": [
+      "Wang Y",
+      "Isasi CR",
+      "Stuebe AM",
+      "Louis-Jacques AF",
+      "Hu J",
+      "Hu G",
+      "Daviglus ML",
+      "Boerwinkle E",
+      "Burk RD",
+      "Kaplan RC",
+      "Qi Q",
+      "Peters BA."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "Aims/hypothesisWomen with a history of gestational diabetes mellitus (GDM) have an elevated risk of type 2 diabetes in their later life, yet the underlying mechanisms of this remain unclear. We aimed to investigate the long-term impact of GDM on gut microbiota and related metabolites and to explore whether such alterations may contribute to type 2 diabetes risk.MethodsAmong parous women from the Hispanic Community Health Study/Study of Latinos (HCHS/SOL), we identified microbial species associated with a history of GDM (visit 2, 2014-2017, n=1525), and serum metabolites associated with both a history of GDM (visit 1, 2008-2011, n=2968) and GDM-related microbiota (visit 2, n=391). We further examined prospective associations of the GDM-related microbiome (visit 2, n=925) with incident type 2 diabetes over 6 years of follow-up, and of microbial-related metabolites (visit 1, n=2341) with incident type 2 diabetes over 12 years.ResultsAmong 1525 US Hispanic/Latino parous women (median age: 58 years), seven species differed between women with and without a history of GDM, including higher abundances of four species (e.g. Parabacteroides merdae CAG:48, a proinflammatory taxon) and lower abundances of three species (e.g. Dialister sp. CAG:588, a short-chain fatty acid producer). Fifteen metabolites were associated with both a history of GDM and the GDM-related microbiome in a consistent direction, nine of which (e.g. saturated sphingomyelins and unsaturated fatty acids) were associated with glycaemic traits and incident type 2 diabetes. Using these microbial-related metabolites as proxy measures, proxy analysis suggested a positive relationship between the GDM-related microbiome and type 2 diabetes (r=0.55, p=0.036). A metabolite score derived from the nine microbial-related metabolites mediated an estimated 20% (95% CI 9%, 42%) of the association between a history of GDM and type 2 diabetes.Conclusions/interpretationA history of GDM is associated with an unfavourable gut microbiota and related metabolites in US Hispanic/Latino women, suggesting a potential role of the gut microbiota in GDM-related type 2 diabetes.",
+    "url": "https://doi.org/10.1007/s00125-026-06727-0",
+    "doi": "10.1007/s00125-026-06727-0",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
     ]
   }
 ]
