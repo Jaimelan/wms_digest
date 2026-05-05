@@ -1,0 +1,290 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "IND609444190",
+    "title": "Metagenomic analysis of the tomato microbiome in Colombia reveals bacterial diversity, potential pathogens, and resistance determinants",
+    "authors": [
+      "Enciso-Rodríguez Y",
+      "Echeverry-Gallego R",
+      "Franco DC",
+      "Sanchez J",
+      "Moncayo-Lasso A",
+      "Martínez-Pachón D",
+      "Vanegas J."
+    ],
+    "published": "2026-05-01",
+    "venue": "AGR",
+    "abstract": "Tomato (Solanum lycopersicum), a globally consumed crop, can act as a reservoir of microorganisms with potential food safety implications. This study aimed to characterize the bacterial diversity associated with Colombian tomato crops and to identify pathogenic and resistant bacteria in fruits. Rhizospheric soil, irrigation water, and tomato fruit samples were analyzed using 16S rRNA gene sequencing and shotgun metagenomics for the recovery of metagenome-assembled genomes (MAGs) from the fruits. The phyla Proteobacteria, Bacteroidota, Firmicutes, and Actinobacteriota predominated in all three compartments. Soil and water harbored potential human pathogens, including Escherichia-Shigella and Pseudomonas. Soil contained a vast reservoir of 318 bacterial genera, while only 35 genera established within fruits, dominated by Erwinia, Weissella, and Leuconostoc. This strong ecological filtering retained taxa of concern for public health. MAGs from fruit endophytes revealed a notable repertoire of virulence and resistance genes. Hemolysin toxins (tlyC, hlyIII) were detected in 87.5% of MAGs, supporting their pathogenic potential. Clinically relevant antibiotic resistance determinants were also identified, including vanX (vancomycin resistance) in Weissella and Leuconostoc, and multiple tet genes (tetracycline resistance) in Lactococcus. The presence of these genes directly in edible tissues highlights the potential risk of transferring resistant and potentially virulent bacteria to consumers. These findings suggest that Colombian tomatoes internalize microorganisms from contaminated environments, creating a direct link between agricultural practices and foodborne risks. Such vulnerabilities in the production chain underscore the urgent need for proactive monitoring and mitigation strategies to ensure food safety from farm to market.",
+    "url": "https://europepmc.org/article/AGR/IND609444190",
+    "doi": "",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42067590",
+    "title": "Metagenomic detection of novel bacterial combinations associated with citrus decline in Iraq.",
+    "authors": [
+      "Alasadi GJ",
+      "Khakvar R",
+      "Zirak L."
+    ],
+    "published": "2026-05-01",
+    "venue": "MED",
+    "abstract": "Citrus decline diseases pose significant threats to global fruit production, with complex bacterial pathogen interactions remaining poorly understood. In Iraq's Karbala governorate, severe citrus decline has affected orange orchards for 25 years, causing tree mortality within 3-5 years and substantial economic losses. PCR screening was performed on 75 symptomatic orange trees to detect phloem-limited bacterial pathogens, followed by whole-genome metagenomics on three selected PCR-positive samples to characterize associated microbial communities. Raw NGS reads from these three samples were quality-filtered, then MetaPhlAn2 was used to map reads to a curated marker database and identify bacterial, archaeal, viral, and eukaryotic taxa. The analysis revealed complex mixed infections involving three major plant bacterial pathogens: whereas PCR assays identified Candidatus Phytoplasma citri in 13.3% of the 75 samples, two additional phloem-limited pathogens, Ca. Liberibacter asiaticus and Spiroplasma sp., were exclusively detected via metagenomic sequencing across the three analyzed samples. Trimmed reads were assembled into contigs and analyzed phylogenomically against a global reference dataset. Genome assemblies yielded three for Ca. P. citri (576,881 bp, 424,689 bp, and 72,017 bp) and one each for Ca. L. asiaticus (1,151,288 bp) and Spiroplasma sp. (1,833,004 bp). These findings should be considered exploratory given the limited metagenomic sample size (n = 3); independent validation using targeted molecular approaches is required to confirm the presence of Ca. L. asiaticus and Spiroplasma sp. This is the first report documenting the metagenomic detection and characterization of a mixed infection involving Ca. Phytoplasma citri, Ca. Liberibacter asiaticus, and Spiroplasma sp. associated with citrus decline in Iraq. These findings provide crucial insights into pathogen populations and characterization and inform targeted management strategies for emerging bacterial diseases in Iraqi agricultural systems.",
+    "url": "https://doi.org/10.1038/s41598-026-51185-8",
+    "doi": "10.1038/s41598-026-51185-8",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42020064",
+    "title": "Evidence grows for the gut-kidney axis, but questions still remain.",
+    "authors": [
+      "Peters BA."
+    ],
+    "published": "2026-05-01",
+    "venue": "MED",
+    "abstract": "Lin et al. presented the largest cross-sectional study to date on the gut microbiome and kidney health. Their use of a vast sample size, discovery and validation approach, shotgun metagenomics, and integration with serum metabolomics represents a significant advance. In this commentary, we place these new findings into context with prior research and highlight the need for studies with a prospective design to identify true temporal relationships of the gut microbiome with kidney health.",
+    "url": "https://doi.org/10.1016/j.kint.2026.02.015",
+    "doi": "10.1016/j.kint.2026.02.015",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42062403",
+    "title": "Metagenomic profiling of microbial communities and the resistome within Egyptian hospital wastewater and tap water.",
+    "authors": [
+      "Radwan HM",
+      "El Menofy NG",
+      "Tharwat EK",
+      "Mysara M",
+      "Radwan SMR."
+    ],
+    "published": "2026-04-30",
+    "venue": "MED",
+    "abstract": "Antimicrobial resistance (AMR) is a worldwide health concern that compromises the successful treatment of a growing array of infectious diseases, particularly in low- and middle-income countries. AMR is exaggerated by the spread of antimicrobial resistance genes (ARGs) across humans, animals, and environmental reservoirs like water and soil. Hospital wastewater (HWW) is the main source of antimicrobial resistance in the environment. The current study used high throughput metagenomic nanopore sequencing to investigate the microbial abundance and ARGs associated with both HWW and tap water in five different hospitals in Cairo, Egypt. The bacterial community composition of the HWW microbiome identified 25 taxonomic families. The most abundant genera in HWW were Acinetobacter (6%) and Propioniciclav (5%) out of 101 unique genera while, the most abundant in tap water were Enterococcus (53%), Escherichia (15%), and Francisella (14%) out of 89 unique genera. Alpha diversity analysis revealed significantly greater microbial diversity in the HWW samples than in the tap water samples (P value > 0.05), moreover beta diversity analysis revealed a significant difference in the microbial community composition between the tap water and HWW samples (P value > 0.05) using Chao metric for richness estimation and Shannon metric for richness and evenness estimation. Total ARG analysis revealed absence of ARGs in tap water using the three databases, while comparable levels of ARGs were detected in HWW across the five hospitals. In total, 45, 28, and 28 ARG subtypes were identified in the HWW samples using ResFinder, CARD, and the NCBI AMRFinderPlus databases, respectively. The most abundant AMR mechanisms among the five hospitals were linked to the inhibition of protein synthesis. Using the ResFinder database, streptogramin resistance genes were most prevalent in Hospitals 1 and 5 (15% and 40%, respectively); using CARD, aminoglycoside, lincosamide, and macrolide resistance genes were most predominant (relative abundances 35-60%). Using NCBI AMRFinderPlus, streptomycin, tetracycline, and macrolide resistance genes were most prevalent (relative abundances 30.1-60%). Detection of plasmid replicons in HWW identified 39 different plasmid-associated replication genes via the PlasmidFinder database. The Col440l-1, colRNAI-1 and Col440ll-1 plasmid replicons were the most detected across the five hospitals with relative abundances of 16.6%, 10.9% and 9.6%, respectively. This study revealed different microbial communities among HWW and tap water in addition to the widespread occurrence of ARGs and AMR encoding plasmid replicons in the HWW in the five different hospitals in Cairo, Egypt indicating a significant risk associated with HWW, necessitating the implementation of preventative measures to avert their environmental diffusion. To our knowledge, this is one of the first Egyptian studies to apply Oxford Nanopore long-read metagenomic sequencing for simultaneous profiling of microbial communities and the resistome in HWW and tap water, using three ARG databases across five hospitals in two seasons.",
+    "url": "https://doi.org/10.1038/s41598-026-49481-4",
+    "doi": "10.1038/s41598-026-49481-4",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42057154",
+    "title": "Impact of phage therapy in post-weaning piglets challenged with ETEC strain in a controlled minitrial.",
+    "authors": [
+      "Mahmud MR",
+      "Uddin MK",
+      "Kareljärvi P",
+      "Jalasvuori M",
+      "Peräkylä J",
+      "Eklund T",
+      "Biström M",
+      "Hasan S",
+      "Vatanen T",
+      "Kiljunen S",
+      "Oliviero C."
+    ],
+    "published": "2026-04-29",
+    "venue": "MED",
+    "abstract": "Enterotoxigenic Escherichia coli (ETEC) is a pathogen responsible for post-weaning diarrhea (PWD) in piglets, which results in economic losses in pig production. The rise of antibiotic-resistant ETEC strains together with restrictions on addition of zinc oxide in pig feed require alternative management approaches. Our research examines bacteriophage therapy as a solution to control ETEC infections in newly weaned piglets. A cocktail of phages targeting a strain of ETEC F4LT1ST2 was identified and subsequently multiplicated in laboratory. We conducted a trial including nine piglets divided into three groups. The negative control group was exposed to the phage cocktail by administration with the bedding material (saw dust) on the floor of their pen. The treatment group was exposed to the ETEC strain and to the phage cocktail, and the positive control group was exposed to the ETEC strain only. Shotgun metagenomic sequencing was performed on fecal samples to characterize bacterial and phage dynamics. Throughout a 10-day period we monitored daily the rectal temperature and the diarrheal score of piglets. Subsequently we evaluated phage and bacterial counts in fecal samples to determine phage therapy effect on gut microbiota dynamics and piglet health. The PHAGE+ETEC group showed 19.2% lower cumulative diarrhea burden (p = 0.044) and 61.9% higher average daily gain (p = 0.065). Rectal temperature correlated significantly with diarrhea severity (per-piglet Spearman's ρ = 0.727, p = 0.027). Alpha diversity did not differ between treatment groups across timepoints, suggesting that phage administration did not cause major shifts in microbial diversity. Metagenomic analyses showed significant reduction of E. coli abundance in PHAGE+ETEC group compared to PHAGE groups (p = 0.009). Consistent with these observations, plaque assay results confirmed active phage-bacteria interactions: no plaque formation was detected in the feces of the ETEC-only group, whereas the PHAGE+ETEC group showed phage replication, reaching 106 PFU/ml. This pilot study highlights the potential of phage therapy as an alternative to antibiotics for ETEC infections in piglets. Additional research with larger pig population and longer duration is required to confirm these findings and develop optimal phage application methods for swine production.",
+    "url": "https://doi.org/10.1186/s40813-026-00516-2",
+    "doi": "10.1186/s40813-026-00516-2",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42048337",
+    "title": "Metagenomic and taxonomic profiling of phyllosphere bacteria from Mangifera indica in response to urban air pollutants in Medellín, Colombia.",
+    "authors": [
+      "Bernal Hernández N",
+      "Rodríguez Cabal HA",
+      "Pino NJ",
+      "Ramírez Restrepo S",
+      "Múnera Porras LM."
+    ],
+    "published": "2026-04-28",
+    "venue": "MED",
+    "abstract": "Urban trees and their phyllosphere-associated microbiota constitute a promising nature-based solution for mitigating urban air pollution. In this study, we characterized the taxonomic composition, diversity patterns, and functional potential of bacterial communities inhabiting the phyllosphere of Mangifera indica in two urban sites of Medellín, Colombia, with contrasting pollution levels and across two time points, analyzing a total of 12 samples. We integrated 16S rRNA gene amplicon sequencing, performed on the Illumina MiSeq platform, with shotgun metagenomic sequencing generated on the Illumina NovaSeq 6000 platform to assess community structure and the presence of genes involved in the degradation of airborne organic pollutants. Bacterial assemblages were dominated by Pseudomonadota (Proteobacteria), Actinomycetota, and Bacteroidota, with genera such as Methylobacterium, Pseudomonas, and Serratia consistently prevalent. Alpha diversity was higher in the highly polluted downtown, while beta diversity was shaped primarily by temporal variation. Functional annotation of metagenome-assembled genomes (MAGs) uncovered genes encoding complete aromatic hydrocarbon degradation pathways, including naphthalene, toluene, xylenes, and benzoate. Both ortho- and meta-cleavage routes for catechol degradation were detected, with temporal shifts in pathway dominance linked to changes in the abundance of key degraders taxa. These results reflect genetic potential for xenobiotic degradation within the M. indica phyllosphere microbiota, modulated by environmental conditions. Our findings highlight the ecological role of phyllosphere bacteria as contributors of inferred functional capacity relevant to atmospheric bioremediation and supports their integration into microbiome-informed green infrastructure strategies.",
+    "url": "https://doi.org/10.1371/journal.pone.0347959",
+    "doi": "10.1371/journal.pone.0347959",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "IND609428196",
+    "title": "Coupled shifts in phosphorus fractions and P-cycling genes driven by long-term cattle manure amendment across the 0–40 cm profile of a Mollisol",
+    "authors": [
+      "Yu Z",
+      "Liu C",
+      "Hu X",
+      "Semenov M",
+      "Liu J",
+      "Jin J",
+      "Chen Y",
+      "Zhang X",
+      "Wang G",
+      "Liu X",
+      "Li Y."
+    ],
+    "published": "2026-05-01",
+    "venue": "AGR",
+    "abstract": "Sustainable intensification of agriculture is dependent on higher fertiliser inputs and balanced nutrient management to increase crop productivity while simultaneously maintaining soil health. Since the long-term use of higher doses of inorganic fertilisers can negatively affect soil ecosystem stability, manure inputs may be a viable alternative that also alters microbial phosphorus (P) metabolism. Using metagenomics and genome binning, we evaluated the shifts in microbial communities and P-cycling genes in a Mollisol after substitution of mineral fertilisers with manure additions. Soil samples were collected at different depths (0–10, 10–20, 20–30, and 30–40 cm) from a field that had undergone 30 years of mineral fertiliser application before transitioning to the following four treatments, each of which was applied for 12 years: no fertilisers (CK), continued mineral fertilisers (CF), CF with 15 Mg ha⁻¹ of cattle manure per year (FM1), and CF with 30 Mg ha⁻¹ of cattle manure per year (FM2). In comparison with CF, CK decreased the concentrations of most P fractions, whereas manure addition had positive effects on P fractions. Different fertilisers yielded distinct P-related microbial communities and networks across various soil depths. At the functional gene level, manure application increased the relative abundance of inorganic P solubilisation genes, particularly in the 0–10 cm and 30–40 cm layers, while reducing the abundance of P-starvation-response genes across all layers. Both mineral fertilisers and manure enhanced the abundance of organic P mineralisation genes in the 10–20 cm and 30–40 cm layers. The abundance of the gcd gene showed a positive relationship with inorganic P solubilisation in the surface layer, whereas those of the ppk1, ppa, and ppx genes were positively correlated with inorganic P solubilisation in the subsoil layers. The construction of metagenome-assembled genomes (MAGs) showed that deeper soil layers offer greater potential for harbouring novel and undescribed microbial lineages and functional genes involved in the P cycle. Overall, supplementation of mineral fertilisers with manure additions significantly affected not only the P fractions but also the P metabolic capacities of the soil microbiome, influencing the soil P cycle in fertilised ecosystems.",
+    "url": "https://europepmc.org/article/AGR/IND609428196",
+    "doi": "",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "IND609456783",
+    "title": "Unveiling temporal dynamics of microbiomes and ARGs in apple cultivation ecosystems: microenvironment-specific patterns and management impacts",
+    "authors": [
+      "Shen Y",
+      "Zhang J",
+      "Li H",
+      "Ma N",
+      "Liu B",
+      "Wang Q."
+    ],
+    "published": "2026-05-01",
+    "venue": "AGR",
+    "abstract": "Apple, a globally significant fruit, can harbor antibiotic resistance genes (ARGs) during cultivation, raising public health concerns about its potential role in disseminating antibiotic resistance. This study performed a spatiotemporal investigation using metagenomics to characterize the microbiome and resistome in apple fruits, leaves, and soil from both conventional and pesticide-free orchards across four key developmental stages. The microbial community structures and ARG profiles in phyllosphere and soil were distinct, and both shifted dynamically during fruit development. Microbial diversity and ARG abundance in the phyllosphere were positively correlated and increased progressively during the cultivation period. Reconstruction of metagenome-assembled genomes (MAGs) identified key taxa including the species Brevundimonas vesicularis, Pseudescherichia sp002298805, and the genera Chryseobacterium that co-occurred with the dominant fruit-associated ARGs. In contrast, soil ARG abundance exhibited minimal variation across developmental stages. Comparative analysis revealed that pesticide application in the conventional system significantly altered both microbial community assembly and ARG dynamics compared to pesticide-free system. Specifically, increased carbendazim applications in the conventional orchard led to pronounced restructuring of the microbial community in early stages; however, its effect on the total ARGs was relatively modest, reflecting a notable resilience of the orchard resistome to carbendazim. This study enhances our understanding of microbiome and resistome in apple orchard agroecosystems, providing a foundation for assessing ARG dissemination risks in apple production.",
+    "url": "https://europepmc.org/article/AGR/IND609456783",
+    "doi": "",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42058649",
+    "title": "Brukina in Focus: A Narrative Review on Metagenomic Approaches to Fermentation and Food Safety.",
+    "authors": [
+      "Kwarteng A",
+      "Amedorme D",
+      "Addy HPK",
+      "Amewu EKA",
+      "Osei-Poku P",
+      "Larbi A."
+    ],
+    "published": "2026-04-28",
+    "venue": "MED",
+    "abstract": "Brukina, a traditional fermented beverage smoothie made from milk and millet, is popular in Ghana and other West African countries due to its tasty flavor, high nutritional content, and affordability. Despite its widespread consumption, the nature of its production through artisanal fermentation processes presents concerns regarding microbial consistency, nutritional optimization, and food safety. This literature review explores the potential of metagenomic approaches to uncover microbial diversity, functional capacity, and safety profiles of Brukina. By integrating insights from amplicon-targeted and shotgun whole-genome sequencing studies on fermented foods, we highlight how next-generation sequencing technologies can characterize lactic acid bacteria, yeast, and other microorganisms that drive fermentation. Additionally, we discuss how metagenomics can identify functional genes influencing carbohydrate metabolism, flavor and aroma generation, and production of antimicrobial resistance compounds. Thus, metagenomics provides a powerful framework for assessing public health risks and nutritional benefits. Bioinformatic tools have also been highlighted, and their relevant application in analyzing sequenced data to achieve taxonomic classification, identification of biochemical pathways, and functional profiling of microbial ecology of fermented foods. This review outlines key research gaps and recommends future directions, including starter culture development, standardization of Brukina production, multi-omics integration in metagenomics, and microbiome-informed food safety standards. Metagenomic profiling of Brukina holds promise for improving product quality, consumer safety, and scientific understanding of traditional fermented foods. By tackling the challenges raised, metagenomic techniques can be extremely helpful in maximizing Brukina fermentation, guaranteeing food safety, and maintaining the customs that give this product its distinctive character.",
+    "url": "https://doi.org/10.1155/ijm/6677609",
+    "doi": "10.1155/ijm/6677609",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42050730",
+    "title": "LEMMIv2: benchmarking framework for metagenomic and 16S amplicon profilers with a catalogue of evaluated tools.",
+    "authors": [
+      "Seppey M",
+      "Benavides A",
+      "Berkeley MR",
+      "Manni M",
+      "Zdobnov EM."
+    ],
+    "published": "2026-04-28",
+    "venue": "MED",
+    "abstract": "Metagenomics enables culture-independent investigation of microbial communities without prior knowledge of sample composition. However, sequence analysis is complex, and many computational strategies exist. Selecting among them is challenging, and novel tools face visibility issues. Here, we present LEMMIv2, an updated platform for continuous benchmarking of metagenomic profilers, providing developers with impartial benchmarks and offering users a catalogue of evaluated tools. New features include support for alternative taxonomies and long-read applications, and a standalone pipeline for local benchmarking. We also extend the approach to 16S amplicon profiling with LEMMI16S, which evaluates methods across several reference databases.",
+    "url": "https://doi.org/10.1186/s13059-026-04089-9",
+    "doi": "10.1186/s13059-026-04089-9",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "methods and benchmarks"
+    ]
+  }
+]
