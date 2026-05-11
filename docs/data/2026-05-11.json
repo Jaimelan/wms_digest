@@ -1,0 +1,29 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1187092",
+    "title": "A case report of cavitary pneumonia caused by Legionella longbeachae in an immunocompetent patient",
+    "authors": [
+      "Xu Y",
+      "Cao L",
+      "Ma X."
+    ],
+    "published": "2026-05-08",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background Legionella is a common causative pathogen of community-acquired pneumonia, but it encompasses multiple subtypes, with Legionella longbeachae ( L. longbeachae ) not being the most frequently encountered. Cavitary pneumonia is exceedingly rare in immunocompetent individuals, and cavitary pneumonia caused specifically by L. longbeachae in such patients is even more uncommon. Case presentation We describe a case of a 77-year-old female patient whose primary clinical manifestations were cough and myalgia. As the disease progressed, the patient gradually developed multiple cavities in the lower lobe of the right lung, exhibiting a chronic, protracted course. Metagenomic next-generation sequencing (mNGS) of bronchoalveolar lavage fluid on two separate occasions indicated the presence of L. longbeachae. During hospitalization, she received sequential anti-infective therapy with levofloxacin, nemonoxacin, and omadacycline, ultimately improving and being discharged. Conclusions This represents the first definitively diagnosed case of cavitary pneumonia caused by L. longbeachae in a completely immunocompetent patient in the Chinese region. This case highlights the importance of maintaining clinical suspicion and confirms the value of applying mNGS in clinical infectious disease scenarios. The judicious use of quinolones or novel tetracycline derivatives demonstrates good efficacy against L. longbeachae.",
+    "url": "https://doi.org/10.21203/rs.3.rs-9115058/v1",
+    "doi": "10.21203/rs.3.rs-9115058/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  }
+]
