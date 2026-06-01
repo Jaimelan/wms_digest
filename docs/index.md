@@ -1,11 +1,12 @@
 # Female Reproductive Health Metagenomics
 
-Last updated: 2026-05-25
+Last updated: 2026-06-01
 
 Generated digest pages and audio narration for recent human-health metagenomics literature, with a focus on female reproductive health.
 
 ## Recent Digests
 
+- **2026-06-01**: [digest](digests/2026-06-01.md) | [audio](podcasts/2026-06-01.mp3) | [script](podcasts/2026-06-01-script.md)
 - **2026-05-25**: [digest](digests/2026-05-25.md) | [audio](podcasts/2026-05-25.mp3) | [script](podcasts/2026-05-25-script.md)
 - **2026-05-18**: [digest](digests/2026-05-18.md) | [audio](podcasts/2026-05-18.mp3) | [script](podcasts/2026-05-18-script.md)
 - **2026-05-11**: [digest](digests/2026-05-11.md) | [audio](podcasts/2026-05-11.mp3) | [script](podcasts/2026-05-11-script.md)
