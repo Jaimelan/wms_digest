@@ -1,0 +1,321 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42299860",
+    "title": "Gut Microbiome Associations With Depressive Symptoms in Women With Gynecologic Cancer: A Longitudinal Study.",
+    "authors": [
+      "Barandouzi ZA",
+      "Eng T",
+      "Khanna N",
+      "Shelton J",
+      "Scott I",
+      "Patel P",
+      "Remick J",
+      "Jin R",
+      "Meador R",
+      "Bruner DW."
+    ],
+    "published": "2026-06-16",
+    "venue": "MED",
+    "abstract": "About one-quarter of women diagnosed with gynecologic cancer experience depressive symptoms. While the precise mechanism remains unclear, little is known about the association between gut microbiota and depressive symptoms in gynecologic cancer. Thus, this study aimed to evaluate the associations between gut microbiota and depressive symptoms in women with gynecologic cancer over cancer treatment. Thirty-seven women with cervical or endometrial cancer were followed at pre-treatment (T0), 6-8 weeks (T1), and 6 months post-radiation (T2). Depressive symptoms were assessed using the Patient Health Questionnaire-9 (PHQ-9). Rectal swabs were collected at each visit and sequenced for the V4 region of the 16S rRNA gene. MaAsLin2 models evaluated cross-sectional associations between gut microbial taxa and depressive symptoms at each time point, whereas GEE models assessed longitudinal associations over the course of cancer treatment. The patients had an average age of 60 years, and 43% were Black. At baseline (T0), 24% of patients exhibited depressive symptoms, which decreased to 21% at T1 and further to 13% at T2. GEE models showed that lower α-diversity (Shannon index, p = 0.05), dissimilar β-diversity (Bray-Curtis distance, p = 0.02), and reduced abundance of the genus Ruminococcus (p = 0.02) were predictive factors associated with depressive symptoms throughout cancer treatment. Higher depressive symptoms were longitudinally associated with lower gut microbial Shannon diversity, dissimilar microbial community composition, and lower abundance of the genus Ruminococcus. Larger longitudinal studies using shotgun metagenomic sequencing are needed to validate these findings and further elucidate the microbial mechanisms underlying depressive symptoms in women with gynecologic cancers.",
+    "url": "https://doi.org/10.1177/10998004261461549",
+    "doi": "10.1177/10998004261461549",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 37,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42295167",
+    "title": "Vaginal microbiome composition in pregnant and non-pregnant women: community structure, population variation, clinical impact, and metagenomics approaches.",
+    "authors": [
+      "Jonouchi D",
+      "Shenoy S",
+      "Saintlouis R",
+      "Singh A",
+      "Kashyap D",
+      "Bhargavi C",
+      "Mansoor R",
+      "Mansoor E",
+      "Honnavar P."
+    ],
+    "published": "2026-06-15",
+    "venue": "MED",
+    "abstract": "The vaginal microbiome plays a critical role in reproductive health and undergoes characteristic remodeling during pregnancy that influences maternal and neonatal outcomes. Although the non-pregnant vaginal microbiome shows substantial inter-individual variability, pregnancy is associated with reduced microbial diversity and increased dominance by Lactobacillus species, creating a protective environment for fetal development. Disruption of this balance, termed vaginal dysbiosis, has been linked to adverse obstetric and neonatal outcomes. This narrative review synthesizes current evidence on pregnancy-associated vaginal microbiome dynamics, with emphasis on community state types (CSTs), gestational changes, population-specific variation, and clinical implications. We review studies that use 16S rRNA sequencing, next-generation sequencing, and shotgun metagenomics to characterize microbial composition across pregnancy and the postpartum period. Lactobacillus-dominated communities, particularly those dominated by Lactobacillus crispatus, are consistently associated with microbiome stability and favorable pregnancy outcomes, whereas high-diversity anaerobic communities (CST IV) are linked to bacterial vaginosis, preterm birth, miscarriage, gestational diabetes mellitus, and infection-related complications. The vaginal microbiome composition varies significantly across racial, ethnic, and geographic populations. African-descended populations more often show L. iners-dominant or diverse anaerobic profiles, whereas European populations more commonly show L. crispatus dominance. Future longitudinal and mechanistic studies across diverse populations are needed to establish causality and evaluate microbiome-based interventions to improve maternal and neonatal health.",
+    "url": "https://doi.org/10.1128/iai.00542-25",
+    "doi": "10.1128/iai.00542-25",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 32,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42322535",
+    "title": "Hormonal Imbalance and Gut Dysbiosis: Emerging Perspectives in Women's Health.",
+    "authors": [
+      "De R",
+      "Chakrabortty S",
+      "Das J",
+      "Chaudhary P",
+      "Patra R",
+      "Sardar K",
+      "Nath R",
+      "Pal R",
+      "Debnath B",
+      "Ashique S."
+    ],
+    "published": "2026-06-20",
+    "venue": "MED",
+    "abstract": "The gut microbiota plays a crucial function in reproductive well-being and is vital for maintaining fundamental physiological balance. This article surveys the mutual relationships between the gut flora and the female reproductive system, which are maintained through metabolic, immunological, and neuroendocrine mechanisms, thereby creating the gastrointestinal-reproductive axis. Dysbiosis, which results from an imbalance in microbial levels, has been related with reproductive diseases, such as polycystic ovary syndrome (PCOS), infertility, endometriosis, and pregnancy-related problems. Modulation of the gut microbiota via targeted synthetic materials, such as metformin, dietary phytocompounds, synbiotics, probiotics, and prebiotics, affects hormonal levels, glucose resistance, and monthly cycle regulation, showcasing favorable prospects for medical care. This review elucidates the molecular and cellular processes underlying gut-reproductive relationships and assesses the potential of microbiome-targeted medications as viable clinical approaches for enhancing fertility outcomes. Further attention should be devoted to determining the crosstalk between endometrial disruption, hormonal imbalance, and inflammation.",
+    "url": "https://doi.org/10.1007/s12602-026-11089-5",
+    "doi": "10.1007/s12602-026-11089-5",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 27,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42313858",
+    "title": "Comparative analysis of gut microbiome alterations in early- and late-onset preeclampsia: A case control study.",
+    "authors": [
+      "Meijer S",
+      "Hugerth LW",
+      "Nouri M",
+      "Erlandsson L",
+      "Lavasani S",
+      "Hansson SR."
+    ],
+    "published": "2026-06-18",
+    "venue": "MED",
+    "abstract": "Preeclampsia (PE) is a complication during pregnancy characterized by hypertension, organ damage, and systemic inflammation. Increasing evidence suggests that the gut microbiome may play a role in the pathophysiology of PE. However, previous studies on the gut microbiome have generally overlooked the distinction between subgroups of PE, although clinical manifestations may differ. Also, most studies have not used deep sequencing techniques. Therefore, this study aimed to explore further potential differences in gut dysbiosis in different PE subgroups compared to controls using shotgun metagenomics. We studied the bacterial gut microbiome using shotgun metagenomic sequencing in 37 pregnant patients in the third trimester from a Swedish cohort, separating patients according to subtype (healthy controls N = 21, late-onset PE N = 8, early-onset PE N = 8). Differential relative abundances and alpha diversity were evaluated using Wilcoxon rank sum test, and beta diversity was evaluated using PERMANOVA. Multiple linear regression was used to study associations between gut microbiome composition differences and clinical parameters. Late-onset PE and early-onset PE were both associated with significantly different beta diversity compared to controls. Differences remained significant after adjusting for age, and were not affected by gestational age, BMI or parity. Alpha diversity was lower in late-onset PE compared to controls. While no significant differences in taxonomic abundances were seen after correcting for multiple testing, several interesting leads were identified, including a higher abundance of genus Blautia in late-onset PE, and lower abundance of Coprococcus catus and unclassified Lachnospiraceae in early-onset PE. Functional analysis did not reveal any significant differences after false discovery rate (FDR) correction. In conclusion, our results showed subgroup-specific gut microbiome differences in PE with more pronounced associations in late-onset PE, despite limited power due to the observational design and small cohort. Accordingly, our results highlight the importance of subgroup analysis when studying PE.",
+    "url": "https://doi.org/10.1371/journal.pone.0348943",
+    "doi": "10.1371/journal.pone.0348943",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Comparative Study",
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42298790",
+    "title": "BASHH best practice statement on the management of testosterone-associated vulvovaginitis.",
+    "authors": [
+      "Smith J",
+      "Ross S",
+      "Nambiar K",
+      "Rafferty K",
+      "Crow M",
+      "Bond R",
+      "Graves R."
+    ],
+    "published": "2026-06-15",
+    "venue": "MED",
+    "abstract": "BackgroundTestosterone-associated vulvovaginitis is an under-recognised cause of genital symptoms in transmasculine patients receiving testosterone as gender-affirming hormone therapy, with 5-years prevalence 64-78%. BASHH's Gender and Sexual Minorities Special Interest Group convened sexual health, gender, gynaecological and primary care experts and patient representatives to formulate a first-in-world best practice statement.MethodWe searched Medline, Embase, CINAHL, UpToDate, Trip Medical Database and Cochrane, to April 2025, regarding testosterone's impact on transmasculine people's vaginal histology and microbiomes, symptoms, and management. Papers on cis- or transgender women, editorials, and study protocols were excluded. Included studies were assessed using the Critical Appraisal Skills Programme tool. Recommendations for best practice were graded using GRADE methodology where possible, and supplemented by expert group consensus where evidence was limited.Results14 papers were included, of which 11 were descriptive/non-management focused. Testosterone is associated with vaginal Lactobacilli depletion, increased speciation, pH changes, atrophy, inflammation, and epithelial cell differentiation shift. The diagnosis of testosterone-associated vulvovaginitis is clinical; symptom severity does not reliably correlate with any of the above, nor other markers such as hormone levels. Two small case series and one cohort study (total n = 12) discussed treatment; topical estrogen reduced vaginal symptoms and increased Lactobacilli, with some refractory inflammatory cases requiring topical clindamycin +/- topical steroids. Presumed efficacy and safety are extrapolated from topical estrogen use in cisgender menopausal women.ConclusionSpecific evidence for testosterone-associated vulvovaginitis management is lacking; we suggest a culturally competent approach, considering it as a differential in any transmasculine people on testosterone with genitourinary symptoms. Offer examination (if possible) to exclude infection or dermatoses; offer first-line treatment with topical vaginal estrogens. Adjunctive/alternative measures include emollients and lubricants; topical clindamycin +/- topical steroids for refractory cases or aerobic/desquamative vaginitis. Long-term maintenance therapy and review is advised. Robust trans-specific clinical trials are needed to strengthen the evidence and optimise long-term outcomes.",
+    "url": "https://doi.org/10.1177/09564624261458272",
+    "doi": "10.1177/09564624261458272",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1255783",
+    "title": "Beyond sequencing: how culturomics complements 16S rRNA profiling of the urogenital microbiome of reproductive-age asymptomatic women",
+    "authors": [
+      "Villenave C",
+      "Dahyot S",
+      "Leoz M",
+      "Roussel G",
+      "Santini A",
+      "Charbonnier C",
+      "Pestel-Caron M."
+    ],
+    "published": "2026-06-19",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Culturomics and 16S rRNA gene sequencing offer complementary views of the genitourinary microbiome (GUM) but are rarely compared in well-phenotyped cohorts. Here, we characterized the GUM of 100 prospectively enrolled asymptomatic, non-pregnant, reproductive-age women (18–45 years). Community structure types (CSTs) were defined by hierarchical clustering of genus-level relative abundances identified by culturomics and 16S V3-V4 sequencing. Correlations with clinical and behavioural host metadata collected were assessed based on sequencing. Culturomics and sequencing respectively identified 139 species from 58 genera, and 138 species from 144 genera. Per-sample richness at the genus level was higher by sequencing, but mean Shannon diversity was similar. Lactobacillus -dominated communities were common (37% by culturomics; 53% by sequencing), followed by Gardnerella -dominated and mixed Lactobacillus – Gardnerella profiles. Seven CSTs were defined from culturomics and six from 16S rRNA gene sequencing, which were concordant in only 31 of 98 samples (31.6%). Regarding metadata, none correlated with CST profiles, and only the menstrual cycle was significantly associated with variation in the beta diversity indices. This study revealed a well-structured and diverse GUM in asymptomatic women of reproductive-age. However, longitudinal studies involving larger cohorts are needed to further our understanding of the host factors potentially associated with GUM.",
+    "url": "https://doi.org/10.21203/rs.3.rs-9936297/v1",
+    "doi": "10.21203/rs.3.rs-9936297/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1255387",
+    "title": "Hormonal Contraceptives Drive Genital Lipid Metabolism Reprogramming and Susceptibility to HIV Infection",
+    "authors": [
+      "Gebrehiwot AG",
+      "Niazi M",
+      "Ambaw YA",
+      "Henriquez N",
+      "Wessels JM",
+      "Lajoie J",
+      "Kimani J",
+      "Fowke KR",
+      "Wolday D",
+      "Kaushic C."
+    ],
+    "published": "2026-06-17",
+    "venue": "{'publisher': 'medRxiv', 'yearOfPublication': 2026}",
+    "abstract": "Heterosexual genital HIV transmission is a major driver of new infections, particularly in women, making them disproportionately vulnerable to HIV acquisition. Previous studies have associated injectable hormonal contraceptives (HC) with increasing susceptibility to HIV. Yet, the underlying molecular mechanism remains incompletely understood. Given the structural and signaling role of lipids in the female genital tract, cervicovaginal lipidomic profiling has the potential to reveal the mechanistic interplay among HC, lipidome, and HIV susceptibility in the female genital tract. We conducted untargeted cervicovaginal lipidomics study in a cohort of high-risk, HIV-negative, Kenyan sex workers who were using injectable depot medroxyprogesterone acetate (DMPA), oral contraceptive pill (OCP), or no hormonal contraception (NH). Genital lipids were quantitatively analyzed using liquid chromatography-mass spectrometry (LC-MS) and bioinformatics platforms. A total of 1045 lipid species were identified in the cervicovaginal lavage samples. Injectable DMPA significantly downregulated major structural and signaling membrane lipids, including phospholipids, ceramides, sphingomyelins, and glycosphingolipids (p<0.001, FDR<0.05), and markedly upregulated storage lipids (triglycerides) and sterols when compared with OCP or NH groups. Interestingly, microbial communities contributed significantly to the DMPA-driven genital lipidomic shifting, suggesting the intricate interplay among sex hormones, microbiome, and lipidome. In contrast, OCP, which contains estrogen, consistently lowered genital triglycerides and increased the fatty acid and diacylglycerol substrates compared with the NH group, implying that estrogen affects genital lipid metabolism by contrasting the lipogenesis effect of DMPA. Differential lipidomic pathway analysis further confirmed that DMPA suppressed the de novo phospholipid and sphingolipid biosynthesis, but enhanced salvaging of various lipids from reaction intermediates and from cell membrane lipid pool, shifting them towards TG accumulation. Our findings of dysregulated depletion of several membrane and signaling phospholipids, ceramides, sphingomyelins, glycosphingolipids, along with upregulation of triglycerides in the DMPA users provides insights into the underlying molecular mechanism by which DMPA may increase in susceptibility to HIV infection by weakening the epithelial barrier and increasing chronic inflammation. These findings underscore the need to address cervicovaginal lipidomic dysregulation associated with HCs while designing interventions to improve women’s reproductive health.",
+    "url": "https://doi.org/10.64898/2026.06.09.26355168",
+    "doi": "10.64898/2026.06.09.26355168",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42297106",
+    "title": "Diversity of Cervicovaginal Microbiome among HPV-Positive versus HPV-Negative Women of Sub-Himalayan region of India.",
+    "authors": [
+      "Khoiwal K",
+      "Kalita D",
+      "Gupta S",
+      "Gaurav A",
+      "Manisha P",
+      "Yerkade V",
+      "Mathuria YP",
+      "Chaturvedi J."
+    ],
+    "published": "2026-06-15",
+    "venue": "MED",
+    "abstract": "PurposeRecent studies from Western countries suggest an association between cervicovaginal microbiome (CVM) and HPV persistence. This study aims to identify CVM diversity within HPV-negative/positive women and to establish an association between HPV infection and CVM in Indian women.MethodsThis was a pilot, hospital-based, prospective study conducted at a tertiary care center in India over 6 months. Seventy-two participants underwent HPV genotyping, yielding 20 HPV-positive samples. Of these, 16 samples with good-quality DNA, along with 16 matched HPV-negative samples, were identified for CVM analysis.ResultsSequencing of bacterial 16S ribosomal RNA region and bioinformatic analysis were performed in 32 samples. Baseline characteristics were similar for HPV-positive and HPV-negative women. Out of 16 HPV-positive women, 9 had HPV-16 genotype, one had HPV-16&18, and 6 had other genotypes. Seven patients had cervical cancer on histopathology, 7 had NILM, 1-ASCUS, and 1-ASC-H on cytology. HPV-negative women's CVM had a larger abundance of lactobacillus species than HPV-positive women (43.24% vs 2.44%). Whereas CVM among HPV-positive women was characterized by a greater abundance of anaerobes, such as Prevotella (12.46% vs. 4.59%), Atopobium (6.66% vs. 1.98%), Anaerococcus (5.27% vs. 0.57%), and Porphyromonas (2.98% vs. 0.67%), compared with HPV-negative women.ConclusionThe current study from the Sub-Himalayan region of India characterizes the diversity of CVM in HPV-positive and HPV-negative women. This makes a significant geographical contribution to vaginal microbiome research worldwide.",
+    "url": "https://doi.org/10.1016/j.ijmmb.2026.101176",
+    "doi": "10.1016/j.ijmmb.2026.101176",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42321548",
+    "title": "A Risk Score for Polycystic Ovary Syndrome Based on Meta-Analysis and Machine Learning of Gut Microbiota Signatures.",
+    "authors": [
+      "Huang P",
+      "Li Y",
+      "Kong FS",
+      "Guo T",
+      "Yao JP",
+      "Chen JH",
+      "Ma Y."
+    ],
+    "published": "2026-06-19",
+    "venue": "MED",
+    "abstract": "Polycystic Ovary Syndrome (PCOS) is a prevalent endocrine and metabolic disorder among reproductive-age women, in which emerging evidence suggests a substantial role played by the gut microbiota. To comprehensively evaluate gut microbiota alterations in PCOS and identify microbial biomarkers through integrated analysis, a systematic search of PubMed, Web of Science, and Embase was conducted for studies employing 16S rRNA gene sequencing of fecal samples from PCOS cohorts. Ten eligible PCOS cohorts, comprising 858 individuals, were included in the study, from which a risk score was derived using a 20-gene gut microbial signature associated with PCOS. Meta-analysis at the genus level identified that Subdoligranulum, NK4A214_group, and Collinsella significantly decreased, and Bacteroides increased in PCOS across multiple cohorts. Machine learning analysis identified a 20-genus microbial signature using the least absolute shrinkage and selection operator (LASSO) method, which was used to construct a risk score with an AUC of 0.835 in diagnosis prediction. Network analysis further identified Negativibacillus and Lachnospiraceae_UCG_010 as potential driver microbes in PCOS. The analysis in this study highlights key alterations in the gut microbiota across PCOS cohorts. The identified gut microbial signature and derived LASSO-based risk model offer novel insights and a potential tool for PCOS diagnosis.",
+    "url": "https://doi.org/10.1007/s43032-026-02129-0",
+    "doi": "10.1007/s43032-026-02129-0",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42298567",
+    "title": "Uterine microbiome signatures associated with endometriosis.",
+    "authors": [
+      "Zhu L",
+      "He J",
+      "Xu X",
+      "Lu S",
+      "Yu Y",
+      "Wong WH",
+      "Bischoff FZ",
+      "Zhang X."
+    ],
+    "published": "2026-06-16",
+    "venue": "MED",
+    "abstract": "BackgroundEndometriosis is a chronic inflammatory disorder affecting ~ 10% of reproductive-age women, often causing pelvic pain and infertility. Despite its prevalence, diagnosis remains delayed due to non-specific symptoms and lack of reliable non-invasive biomarkers. Emerging evidence implicates the microbiome in disease pathogenesis.ResultsWe analyzed uterine microbiomes from 266 tissue samples collected during either the proliferative or secretory phase, using 16S rRNA gene sequencing. Genus-level analysis revealed variable Lactobacillus abundance among all individuals. Prevotella showed borderline enrichment in proliferative-phase patients. Sub-genus analyses identified a small number of differentially abundant taxa, though none remained significant after FDR correction. To capture subtle microbial shifts, we developed a feature set combining weakly differential taxa, algorithmically selected taxa via machine learning, and a functional dysbiosis score. A supervised classifier trained on proliferative-phase data achieved moderate predictive performance (AUC = 0.70), while secretory-phase models performed more poorly (AUC = 0.58).ConclusionsThe uterine microbiome shows phase-dependent differences in its potential to inform endometriosis status. Although no robust individual microbial biomarkers were identified, machine learning models incorporating subtle community features from the proliferative phase yielded modest diagnostic potential. These results highlight the importance of menstrual cycle-aware sampling and support further development of microbiome-informed diagnostic tools for endometriosis.",
+    "url": "https://doi.org/10.1186/s12915-026-02659-8",
+    "doi": "10.1186/s12915-026-02659-8",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
