@@ -1,0 +1,306 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42401402",
+    "title": "The Microbiome-Gut-Gonad Axis: How Microbial Metabolites Orchestrate Reproductive Physiology, Pathology, and Therapy.",
+    "authors": [
+      "El-Sehrawy AAMA",
+      "Oriquat G",
+      "Rizaev J",
+      "Yuldasheva S",
+      "Shakhmurova G",
+      "Abdul NH",
+      "Singh R",
+      "Bainsal N."
+    ],
+    "published": "2026-07-04",
+    "venue": "MED",
+    "abstract": "The human microbiome, a dynamic endocrine organ, exerts profound systemic influence through the production of bioactive metabolites. While the microbiome-gut-brain axis is well-established, the direct conduit between the gut microbiota and the reproductive system, the Microbiome-Gut-Gonad Axis, remains an emerging paradigm. This review explored cutting-edge evidence to construct a comprehensive model of the Microbiome-Gut-Gonad axis, focusing on the mechanistic roles of specific microbial metabolites in both physiological reproductive function and the pathogenesis of endocrine disorders. We move beyond mere correlation to elucidate how gut-derived molecules, such as short-chain fatty acids (SCFAs), secondary bile acids, and indole derivatives, directly and indirectly modulate the hypothalamic-pituitary-gonadal (HPG) axis by modulating the production of neuropeptides and hormones (Gonadotropin-releasing hormone (GnRH)) that regulate reproductive functions and also steroidogenesis and gametogenesis. We examine novel mechanisms including: the epigenetic regulation of steroidogenic enzymes by butyrate; the modulation of enterohepatic circulation of estrogens by β-glucuronidase-producing bacteria; and the role of tryptophan metabolites as ligands for aryl hydrocarbon receptor (AhR) in ovarian and testicular function. Furthermore, we critically appraise the disruptive potential of dysbiosis-driven metabolite shifts in PCOS, endometriosis, and male infertility, highlighting microbial metabolite signatures as promising exploratory biomarkers that require standardized, multi-center clinical validation before diagnostic use. At present, these signatures should be considered candidate biomarkers only, because external validation cohorts, assay reproducibility, and clinically meaningful estimates of sensitivity, specificity, predictive values, and clinical utility have not yet been established. Therapeutically, we evaluate innovative interventions, including precision probiotics, postbiotics, and dietary strategies targeting specific bacterial guilds, but these approaches remain investigational because current human evidence is still limited and heterogeneous. Finally, by integrating microbial endocrinology into reproductive medicine, this review establishes a new framework for understanding the etiology of reproductive endocrine disorders and paves the way for microbiome-targeted therapeutic avenues. Importantly, the evidence base is tiered: mechanistic statements in this review are drawn primarily from in vitro and animal studies, human disease links are described separately as observational evidence, and interventional claims are limited to early clinical studies and randomized trial summaries.",
+    "url": "https://doi.org/10.1016/j.jsbmb.2026.107079",
+    "doi": "10.1016/j.jsbmb.2026.107079",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 29,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42404061",
+    "title": "Microbiome-Metabolome Crosstalk in HPV Pathogenesis: From Ecosystem Dynamics to Translational Biomarkers.",
+    "authors": [
+      "Molina MA",
+      "Dai W."
+    ],
+    "published": "2026-07-03",
+    "venue": "MED",
+    "abstract": "High-risk human papillomavirus (hrHPV) infection alters the cervicovaginal microenvironment, driving metabolic reprogramming that influences viral persistence and progression to cervical cancer. This review adopts a systems-level perspective to synthesize findings from recent metabolomic studies across urine, vaginal swabs, and cervicovaginal fluids, highlighting consistent trends from cervicovaginal health through hrHPV infection, persistence, cervical lesion development, and cancer. HPV infection is characterized by increased microbial amines and oxidative stress, whereas viral persistence and high-grade cervical lesions exhibit disrupted metabolism of amino acids, lipids, and nucleotides. Cervical cancer is associated with distinct metabolic signatures involving sphingolipids, ketone bodies, and intermediates of the tricarboxylic acid cycle. Collectively, metabolic profiles emerge as functional readouts of host-microbiome interactions, often showing stronger associations with clinical outcomes than microbial composition alone. Integrative multiomics approaches combining metabolomics with microbiome- and host-derived data are beginning to uncover coordinated biological pathways underlying HPV pathogenesis and may improve risk stratification and biomarker discovery. Despite methodological heterogeneity, converging evidence supports the potential of metabolic profiling for early detection of cervical neoplasia and stratification of hrHPV-positive women, although reproducibility across studies remains limited. Future longitudinal and integrative studies, supported by standardized analytical frameworks and computational modeling, are needed to clarify causal mechanisms and enable the development of clinically actionable biomarkers and targeted interventions.",
+    "url": "https://doi.org/10.34133/csbj.0158",
+    "doi": "10.34133/csbj.0158",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 28,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42404294",
+    "title": "Vaginal Microecological Imbalance, Human Papillomavirus Infection, and Cervical Carcinogenesis: Mechanisms and Clinical Implications.",
+    "authors": [
+      "Gao W",
+      "Liu Y",
+      "Wang Q",
+      "Xiao H",
+      "Wang F",
+      "Wang L."
+    ],
+    "published": "2026-06-30",
+    "venue": "MED",
+    "abstract": "The vaginal microecology serves as a critical barrier for female reproductive tract health, with its dysbiosis being closely linked to persistent HPV infection and the initiation and progression of cervical cancer. This review systematically outlines the composition and functions of the vaginal microbiota and delves into the multifaceted mechanisms by which microecological imbalance promotes human papillomavirus (HPV) acquisition, persistence, and oncogenic transformation. These mechanisms include dysregulation of local and systemic immunity, chronic inflammation, alterations in microbial metabolites, and disruption of the epithelial barrier. Furthermore, the article synthesizes recent advancements in novel strategies for cervical cancer prevention, auxiliary diagnosis, and treatment based on microecological modulation. The overarching aim is to provide a consolidated theoretical foundation and identify potential therapeutic targets for the precise prevention and management of cervical cancer, highlighting the pivotal role of maintaining or restoring vaginal microbial homeostasis.",
+    "url": "https://doi.org/10.2147/ijgm.s621765",
+    "doi": "10.2147/ijgm.s621765",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 28,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42401851",
+    "title": "Reproductive tract and follicular fluid microbiota and probiotic interventions in IVF/ICSI outcomes: a systematic review.",
+    "authors": [
+      "Ma G",
+      "Zeng R",
+      "Cai R",
+      "He B",
+      "Han J",
+      "Gao R",
+      "Qin L."
+    ],
+    "published": "2026-07-04",
+    "venue": "MED",
+    "abstract": "BackgroundTo investigate the associations of reproductive tract and follicular fluid microbiota composition, microbial diversity, and probiotic interventions with pregnancy outcomes after in vitro fertilization (IVF) or intracytoplasmic sperm injection (ICSI).MethodsPubMed, Embase, Web of Science, and the Cochrane Library were searched from January 2000 to August 2025, with manual screening of reference lists. Original human studies on women undergoing IVF/ICSI reporting reproductive tract or follicular fluid microbiota, pregnancy outcomes, or probiotic interventions were included, encompassing randomized controlled trials and observational studies. Two reviewers independently screened studies, extracted data, and assessed quality using RoB 2.0, ROBINS-I, and JBI tools. Due to heterogeneity in study designs, sampling sites, and microbiota methods, a qualitative synthesis was performed.ResultsAmong 2546 identified records, 40 studies met the inclusion criteria. Most studies consistently reported that a Lactobacillus-dominant reproductive tract microbiota, particularly Lactobacillus crispatus, was associated with higher implantation, clinical pregnancy, and live birth rates, whereas non-Lactobacillus or pathogen-enriched microbiota profiles were linked to poorer reproductive outcomes. Microbial diversity alone showed inconsistent associations with IVF/ICSI outcomes. Evidence regarding the influence of follicular fluid microbiota on pregnancy outcomes remains limited. Longer-term or individualized probiotic regimens appeared to increase Lactobacillus abundance and were associated with improved reproductive outcomes, whereas short-term interventions demonstrated minimal benefit.ConclusionSpecies-level and site-specific reproductive tract microbiota profiles appear to better predict assisted reproductive technology outcomes than diversity measures alone. Personalized or longer-duration probiotic strategies may hold therapeutic potential; however, current evidence remains limited and heterogeneous. Well-designed longitudinal and site-specific trials are required to clarify the effectiveness of microbiota-targeted interventions in IVF/ICSI.",
+    "url": "https://doi.org/10.1186/s12884-026-09523-1",
+    "doi": "10.1186/s12884-026-09523-1",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Systematic Review",
+      "Journal Article"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42405387",
+    "title": "Human Papillomavirus (HPV)-The Interplay between Vaginal Microbiota and HPV, along with its Prevention.",
+    "authors": [
+      "Sharma S",
+      "Saini A",
+      "Kalra D",
+      "Bhushan B",
+      "Dhanawat M",
+      "Malik G."
+    ],
+    "published": "2026-07-02",
+    "venue": "MED",
+    "abstract": "Human Papillomavirus (HPV) is considered one of the leading causes of cervical cancer and other anogenital malignancies. While most infections are considered short-term, persistent infection with some high-risk strains of HPV, such as HPV-16 and HPV-18, can lead to oncogenesis. This review explores the inter-relationship between HPV and the vaginal microbiota. It focuses on how the microbial imbalance influences viral persistence. The article is a narrative review for which a narrative literature search was conducted across PubMed, Elsevier, Scopus, and Web of Science for peer-reviewed English language publications (2000-2025). Boolean operators were used, and research was filtered for original studies and meta-analyses covering HPV prevention, diagnosis, molecular pathways, and treatment. Preventive strategies include vaccinations such as Cervarix and Gardasil that are considered to be the most effective when they are administered between the ages of 9 and 14. A healthy vaginal microbiome is considered to strengthen the immune system and reduce persistence of the virus. Emerging future trends include AI-based screening, multi-omics, and precision therapies. Regardless of the available interventions, cervical cancer remains a topic of concern in low- and middle-income countries. Oncogenesis is driven by E6 and E7 oncoproteins, which disrupt cell regulation and metabolism. Beyond host immunity, the microbiota composition is a key factor in progression. AI and Personalized treatment strategies can also help in the optimisation of the treatment. The relationship between the vaginal microbiome and HPV shows that preventive strategies such as probiotics and vaccination may significantly reduce infection risk and cancer progression.",
+    "url": "https://doi.org/10.2174/011570162x461254260618050011",
+    "doi": "10.2174/011570162x461254260618050011",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42170966",
+    "title": "Effects of nifuratel-based therapy combined with vaginal lactobacillus probiotics on microecological restoration in pregnant women with abnormal vaginal flora: A retrospective cohort study.",
+    "authors": [
+      "Luo Y",
+      "Xu H",
+      "Ye X."
+    ],
+    "published": "2026-07-01",
+    "venue": "MED",
+    "abstract": "BackgroundImbalances in the vaginal flora during pregnancy elevate risks for adverse outcomes. While nifuratel targets pathogens, probiotics restore acidity, and robust cohort evidence supporting their combined safety and efficacy in restoring the microbiome remains limited.ObjectivesThis retrospective cohort study assessed nifuratel-nystatin therapy plus Lactobacillus probiotics for restoring vaginal flora in pregnancy.MethodsEmploying a retrospective cohort design, this study enrolled pregnant women diagnosed with vaginal microecological abnormalities between March 2023 and 2024. Participants were allocated via 1:1 propensity score matching (PSM) into two groups (n=58 each): a combination group receiving nifuratel-nystatin therapy combined with vaginal Lactobacillus probiotics and a monotherapy group receiving nifuratel-nystatin alone. All received a 7-day treatment. The primary endpoint was clinical effectiveness assessed one week post-treatment. Secondary outcomes included vaginal pH, Lactobacillus and bacterial diversity normalization rates, recurrence, adverse pregnancy outcomes and drug-related adverse events, monitored until delivery. Multivariate logistic regression identified independent predictors of treatment efficacy.ResultsAfter PSM, baseline characteristics were balanced (P>0.05). The comparative analysis indicated a superior overall efficacy for the combination therapy (93.1%) over monotherapy (77.6%), with statistical significance (PConclusionsIn pregnant women with vaginal dysbiosis, combining nifuratel-nystatin with Lactobacillus probiotics safely enhances clinical efficacy, normalizes pH and flora and reduces adverse pregnancy outcomes.",
+    "url": "https://doi.org/10.36721/pjps.2026.39.7.reg.189.1",
+    "doi": "10.36721/pjps.2026.39.7.reg.189.1",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42387070",
+    "title": "Global metabolomic profiling of serum biomarkers in women with polycystic ovary syndrome.",
+    "authors": [
+      "Patel J",
+      "Chaudhary H",
+      "Panchal S",
+      "Joshi R."
+    ],
+    "published": "2026-07-01",
+    "venue": "MED",
+    "abstract": "Polycystic ovary syndrome (PCOS) is a complex endocrine disorder characterized by metabolic dysregulation. Identifying serum biomarkers can enhance our understanding of its pathophysiology. This study employs an untargeted metabolomic approach to investigate metabolic alterations in PCOS. Serum samples were collected from 71 women with PCOS and 54 healthy controls. Untargeted Metabolomic profiling was performed using liquid chromatography-mass spectrometry to identify metabolites with differential abundance. Pathway analysis was conducted to identify key metabolic disruptions, and correlations between identified metabolites and clinical parameters were assessed. The metabolomics analysis identified 24 upregulated and 17 downregulated metabolites in PCOS compared with controls. These metabolites mainly include glycerophospholipids, fatty acids, sphingolipids, peptides, ceramides, and steroids. Pathway analysis indicated that these metabolites were enriched in pathways including bile acid biosynthesis, glycerolipid metabolism, tryptophan metabolism, the citric acid cycle, and fatty acid metabolism. Increased levels of branched-chain and aromatic amino acids suggested potential links to insulin resistance. Disruptions in bile acid metabolism suggested altered interactions between the gut microbiome and the host. Additionally, metabolites related to oxidative stress and mitochondrial function indicated metabolic dysfunction. Correlation analyses revealed associations between altered metabolites and clinical markers such as insulin resistance and androgen levels. This study reveals distinct serum metabolic alterations in PCOS, emphasizing their association with insulin resistance and inflammation. These findings highlight the potential of metabolomics to identify novel biomarkers for early diagnosis and to develop targeted therapeutic strategies.",
+    "url": "https://doi.org/10.1038/s41598-026-60249-8",
+    "doi": "10.1038/s41598-026-60249-8",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42385362",
+    "title": "Vaginal Microbiome and Preterm Birth in Pregnant Women From India.",
+    "authors": [
+      "Singh A",
+      "Chhabria K",
+      "Vashist N",
+      "Singh S",
+      "Suneja G",
+      "Khater S",
+      "Rao A",
+      "Arigela C",
+      "Kamani A",
+      "Das G",
+      "Husein A",
+      "Urehekar AD",
+      "Kumar S",
+      "Modi D."
+    ],
+    "published": "2026-07-01",
+    "venue": "MED",
+    "abstract": "ObjectivePreterm birth (PTB) is a leading cause of neonatal morbidity and mortality worldwide, with India alone contributing nearly 27% of the global PTB burden. Although alterations in the vaginal microbiome have been implicated in PTB, its association in the Indian context is underexplored. This study aimed to investigate the association of the vaginal microbiome and PTB in Indian women at the time of delivery.Study designThe vaginal swabs were collected at the time of delivery from 72 women (31 term, 41 preterm) admitted to a tertiary care hospital in Western India. Microbial DNA was extracted, and the V3-V4 region of the 16S rRNA gene was sequenced. Community composition, alpha and beta diversity, and differential taxonomic abundance were assessed using bioinformatics pipelines.ResultsThere were no significant differences in alpha or beta diversity between term and preterm groups. Principal coordinate and unsupervised clustering analyses showed no group-wise segregation. The relative abundance of individual Lactobacillus species, including L. iners and L. helveticus, did not differ significantly between the two groups. However, a modest difference in the relative abundance of Streptococcus was observed between the two groups after adjustment.ConclusionThis study found no major microbial shifts in the vaginal microbiome associated with preterm birth in this cross-sectional cohort of Indian women, suggesting that vaginal dysbiosis at the time of delivery may not be a principal driver of PTB in this population. These findings underscore the need for larger, longitudinal, and ethnically diverse studies using standardized methodologies better to understand the microbiome's role in PTB risk.",
+    "url": "https://doi.org/10.1111/jog.70381",
+    "doi": "10.1111/jog.70381",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42398703",
+    "title": "Rationale, design, and statistical analysis plan for a randomized, double-blind, placebo-controlled trial of Limosilactobacillus reuteri to support mother-infant bonding and maternal socioemotional functioning in postpartum women at increased risk for postpartum depression.",
+    "authors": [
+      "Becetti I",
+      "Lamont H",
+      "Dysart L",
+      "Asanza E",
+      "Tolley C",
+      "Holman K",
+      "Mitchell C",
+      "Dekel S",
+      "Hadjikhani N",
+      "Lee H",
+      "Ravichandran CT",
+      "Carter CS",
+      "Kingsbury MA",
+      "Erdman SE",
+      "Plessow F",
+      "Lawson EA."
+    ],
+    "published": "2026-07-03",
+    "venue": "MED",
+    "abstract": "BackgroundPostpartum depression (PPD) is common and can impair early mother-infant bonding. Oxytocin (OXT) supports socioemotional adaptation, yet intranasal OXT yields supraphysiological exposure and mixed results. The probiotic Limosilactobacillus reuteri (L. reuteri) increases endogenous oxytocin levels in rodents, suggesting that it may enhance OXT signaling via gut-brain pathways in humans. We designed a proof-of-concept trial to test whether postpartum L. reuteri improves early mother-infant bonding and maternal mental health, impulse control, and emotion recognition.MethodsIn this randomized, double-blind, placebo-controlled trial, mothers aged ≥18 years at elevated PPD risk (history of depression, prior PPD, and/or increased prenatal depressive symptoms) received 6 weeks of once-daily L. reuteri or placebo, stratified by delivery mode (vaginal/Cesarean section). The primary endpoint is mother-infant bonding quality at Week 6; secondary endpoints include maternal mental health, impulse control, and emotion recognition at Week 6. Salivary OXT at Week 2 serves as a mechanistic endpoint.ResultsForty-six participants (mean age ± SD: 34.3 ± 4.5 years) were enrolled and randomized; 38 (82.6%) completed the Week-6 visit. Baseline characteristics are reported.ConclusionThis trial evaluates whether a lactation-compatible L. reuteri intervention targeting endogenous OXT improves early mother-infant bonding and maternal well-being. Findings will inform feasibility, safety, and effect size estimates, clarify OXT's mechanistic role in PPD pathophysiology, and guide development of microbiome-based therapeutics for perinatal mental health.Trial registration numberClinicalTrials.gov: NCT04472065.",
+    "url": "https://doi.org/10.1016/j.cct.2026.108399",
+    "doi": "10.1016/j.cct.2026.108399",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42118940",
+    "title": "Femtech Revolution for Pelvic Floor Disorders and Sexual Health.",
+    "authors": [
+      "Zhang H",
+      "Stackpole K",
+      "Iglesia CB."
+    ],
+    "published": "2026-07-01",
+    "venue": "MED",
+    "abstract": "ImportanceConsumer-directed female technology (\"femtech\") is rapidly expanding into pelvic floor and sexual health, yet clinicians have limited guidance on the safety, efficacy, and appropriate use of these products.ObjectivesThe objective of this review is to summarize currently marketed female technology products relevant to pelvic floor disorders, sexual function, and vaginal health, and to highlight key evidence, limitations, and implications for clinical practice.Study designThis is a narrative review of commercially available technologies for urinary incontinence, sexual dysfunction, and vaginal health. Product categories include external and intravaginal pelvic floor muscle training devices, vibrators, and dilators for sexual function and pain, regenerative medicine interventions such as platelet-rich plasma injections, sexual wellness applications, and direct-to-consumer vaginal microbiome testing platforms.ResultsPelvic floor devices and in-office energy therapies offer nonsurgical options for urinary incontinence, but high-quality, independent long-term data are scarce, and costs are often substantial. Sexual wellness devices, including vibrators and dilators, are increasingly recognized as therapeutic tools but are variably supported by clinical research. Early studies of platelet-rich plasma suggest potential benefit for sexual function, yet protocols and outcomes remain heterogeneous. Digital applications and microbiome tests expand access and patient engagement but frequently lack rigorous validation and may raise concerns regarding privacy, equity, and interpretation of results.ConclusionsFemale technology offers novel opportunities to address pelvic floor and sexual health outside traditional care pathways. Urogynecologists should be familiar with these products, provide balanced counseling on benefits, risks, and cost, and advocate for independent trials to define their role within evidence-based care.",
+    "url": "https://doi.org/10.1097/spv.0000000000001860",
+    "doi": "10.1097/spv.0000000000001860",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
