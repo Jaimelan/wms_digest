@@ -1,0 +1,309 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42449422",
+    "title": "Vaginal microbiomes and their pertinent social context: a microbial ecological review proffering AMR-STI acquisition and emergence.",
+    "authors": [
+      "Webster SJ",
+      "Cock IE",
+      "Matheson C",
+      "Sweeney EL."
+    ],
+    "published": "2026-07-14",
+    "venue": "MED",
+    "abstract": "BackgroundIn the landscape of sexual health, sex, gender, and sexuality are inextricably linked and highly relevant to sexually transmitted infections (STIs). Globally, key sexual and reproductive health concerns of women have been associated with the socioeconomic status of their country, indicating that social context bears influence over sexual health outcomes. Further, the increasing prevalence of antimicrobial resistant STIs (AMR-STIs) in the sexual networks of gay and bisexual men-who-have-sex-with-men (GBMSM) suggests an implicit connection between microbiological and social phenomena, although research to date is relatively limited and often fails to reflect the complexity and nuance of sexual networks. Vulval and vaginal microbiome composition may influence STI acquisition and transmission, yet the relationships between composition, microenvironment, and STIs remain largely overlooked, especially in the context of women and gender-diverse people. In this article, we explore the possibility that a combination of social, sexual, and behavioural factors, combined with biological features, shape the microbiological context of STIs within the vaginal microenvironment. MAIN: The human vaginal microbiome (VMB) forms an ecological niche home to a complex ecosystem of microorganisms. The microbial composition of the VMB is diverse between individuals, with variations observed across racial and ethnic groups, and intrapersonal fluctuations linked to a plethora of factors both within and outside of personal control. Importantly, VMB health is a crucial component of wellbeing for people assigned female at birth (AFAB), transgendered women with neovaginas, and their sexual partners. Clinical context also remains important; in Australia, doxycycline prophylaxis (Doxy-PEP) has recently become available to GBMSM networks aimed to protect against the acquisition of STIs. However, Doxy-PEP guidelines exclude AFAB people and fail to specify regarding use among gender diverse individuals. Given the high prevalence of AMR-STIs within GBMSM networks, the impact of this intervention on excluded partners should be thoroughly investigated. Factors in the VMB such as biofilm formation and necessary microbial balance with opportunistic pathogens renders this ecological microbial niche a hypothetically perfect platform for AMR development and emergence within the social context.ConclusionThis review explores the social context of vaginal microbiomes, their potential influence on AMR-STI development, and highlight several important knowledge gaps to benefit from further research.",
+    "url": "https://doi.org/10.1186/s13293-026-00953-2",
+    "doi": "10.1186/s13293-026-00953-2",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1278785",
+    "title": "Functional microbiome features distinguish clinical trajectories in low-grade cervical lesions",
+    "authors": [
+      "Stosic M",
+      "Molina MA",
+      "Mukhedkar D",
+      "Hassan SS",
+      "Sahlin A",
+      "Ballester CR",
+      "Wang J",
+      "Mühr LSA."
+    ],
+    "published": "2026-07-14",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background . The cervicovaginal microbiome has been associated with human papillomavirus (HPV)-related cervical disease, but its role in determining the clinical trajectory of low-grade squamous intraepithelial lesions (LSIL) remains unclear. We investigated whether microbial taxonomic, ecological, and inferred functional features could distinguish LSIL regression from progression and improve risk stratification. Results . The cervicovaginal microbiome of 90 women with LSIL and known clinical outcomes was profiled using 16S rRNA gene sequencing. Overall microbiome diversity and composition did not differ significantly between regression and progression groups. Instead, microbial profiles clustered primarily by community state type (CST), with CST I-B more frequently observed among regression cases. Within Lactobacillus -dominated communities, CST I-B exhibited distinct predicted functional profiles characterized by enrichment of carbohydrate metabolism and fermentation pathways and relative depletion of nucleotide biosynthesis pathways compared with CST I-A. Logistic regression models based on age, or microbiome taxa alone, showed limited discriminatory performance, whereas an integrated model incorporating age, microbiome, and predicted microbial functional pathway features significantly improved discrimination between regression and progression (AUC = 0.76, 95% CI 0.66–0.86). Conclusions . Differences in microbial community organization and inferred functional profiles were associated with LSIL clinical trajectories, whereas taxonomic composition alone showed limited discriminatory value. Integrating microbial taxonomic, ecological, and functional features modestly improved the prediction of lesion progression and supports the potential of microbiome-derived functional features for future risk stratification.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10202181/v1",
+    "doi": "10.21203/rs.3.rs-10202181/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42466879",
+    "title": "Longitudinal changes in the vaginal microbiome associate with spontaneous preterm birth: a focus on stability and specific taxa in a Chinese cohort.",
+    "authors": [
+      "Yu Y",
+      "Zhou J",
+      "Zhou Q",
+      "Li X",
+      "Zhang L",
+      "Li S",
+      "Zhu B",
+      "Gao J",
+      "Liu J."
+    ],
+    "published": "2026-07-17",
+    "venue": "MED",
+    "abstract": "Spontaneous preterm birth (sPTB) often results from ascending intra-amniotic infections originating from the vaginal microbiota. This study aimed to characterize vaginal microbial features and identify specific taxa associated with sPTB in a Chinese population. In this prospective cohort study, pregnant women were recruited from Peking Union Medical College Hospital. Vaginal swabs were collected longitudinally at 11-16, 22-28, and 34-37 weeks of gestation. DNA was analyzed using targeted real-time PCR (30 pathogens) and 16S rRNA gene sequencing (V3-V4). Community State Types (CSTs) were defined by enterotype-like clustering. Differential abundance was assessed using MaAsLin3 with Benjamini-Hochberg correction, adjusting for maternal age, BMI, and obstetric history. Among 273 women (26 sPTB, 247 term), no CST was significantly associated with sPTB after multivariable adjustment and false discovery rate (FDR) correction (all q > 0.05). Alpha and beta diversity also showed no significant between-group differences (all q > 0.05). However, longitudinal CST stability was significantly lower in the sPTB group (P Ureaplasma urealyticum (first trimester), Mycoplasma hominis, and Bacteroides fragilis (second trimester), but none survived FDR correction (all q > 0.05). In this Chinese cohort, sPTB was not associated with static CST profiles but with reduced microbial stability over time. Although no single taxon remained significant after correction, several pathogens showed nominal associations, warranting further investigation in larger studies.IMPORTANCEPreterm birth (PTB) is a global maternal and infant health issue affecting approximately 11% of newborns worldwide. In China, the prevalence of PTB was 6.1%. Abnormal vaginal microbiota has been demonstrated to be a risk factor for PTB. Our study is one of the largest studies performed to date to investigate the associations between vaginal microbiome and spontaneous PTB (sPTB) in the Chinese cohort. We found that vaginal microbiome dynamics changes in Community State Types (CSTs) were significantly associated with sPTB. Furthermore, we also found that the microbial risk for sPTB appeared to be the enrichment of specific taxa, suggesting that vaginal dynamics and fine-scale features are important factors to consider in future studies.",
+    "url": "https://doi.org/10.1128/spectrum.03705-25",
+    "doi": "10.1128/spectrum.03705-25",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1279285",
+    "title": "Gut Microbiota-Derived Indole-3-Acetic Acid Induces PCOS by Disrupting Granulosa Cell Function under Metabolic Stress",
+    "authors": [
+      "Wang Y",
+      "Luo Z",
+      "Yang T",
+      "Luo X",
+      "Zhang X."
+    ],
+    "published": "2026-07-15",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background Polycystic ovary syndrome (PCOS) is a multifactorial reproductive and metabolic disorder, but the mechanisms linking metabolic stress to ovarian dysfunction remain incompletely understood. Gut microbiota-derived metabolites have emerged as important mediators of host metabolism; however, their contribution to PCOS pathogenesis, particularly within the ovarian microenvironment, remains poorly defined. This study aimed to identify microbiota-associated metabolic alterations in PCOS and determine their functional relevance under metabolically stressed conditions. Results Integrated clinical microbiota and metabolomic profiling revealed altered gut microbial composition and indole-related metabolic signatures in women with PCOS and overweight/obesity. Among the altered features, Bacteroides fragilis and indole-3-acetic acid (IAA) were selectively enriched and positively correlated. IAA was increased not only in fecal metabolic profiles but also in serum and follicular fluid, suggesting a link between gut-associated metabolic changes and the ovarian follicular microenvironment. Functional experiments showed that neither B. fragilis nor IAA alone was sufficient to induce PCOS-like phenotypes under basal conditions. In contrast, both B. fragilis and IAA promoted ovarian dysfunction, endocrine disturbance, and estrous cycle abnormalities under high-fat diet (HFD)-induced metabolic stress. At the cellular level, IAA suppressed granulosa cell proliferation by inhibiting G1/S cell-cycle progression and activating aryl hydrocarbon receptor (AHR) signaling. Pharmacological inhibition or knockdown of AHR partially reversed IAA-induced cell-cycle arrest. Moreover, lipotoxic stress enhanced IAA-induced AHR activation and cell-cycle inhibition, potentially through increased oxidative and endoplasmic reticulum stress. Conclusions These findings identify a context-dependent B. fragilis –IAA–AHR axis that links gut microbial metabolism to ovarian dysfunction under metabolic stress. The study provides mechanistic insight into the gut–ovary interaction in PCOS and suggests that microbiota-derived indole metabolites may contribute to disease progression in a metabolically permissive host environment.",
+    "url": "https://doi.org/10.21203/rs.3.rs-9879889/v1",
+    "doi": "10.21203/rs.3.rs-9879889/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42454935",
+    "title": "Integrated multi-omics analysis reveals gut microbiota-associated placental metabolic and transcriptomic alterations in placenta previa.",
+    "authors": [
+      "Zhang Y",
+      "Zhang A",
+      "Li Q",
+      "Luo Y",
+      "Gao Q",
+      "Li X",
+      "Li X",
+      "Zhang Y",
+      "Xu C",
+      "Li Z."
+    ],
+    "published": "2026-07-15",
+    "venue": "MED",
+    "abstract": "Placenta previa is a major obstetric complication, yet its potential association with maternal microbiota-associated biological alterations remains largely unexplored. This study aimed to investigate microbiota-associated metabolic and transcriptomic alterations in placenta previa using an integrated multi-omics approach. A total of 72 third-trimester pregnant women (28 with complete placenta previa and 44 controls) were enrolled. Maternal gut, oral, and vaginal microbiota were profiled using 16S rRNA gene sequencing, while placental tissues underwent targeted short-chain fatty acid (SCFA) metabolomic profiling and RNA sequencing. Multi-omics integration, ecological network analysis, and pathway enrichment analyses were performed to identify microbiota-associated biological alterations linked to placenta previa. Global microbial diversity remained largely preserved across maternal body sites in placenta previa. However, gut microbiota demonstrated prominent ecological network remodeling and was associated with coordinated placental SCFA and transcriptomic alterations. Several placental SCFAs, including acetic acid, propionic acid, isobutyric acid, and isovaleric acid, exhibited increased abundance trends in placenta previa. Integrated metabolomic and transcriptomic analyses convergently identified cholinergic synapse signaling as a shared altered pathway. In addition, cholinergic signaling-related genes, including CHRNB4 and GNB5, demonstrated coordinated associations with altered placental SCFAs and specific gut microbial taxa. These findings suggest the existence of a potential gut microbiota-placental metabolite-transcriptome axis associated with placenta previa. Multi-omics convergence on cholinergic synapse signaling highlights a potential biological pathway linking gut microbiota-associated metabolic alterations with placental transcriptomic remodeling in placenta previa.ImportancePlacenta previa is a major obstetric complication with poorly understood biological mechanisms beyond established anatomical and clinical risk factors. This study provides the first integrated multi-omics investigation linking maternal microbiota, placental short-chain fatty acids (SCFAs), and placental transcriptomic alterations in placenta previa. Rather than identifying broad microbial ecosystem disruption, we observed coordinated ecological remodeling of gut microbiota together with altered placental SCFA profiles and transcriptomic pathways. Notably, metabolomic and transcriptomic analyses convergently implicated cholinergic synapse signaling as a shared altered pathway associated with placenta previa. These findings support the existence of a potential gut microbiota-placental metabolite-transcriptome axis and provide new biological insights into microbiota-associated signaling alterations in placenta previa.",
+    "url": "https://doi.org/10.1128/msystems.00687-26",
+    "doi": "10.1128/msystems.00687-26",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42439027",
+    "title": "The relationship between HPV persistence and vaginal microbiotas in high risk-human papillomavirus positive patients.",
+    "authors": [
+      "Ozunlu GN",
+      "Karadag B",
+      "Tekin E."
+    ],
+    "published": "2026-07-13",
+    "venue": "MED",
+    "abstract": "ObjectivesTo investigate whether vaginal microbiota (VM) composition is associated with high-risk human papillomavirus (HR-HPV) persistence.Material and methodsEthics committee approval was obtained on March 7, 2024. Following completion of the two-year prospective clinical follow-up, data collection and analysis were performed between March 15, 2024, and August 15, 2024. The study was considered completed upon final data analysis and included a total of 98 women: 49 women who cleared HR-HPV infection at the two-year follow-up and 49 women with persistent HR-HPV infection. Vaginal swab samples were collected, cultured, and analyzed, with particular attention to Lactobacillus species. Vaginal microbiota profiles were evaluated and compared between groups.ResultsThere were no statistically significant differences between the groups in terms of sociodemographic characteristics. No statistically significant differences were observed between HPV-negative and HPV-positive women or between HPV 16/18-positive and other HR-HPV positive groups with respect to Community State Types (CSTs) (p > 0.05). Overall vaginal microbiota composition did not differ significantly between HPV-positive and HPV-negative women. However, a statistically significant difference in CST distribution was observed between women with single and multiple HR-HPV infections (p = 0.002).ConclusionsVaginal microbiota composition does not differ significantly between HPV-positive and HPV-negative women. In contrast, significant differences are observed between women with single and multiple HR-HPV infections.",
+    "url": "https://doi.org/10.5603/gpl.109046",
+    "doi": "10.5603/gpl.109046",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42457990",
+    "title": "Supplementation with long-chain polyunsaturated fatty acids to extremely preterm infants associates with development of the intestinal microbiota.",
+    "authors": [
+      "Danielsson H",
+      "Portlock T",
+      "Hellström A",
+      "Nilsson A",
+      "Sävman K",
+      "Wackernagel D",
+      "Hansen-Pupp I",
+      "Ley D",
+      "Shoaie S",
+      "Uhlén M",
+      "Brusselaers N",
+      "Elfvin A."
+    ],
+    "published": "2026-07-15",
+    "venue": "MED",
+    "abstract": "BackgroundSupplementation with arachidonic acid (AA) and docosahexaenoic acid (DHA) to extremely preterm infants reduces the risk of severe retinopathy of prematurity (ROP). The main aim of this study was to explore the involvement of AA:DHA supplementation in the developing gut microbiome, and its possible contribution to the ROP-protective effect. Secondly, additional covariates for microbiome maturation were evaluated.MethodsLongitudinal gut microbiome profiles and bacterial gene pathways were characterised using shot-gun metagenomics in 75 extremely preterm infants who participated in a randomized clinical trial on AA:DHA supplementation. Serum protein levels quantified using proximity extension assays were merged with the microbiome data.ResultsAA:DHA supplementation was linked to an increase in relative abundance of Citrobacter koseri and associated with changes in proteins and metabolic pathways. Occurrence of severe ROP was associated with microbiome alpha diversity (Shannon and Evenness) and beta diversity (Bray-Curtis). Additionally, study centre and gestational age at birth impacted the microbiome composition.ConclusionWe conclude that AA:DHA supplementation impacts the microbiome. However, the current study could not determine the causality between the supplementation, microbiome and ROP-decrease. Nonetheless, these findings highlight the complex interplay between external interventions, including nutritional supplements, and the gut microbiome development in extremely preterm infants.ImpactLongitudinal gut microbiome profiles, bacterial gene pathways and serum protein expressions were determined using shotgun metagenomics and proximity extension assays in 75 extremely preterm infants included in a multicentre randomized clinical trial investigating enteral fatty acid supplementation. Dynamic shifts in microbiome and pathway composition were seen from birth to 34 weeks gestational age. Arachidonic acid (AA) and docosahexaenoic acid (DHA) supplementation was linked to an increase in relative abundance of Citrobacter koseri and associated with changes in proteins and metabolic pathways. However, the causality between the supplementation, microbiome, and ROP-decrease could not be determined.",
+    "url": "https://doi.org/10.1038/s41390-026-05290-z",
+    "doi": "10.1038/s41390-026-05290-z",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 21,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42454945",
+    "title": "Evaluating the impact of immunization with the \"pan-fungal\" vaccine, NXT-2, on the gut mycobiome and microbiome in non-human primates (NHPs).",
+    "authors": [
+      "Oworae KO",
+      "Rabacal W",
+      "Hu A",
+      "Wychrij DA",
+      "Rayens E",
+      "Chapman TI",
+      "Bahl J",
+      "Norris KA."
+    ],
+    "published": "2026-07-15",
+    "venue": "MED",
+    "abstract": "Fungal infections remain a significant public health concern with high mortality, morbidity, and increasing associated health costs. This burden is projected to rise due to expansion of at-risk populations, limited therapeutics, increasing drug resistance, and the emergence of new fungal pathogens. Even with these challenges, there are currently no approved vaccines. We previously developed a \"pan-fungal\" vaccine candidate, NXT-2, that confers protection against multiple invasive fungal infections such as pulmonary aspergillosis, pneumocystosis, and invasive candidiasis, as well as non-invasive vulvovaginal candidiasis. NXT-2 is a 90 amino acid consensus peptide designed from a conserved region of the fungal antigen (KEX1). We assessed the effect of NXT-2 immunization on gut microbial diversity, composition, and functional capacity in non-human primates. To do this, we monitored changes in the gut mycobiome and microbiome pre- and post-vaccination using ITS2 and metagenomic sequencing, respectively, in Japanese and rhesus macaque cohorts. NXT-2 elicited a robust antibody response without disrupting the gut microbial communities in both macaque species. The mycobiome exhibited stability with no significant changes in alpha and beta diversity, taxonomic composition, or functional guild distributions. The relative abundance of gut resident Candida and Aspergillus species remained stable and was not significantly altered following vaccination. The microbiome showed stability with preserved alpha and beta diversities, taxonomic composition, and functional capacity. Results from this study show the first cross-kingdom analysis demonstrating that antifungal vaccination can achieve protective immunity without perturbing gut microbial communities. This establishes a framework for microbiome-informed vaccine assessment beyond conventional immunogenicity and adverse effect monitoring.IMPORTANCEFungal infections cause millions of deaths annually, yet no vaccines are approved despite growing drug resistance and limited treatment options. NXT-2 is a pan-fungal vaccine that protects against multiple fungal infections such as pneumocystosis, candidiasis, and aspergillosis. Here, we demonstrate in NHPs that NXT-2 elicits robust protective antibody responses without altering gut bacterial or fungal communities. This is the first study to assess antifungal vaccination across both microbial kingdoms and establish that protective antifungal immunity can be achieved while preserving resident microbiota. This work provides a framework for incorporating microbiome assessment into vaccine development beyond conventional immunogenicity and adverse event monitoring.",
+    "url": "https://doi.org/10.1128/spectrum.01047-26",
+    "doi": "10.1128/spectrum.01047-26",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 21,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1280446",
+    "title": "Study of microbe-microbe interactions between the sexually transmitted parasite Trichomonas vaginalis with the cervicovaginal bacteria Lactobacillus iners",
+    "authors": [
+      "Smedshammer S",
+      "Baxter B",
+      "Briceno GJ",
+      "Morales KE",
+      "Lizcano A",
+      "Clark T",
+      "Willard D",
+      "Riestra AM."
+    ],
+    "published": "2026-07-16",
+    "venue": "{'publisher': 'bioRxiv', 'yearOfPublication': 2026}",
+    "abstract": "Trichomonas vaginalis is the leading cause of non-viral sexually transmitted infections and it is associated with comorbidities that affect female health. Lactobacillus iners is one of the most predominant bacteria in the cervicovaginal microbiome. As so, both microbes are likely to encounter one another upon T. vaginalis infection. To our knowledge, the interaction of both microbes has not been previously investigated. Here, we report that T. vaginalis and L. iners bind to one another at early time points of co-incubation. Using imaging flow cytometry and scanning electron microscopy, we capture the dynamics of this microbe-microbe association. We observed active remodeling of the T. vaginalis cell surface leading to thin-membrane protrusions that make contact with L. iners . Larger T. vaginalis membrane extensions that surround and engulf L. iners were also visible. These T. vaginalis - L. iners interactions ultimately lead to a reduction of L. iners viability while T. vaginalis viability was unaffected by exposure to L. iners . Inhibition of actin polymerization blocked T. vaginalis antibacterial activity against L. iners . Together our findings reveal novel insight about T. vaginalis - L. iners interactions and highlight a new T. vaginalis pathogenic effect.",
+    "url": "https://doi.org/10.64898/2026.07.14.738301",
+    "doi": "10.64898/2026.07.14.738301",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42458733",
+    "title": "Longitudinal modelling of microbiome subcommunities reveals parity-dependent dynamics during pregnancy and postpartum.",
+    "authors": [
+      "Kennedy KM",
+      "Fernando S",
+      "Atkinson SA",
+      "Surette MG",
+      "Jeganathan P",
+      "Sloboda DM."
+    ],
+    "published": "2026-07-15",
+    "venue": "MED",
+    "abstract": "BackgroundDysregulation of maternal adaptations to pregnancy due to high pre-pregnancy BMI (pBMI) is associated with worsened health outcomes for mothers and children. The role of the gut microbiome in these adaptations remains unclear.MethodsStool samples were collected from pregnant participants (n = 52) enrolled in the Be Healthy in Pregnancy study (NCT01689961) during first, second, and third trimesters, and 6-months postpartum, along with samples from their infants at 6 months of age. Following 16S rRNA gene sequencing, we implemented time-aligned LDA (TALDA) using a time-weighted sampling strategy with exponentially decaying weights to construct time-proximal cohorts, applied LDA to each cohort independently, and aligned resulting topics using the alto R package. Infant samples were analyzed using standard LDA.ResultsSeven distinct subcommunities were identified, one of which represented perineal contamination and was excluded from further analysis. Remaining subcommunities had distinct taxonomic definitions which remained stable throughout pregnancy (mean cross-cohort stability 0.899) while subcommunity proportions within individuals varied. Multiparous individuals showed greater shifts in subcommunity proportions during early pregnancy, while primiparous individuals displayed progressively increasing shifts with the largest changes during the transition from pregnancy to postpartum. High pBMI was associated with reduced microbiome remodelling, particularly among multiparous individuals. In exploratory analyses, maternal SCFA-producing subcommunity abundance at late pregnancy was positively associated with infant Bifidobacterium-dominated subcommunity proportions at 6 months, while pBMI > 25 was independently associated with lower infant Bifidobacterium.ConclusionTALDA effectively distinguished between stable subcommunity definitions and dynamic subcommunity proportions, revealing that the microbiome maintains functional organization while subcommunity proportional contributions shift over the course of pregnancy and postpartum. These maternal dynamics may have intergenerational consequences through their influence on infant gut colonization. This work demonstrates that maternal factors modify microbiome trajectories and supports the existence of an ecological memory of pregnancy history within the maternal gut microbiome.",
+    "url": "https://doi.org/10.1080/19490976.2026.2690907",
+    "doi": "10.1080/19490976.2026.2690907",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
