@@ -1,0 +1,357 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1293097",
+    "title": "Maternal gut and vaginal microbiota, alcohol use during pregnancy, and infant fetal alcohol spectrum disorder diagnosis in a South African cohort",
+    "authors": [
+      "Martin LC",
+      "Kitchin N",
+      "Womersley JS",
+      "Nel Van Zyl K",
+      "Marais A",
+      "de Vries MM",
+      "Dalby MJ",
+      "Kiu R",
+      "Hall LJ",
+      "May PA",
+      "Seedat S",
+      "Hemmings SM."
+    ],
+    "published": "2026-08-06",
+    "venue": "{'publisher': 'medRxiv', 'yearOfPublication': 2026}",
+    "abstract": "Background The detrimental impact of alcohol consumption on the gut microbiome is well-established. However, less is known about how alcohol exposure during pregnancy affects the maternal gut and vaginal microbiota, or how these microbial changes relate to subsequent infant diagnosis of fetal alcohol spectrum disorder (FASD). We therefore investigated associations between self-reported alcohol use during pregnancy, infant FASD diagnosis, and maternal gut and vaginal microbiota. Methods Fecal samples (n = 207) and vaginal swabs (n = 28) from pregnant participants recruited through antenatal clinics in the Western Cape Province of South Africa were profiled by 16S rRNA V1-V2 amplicon sequencing. Maternal alcohol use was assessed using Alcohol Use Disorder Identification Test (AUDIT) scores, and FASD was diagnosed in infants using revised Institute of Medicine criteria. Microbial diversity, taxonomic profiles and PICRUSt2 -predicted functional pathways were analyzed using vegan , phyloseq and MaAsLin3 . Results Maternal AUDIT scores were negatively associated with maternal gut microbiota richness, Shannon, and Inverse Simpson diversity ( p Conclusions This is the first human study to investigate the maternal gut and vaginal microbiota in relation to alcohol use during pregnancy and infant FASD outcomes. Our findings suggest that alcohol use is associated with disruption of the maternal gut microbiota, with potential implications for FASD development in exposed infants. Further investigation of alcohol-associated maternal microbial disturbances may inform microbiota-targeted strategies to improve maternal and infant health linked to alcohol use.",
+    "url": "https://doi.org/10.64898/2026.08.04.26359606",
+    "doi": "10.64898/2026.08.04.26359606",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 29,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42558572",
+    "title": "Maternal and infant gut microbiome.",
+    "authors": [
+      "Wang H",
+      "Tin F",
+      "Chen H",
+      "Jiao F",
+      "Wu M",
+      "Sun S",
+      "Lin L",
+      "Li D",
+      "Zheng H",
+      "Niu Z",
+      "Lan M",
+      "Yilmaz B",
+      "Eriksson JG",
+      "Wang M",
+      "Macpherson A",
+      "Clemente JC",
+      "Xu J",
+      "Xie RH",
+      "Zheng X",
+      "Zhou T",
+      "Wang J",
+      "Shen W",
+      "Huang B",
+      "Chen X",
+      "Li H",
+      "He Y."
+    ],
+    "published": "2026-08-04",
+    "venue": "MED",
+    "abstract": "Early-life gut microbiome assembly is a pivotal determinant of lifelong health; however, the integrated frameworks governing this process across developmental milestones remain insufficiently defined. This review establishes a multidimensional framework by delineating the crosstalk between the gut microbiome and the host throughout the preconception, prenatal, postpartum, and early childhood stages. We first highlight the emerging paradigm of biparental microbial contributions during the preconception period, detailing how paternal and maternal niches jointly prime offspring development. Moving into pregnancy, we examine the maternal reservoir, integrating the role of gut microbiota-derived metabolites across multiple trimesters in prenatal priming and vertical transmission. For the postpartum period, we discuss the development of the multikingdom gut microbiome and address the impacts of delivery modes and clinical interventions. Here, we articulate a critical knowledge gap: the discrepancy between taxonomic \"catch-up\" and true functional restoration, particularly in vulnerable cohorts such as preterm infants. Furthermore, we propose a \"developmental synchronization\" model within the maternal-infant-microbiome continuum. This model posits that early-life \"windows of opportunity\" are defined by the obligate temporal coupling of host physiological maturation with stage-specific microbial metabolic signals. From a translational perspective, we discuss how this framework informs the development of precision interventions, such as stage-specific probiotics, prebiotics, or metabolic modulators. These therapies aim to restore not only the microbial composition but also the synchronized functional dialog between the microbiome and host development. By mapping the \"microbiota-metabolite-host target-physiological phenotype\" network, we provide a systematic roadmap for precision-targeted interventions during the first 1000 days of life.",
+    "url": "https://doi.org/10.1002/imt2.70151",
+    "doi": "10.1002/imt2.70151",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 27,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42569455",
+    "title": "Vaginal Microbiota Dysbiosis and Infections: A Comprehensive Review of Microbial and Therapeutic Perspectives.",
+    "authors": [
+      "Mazinani S",
+      "Aghazadeh M",
+      "Arefi V",
+      "Taghizadeh S",
+      "Mehramuz B",
+      "Samadi Kafil H."
+    ],
+    "published": "2026-08-03",
+    "venue": "MED",
+    "abstract": "The maintenance of vaginal microbial homeostasis is essential for women's reproductive health, serving as a primary defense against genital tract infections. Disruption of this ecosystem (dysbiosis) is associated with chronic inflammation, recurrent infections, adverse pregnancy outcomes, and increased susceptibility to sexually transmitted infections. This comprehensive review examines the consequences of this disruption, addressing all categories of vaginal infections, including bacterial, viral, parasitic, and fungal. A specific focus is placed on Bacterial Vaginosis (BV), Vulvovaginal Candidiasis (VVC), and Trichomoniasis, which collectively account for approximately 70% of vaginitis cases. The article provides an integrated analysis structured across three critical dimensions: Microbial Pathogenesis, detailing the mechanisms of virulence, polymicrobial biofilm formation (eg, Gardnerella vaginalis), and the development of antimicrobial resistance (AMR); Host-Microbe-Immune Interface, which explores the chronic inflammatory state and the heightened susceptibility to ascending infections (PID) and viral coinfections (HPV, HIV); and Therapeutic Innovation. Concluding with a forward-looking perspective, we discuss emerging microbiota-targeted therapeutic approaches and the potential transition toward precision medicine, including CRISPR-based genomic editing, phage therapy, and nanomedicine, which represent promising avenues for future research and clinical translation. Overall, this review integrates current evidence on vaginal dysbiosis and microbiota-targeted therapies, providing a comprehensive perspective that may support future research and precision-based clinical management.",
+    "url": "https://doi.org/10.2147/ijwh.s603563",
+    "doi": "10.2147/ijwh.s603563",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42563706",
+    "title": "Gut microbiota‑immune crosstalk in recurrent pregnancy loss: Mechanisms and therapeutic perspectives (Review).",
+    "authors": [
+      "Luo N",
+      "Hu H",
+      "Zeng X",
+      "Zhang YH",
+      "Deng Q",
+      "Tang EN",
+      "Hu Y."
+    ],
+    "published": "2026-08-07",
+    "venue": "MED",
+    "abstract": "Recent studies have indicated the relationships between the human reproductive system, gut microbiota and immune crosstalk. These interactions can influence pregnancy outcomes, which occasionally result in adverse consequences for the mother and fetus. However, key questions remain unresolved, such as identifying the microbiota capable of modulating immune cells during pregnancy. The present review aimed to investigate the relationship between microbiota and T cell types and to clarify the mechanism through which these interactions occur. In pregnancy‑related disease models, it is still unclear whether T helper cell (Th17)/regulatory T cells (Treg cells) are generated in situ or migrate into inflamed tissues. The present review explored the association of gastrointestinal dysbiosis with the female reproductive system and the role of the maternal‑fetal interface. In particular, the effect of gut microbiota‑derived short‑chain fatty acids, bile acids, indoles and their derivatives on immune signaling networks is discussed. Furthermore, the effects of these networks on infectious, metabolic and female pregnancy periods are summarized. Finally, the translational potential of modulating gut microbiota through probiotics and dietary interventions to restore immune homeostasis and improve pregnancy outcomes in Recurrent pregnancy loss (RPL) is also evaluated. The present review aimed to assist patients in developing a more profound comprehension of the underlying causes of unexplained RPL and broaden the spectrum of potential therapeutic strategies for infertility.",
+    "url": "https://doi.org/10.3892/mmr.2026.13979",
+    "doi": "10.3892/mmr.2026.13979",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42552739",
+    "title": "Early-life microbiota in the LIMIT cohort: unveiling meconium microbiota types beyond maternal lifestyle.",
+    "authors": [
+      "El Masri D",
+      "Meriggi N",
+      "Loperfido F",
+      "Bianco I",
+      "Ferrara C",
+      "Maccarini B",
+      "Sottotetti F",
+      "De Filippo C",
+      "Loddo N",
+      "Cerbo RM",
+      "Ghirardello S",
+      "Garofoli F",
+      "Angelini M",
+      "Monti MC",
+      "Alemayohu MA",
+      "Lukassen MB",
+      "Cena H",
+      "De Giuseppe R."
+    ],
+    "published": "2026-08-04",
+    "venue": "MED",
+    "abstract": "IntroductionEarly gut microbiota development plays an important role in lifelong human health, and meconium offers a unique matrix to understand prenatal microbial exposures. This study from the LIMIT cohort aimed at investigating associations between maternal pre-pregnancy body mass index (pre-BMI) and gestational weight gain (GWG), as well as other maternal lifestyle and environmental factors, with the structure of meconium microbiota at delivery.MethodsTwo hundred pregnant women were enrolled during the pre-hospital care before birth at Fondazione IRCCS Policlinico San Matteo (Pavia), according to the inclusion/exclusion criteria. Mothers were grouped based on their GWG gain category according to the IOM guidelines. 168 meconium samples were analyzed using a targeted long-reads sequence approach. Bacterial 16S rRNA (V1-V8) amplicons were sequenced using the Oxford Nanopore PromethION platform. Supervised analyses assessed associations between maternal variables and bacterial diversity, while an unsupervised learning approach based on the Partitioning Around Medoids (PAM) clustering algorithm was applied to identify specific microbial clusters unrelated to the cohort's metadata.ResultsNo significant associations were observed between GWG, pre-BMI or other lifestyle factors and overall microbial diversity. Unsupervised learning revealed five distinct meconium microbial clusters, i.e. \"microbiota-types\", related to different taxonomic profiles, determined by the variations in specific bacterial species.ConclusionNo significant influence of the studied variables was observed on meconium microbiota. However, the meconium microbial communities appear to organize into enterotype-like structures, highlighting the need for longitudinal studies to identify key determinants of early colonization.",
+    "url": "https://doi.org/10.1080/19490976.2026.2712811",
+    "doi": "10.1080/19490976.2026.2712811",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42568080",
+    "title": "A three-metabolite microbiota-associated signature for early risk stratification of gestational diabetes mellitus.",
+    "authors": [
+      "Ma S",
+      "Zhang C",
+      "Yao Y",
+      "Zhou M",
+      "Chen A",
+      "Chen Y",
+      "Chen Y",
+      "Wang J",
+      "Abudushalamu G",
+      "Cai S",
+      "Zhao F",
+      "Chen D",
+      "Li X",
+      "Zheng Y",
+      "Fan J",
+      "Gao X",
+      "Liu Y",
+      "Fan W",
+      "Zhu F",
+      "Yang J",
+      "Miao M",
+      "Fan X",
+      "Wu G."
+    ],
+    "published": "2026-08-07",
+    "venue": "MED",
+    "abstract": "BackgroundGestational diabetes mellitus (GDM) is associated with adverse pregnancy outcomes and long-term metabolic and cardiovascular risk. However, oral glucose tolerance testing at 24-28 gestational weeks limits early risk stratification. Gut microbiota-associated metabolites may reflect early metabolic abnormalities, including those relevant to cardiometabolic health, but robust early-pregnancy biomarkers remain limited.MethodsWe conducted a multicenter nested case-control and prospective study involving 2,693 pregnant women. Untargeted metabolomics and metagenomics were integrated to identify GDM-associated metabolites and gut microbial alterations. Three consistently dysregulated metabolites, 3-hydroxydecanoic acid, γ-Glu-Leu, and propionic acid, were quantified by targeted LC-MS/MS. Candidate algorithms were compared using repeated 10-fold cross-validation, and a final generalized linear model was externally and prospectively validated.ResultsWomen who later developed GDM showed an adverse early-pregnancy metabolic profile, including higher BMI, triglycerides, and platelet count. Untargeted metabolomics identified 14 persistently altered metabolites enriched in energy, oxidative stress, and amino acid metabolism pathways. Metagenomics revealed taxonomic restructuring and coordinated microbiota-metabolite associations. The three-metabolite model achieved AUCs of 0.838 (95% CI, 0.791-0.885) in training, 0.840 (95% CI, 0.769-0.911) in internal validation, 0.955 (95% CI, 0.925-0.985) and 0.917 (95% CI, 0.875-0.958) in two external cohorts, and 0.969 (95% CI, 0.937-1.000) in the prospective cohort.ConclusionEarly microbiota-associated metabolic dysregulation is detectable before routine GDM diagnosis. This compact three-metabolite panel may support early GDM risk stratification and provides metabolic evidence relevant to broader cardiometabolic risk assessment in pregnancy.",
+    "url": "https://doi.org/10.1186/s12933-026-03278-x",
+    "doi": "10.1186/s12933-026-03278-x",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Multicenter Study",
+      "Journal Article"
+    ],
+    "score": 21,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42551103",
+    "title": "Microbial signatures of the vaginal microbiome associated with pregnancy outcome in central Anatolian Merino sheep.",
+    "authors": [
+      "Esener N",
+      "Kırbaş M",
+      "Kal Y",
+      "Aladağ F."
+    ],
+    "published": "2026-08-03",
+    "venue": "MED",
+    "abstract": "Reproductive efficiency is a key determinant of sustainability and profitability in sheep farming systems; however, the role of the vaginal microbiome in shaping pregnancy outcomes remains insufficiently understood. This study aimed to characterise the vaginal microbial communities of Central Anatolian Merino sheep using 16S rRNA gene amplicon sequencing and to explore their potential association with reproductive success. Vaginal samples were collected from 20 healthy ewes (10 non-pregnant (G1), that failed to conceive and returned to oestrus and 10 pregnant (G2), conceived at first service) with comparable physiological characteristics before breeding, followed by high-throughput amplicon sequencing to comprehensively profile the bacterial community structure. Comparative analyses were conducted between pregnant and non-pregnant animals to identify microbial patterns linked to pregnancy outcomes. The vaginal microbiome exhibited a diverse yet structured taxonomic composition across both groups, dominated by members of Bacillota (44.8% in G1 and 45.6% in G2), Actinomycetota (12.0% in G1 and 9.3% in G2), Pseudomonadota (6.6% in G1 and 6.2% in G2) and Bacteroidota (5.6% in G1 and 5.9% in G2). Alpha diversity did not differ significantly between groups (Wilcoxon rank-sum test, p > 0.05 across all indices), and beta diversity showed no significant separation (PERMANOVA, R2 = 0.055, p = 0.38), indicating substantial community overlap. Differential abundance analysis (edgeR) identified 23 taxa that differed between groups (FDR < 0.05), suggesting that reproductive outcomes may be influenced by subtle ecological shifts rather than large-scale microbial restructuring. Collectively, these findings provide novel insights into the vaginal microbial ecology of Central Anatolian Merino sheep and identify candidate microbial signatures that may warrant further investigation as potential correlates of fertility. Given the observational design and limited sample size, these associations should be interpreted as preliminary and hypothesis-generating. By advancing our understanding of host-microbiome interactions within the reproductive tract, this study establishes a foundation for microbiome-informed strategies aimed at improving reproductive performance and supporting sustainable sheep production.",
+    "url": "https://doi.org/10.1016/j.theriogenology.2026.118119",
+    "doi": "10.1016/j.theriogenology.2026.118119",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42561992",
+    "title": "Probe-based metagenomic sentinel surveillance of viral respiratory infections in primary care: a prospective, national, pilot study.",
+    "authors": [
+      "Mourik K",
+      "Sidorov I",
+      "Meijers E",
+      "van den Brink S",
+      "Bos S",
+      "Aarts L",
+      "Veetil NK",
+      "Boers SA",
+      "Eggink D",
+      "Meijer A",
+      "de Vries JJC."
+    ],
+    "published": "2026-08-06",
+    "venue": "MED",
+    "abstract": "BackgroundWith the introduction of metagenomics in clinical diagnostics unfolding and the expanding role of pathogen genomics in national surveillance, conditions are favourable for the further maturation of these approaches in public health surveillance. In this study, we aimed to pilot the use of probe-based metagenomics for nationwide sentinel surveillance through general practitioner (GP) networks and for the genomic characterisation of both anticipated and emerging respiratory viruses in primary care.MethodsThis prospective, pilot study included patients with acute respiratory illness attending GP practices participating in nationwide sentinel virological surveillance in the Netherlands, from Jan 10, 2025, to April 25, 2025. On predefined selection days, 90-100 combined nasopharyngeal and oropharyngeal swab specimens were analysed through parallel metagenomic testing using probes targeting 15 488 strains of human and animal viruses. Results were compared with a standard two-tiered surveillance strategy comprising PCR targeting 17 viruses, followed by amplicon-based nanopore whole-genome sequencing of influenza viruses, SARS-CoV-2, and respiratory syncytial virus (RSV). The primary outcome was detection and in-depth genomic characterisation of viruses within and beyond the scope of standard screening. Sensitivity, specificity, positive and negative predictive values, and genome coverage were analysed.Findings93 patients were included, with a median age of 51 years (IQR 33-67); 55 (59%) were women and 38 (41%) were men. Overall, 74 (80%) specimens tested positive through standard PCR-based screening. Metagenomic surveillance detected viruses in 88 (95%) specimens, including DNA viruses known to establish latent infections. For viruses targeted by routine PCR, metagenomics showed a pooled sensitivity of 93·8% (95% CI 88·1-98·7), specificity of 99·8% (95% CI 99·5-100·0), positive predictive value of 96·2% (95% CI 91·8-100·0), and negative predictive value of 99·7% (95% CI 91·8-100·0), with a median genome coverage of 99·4% (IQR 96·9-99·9%). Metagenomic data enabled simultaneous full genomic characterisation of circulating viruses targeted by current amplicon-based surveillance, including influenza viruses (success rate 30 [86%] of 35 detections) and RSV (six [86%] of seven), and of viruses that were post hoc characterised by whole-genome sequencing in response to epidemiological findings during the study period (human metapneumoviruses [hMPV], five [50·0%] of ten), and non-targeted viruses such as adenoviruses. The data facilitated characterisation of a reassortant A(H3N2) influenza virus, potential vaccine escape mutants, markers of susceptibility to influenza antiviral drugs and RSV monoclonal antibodies, and a human A(H1N2)v influenza virus infection.InterpretationThe technically robust and comprehensive performance across heterogeneous circulating viruses shown here supports evaluation in larger prospective studies in high-prevalence settings, where implementation might be most cost-efficient. Further optimisation of probe-based enrichment strategies could reduce turnaround time and facilitate integration into routine public health surveillance.FundingThe Netherlands Organisation for Health Research and Development (ZonMw), and the Ministry of Health, Welfare and Sport (VWS).",
+    "url": "https://doi.org/10.1016/j.lanmic.2026.101473",
+    "doi": "10.1016/j.lanmic.2026.101473",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 19,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42555977",
+    "title": "A Simplified Workflow for the Prediction of Putative Viral Reads Using NIPT Data.",
+    "authors": [
+      "Shahidi S",
+      "Dabiri Oskoei A",
+      "Mohammadzadeh A",
+      "Mirshahabi H",
+      "Mansori K",
+      "Dinmohammadi H",
+      "Rokni-Zadeh H."
+    ],
+    "published": "2026-08-05",
+    "venue": "MED",
+    "abstract": "ObjectiveNon-invasive prenatal testing (NIPT) identifies fetal chromosomal abnormalities by sequencing cell-free fetal DNA (cffDNA). Recent studies suggest the prediction of viral sequences from NIPT data, but current methods lack cost-effectiveness for routine use. This study develops a straightforward workflow to investigate potential viral signatures in pregnant women using NIPT data from 888 Iranian participants.MethodTwo bioinformatic workflows were compared for predicting viral reads: the traditional method involved mapping reads to the human genome, followed by mapping unmapped reads to viral references, and a direct mapping approach to viral genomes, as proposed in this research.ResultsWhile maintaining reproducibility comparable to the conventional method, the proposed workflow minimizes computational complexity and time usage for data processing. Ultimately, this analysis suggested viral DNA in 24.2% of samples, encompassing 29 distinct species, implying the diversity of the maternal virome.ConclusionThis study presents a computationally efficient workflow for the in silico prediction of viral-like sequences from routine NIPT data. Further experimental validation is essential to verify the presence, viability, or clinical relevance of these sequences.",
+    "url": "https://doi.org/10.1002/pd.70233",
+    "doi": "10.1002/pd.70233",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 19,
+    "score_reasons": [
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42563689",
+    "title": "Role of microbial metabolites in the pathogenesis of hypertensive disorders of pregnancy: From short‑chain fatty acids to tryptophan metabolites (Review).",
+    "authors": [
+      "Gao F",
+      "Wang L",
+      "Teng G",
+      "Shang L."
+    ],
+    "published": "2026-08-07",
+    "venue": "MED",
+    "abstract": "Hypertensive disorders of pregnancy (HDP) are a leading cause of maternal and perinatal morbidity worldwide, and their pathogenesis involves complex interactions among vascular dysfunction, placental ischemia and immune dysregulation. The gut microbiota has been highlighted as a key upstream modulator, with microbial metabolites serving as key functional mediators rather than microbial composition alone. The present review focused on the roles of short‑chain fatty acids (SCFAs) and tryptophan metabolites in HDP pathogenesis. SCFAs and tryptophan‑derived metabolites modulate vascular function, immune tolerance and placental development via G protein‑coupled receptors, histone deacetylase inhibition and aryl hydrocarbon receptor (AhR) signaling. Their crosstalk underscores integrated regulatory networks at the maternal‑fetal interface. For example, butyrate promotes regulatory T cell differentiation via histone deacetylase inhibition, while indole‑3‑lactic acid activates the AhR; these pathways may synergistically enhance immune tolerance, yet competition for AhR binding between different tryptophan metabolites could produce antagonistic effects. Despite key progress, notable challenges remain regarding causal inference, methodological standardization and translational barriers. The present review aimed to synthesize current mechanistic insights and evaluate the clinical translation potential of targeting microbial metabolites for HDP prevention and management.",
+    "url": "https://doi.org/10.3892/mmr.2026.13981",
+    "doi": "10.3892/mmr.2026.13981",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
