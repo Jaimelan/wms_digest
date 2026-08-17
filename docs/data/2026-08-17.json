@@ -1,0 +1,308 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42579253",
+    "title": "High Burden of Vaginal Infections and Multidrug Resistance With Promising Probiotic Candidates From Cervicovaginal Microbiota in North Region, Cameroon.",
+    "authors": [
+      "Steve NSF",
+      "Didiane YM",
+      "Yves IS",
+      "Arno PZ",
+      "Romuald NG",
+      "Arnaud GE",
+      "Corina MMJ",
+      "Fabrice KN",
+      "Simeon-Pierre FC",
+      "Selestin SD",
+      "Leopold TN",
+      "Adji MB."
+    ],
+    "published": "2026-08-11",
+    "venue": "MED",
+    "abstract": "Vaginal infections are a major public health concern in sub-Saharan Africa, where antimicrobial resistance increasingly compromises clinical management. This study aimed to determine the prevalence of vaginal infections, describe their antimicrobial resistance profiles, and evaluate the probiotic potential of lactic acid bacteria (LAB) isolated from cervicovaginal samples of women consulting in Garoua, North Cameroon. A mixed retrospective-prospective and analytical study was conducted at three hospital facilities in Garoua (January 2023-December 2024). Microbial identification used the VITEK 2 system and API 50 CHL galleries. Antibacterial and antifungal susceptibility were interpreted per EUCAST guidelines (versions 13.1-14.0) and CLSI M60 breakpoints, respectively. LAB isolates were characterized for safety, physiological tolerance, aggregation capacity, and antimicrobial activity. Statistical analyses included chi-square tests, odds ratio, Shannon diversity index, MARI, and PCA. Among 877 records analyzed, overall prevalence was 60.55% (95% CI: 57.27%-63.73%), declining significantly from 69.60% in 2023 to 53.78% in 2024 (OR = 1.97; p < 0.0001). Women aged 15-35 years were most affected (62.55%), with a seasonal peak in August (69.31%). Gardnerella vaginalis predominated (52.02%), followed by Candida albicans (18.60%). Clotrimazole (85.50%) showed critical antifungal resistance, while econazole retained the greatest activity (82.11% sensitivity). All five bacterial species fulfilled multidrug resistance criteria, with resistance confirmed in ≥ 82% of antibiotic families tested per species. Six LAB isolates identified as Lacticaseibacillus paracasei, Lactobacillus acidophilus, Lactiplantibacillus plantarum, Lactiplantibacillus pentosus, and Lactococcus raffinolactis displayed satisfactory probiotic profiles, including absence of virulence factors, acid and bile stress tolerance, strong aggregation capacity, and antimicrobial activity against Staphylococcus aureus, Neisseria gonorrhoeae, and Escherichia coli. This study reveals a high burden of vaginal infections with alarming multidrug resistance in Garoua. The identified LAB isolates represent promising locally sourced candidates for vaginal probiotic development. Institutionalized antimicrobial surveillance, revised antifungal prescribing practices, and targeted prevention campaigns are urgently needed.",
+    "url": "https://doi.org/10.1007/s12602-026-11156-x",
+    "doi": "10.1007/s12602-026-11156-x",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42577959",
+    "title": "A gut microbiome-lipid axis in early pregnancy is associated with metabolic dysregulation and diabetes risk.",
+    "authors": [
+      "Sun Z",
+      "He C",
+      "Ma X",
+      "Wu P",
+      "Wang T",
+      "Yuan J",
+      "Pu Y",
+      "Zhou X",
+      "Mei Z",
+      "Song H",
+      "Wang Y",
+      "Yue H",
+      "Fu Y",
+      "Zheng J",
+      "Pan A",
+      "Chen D",
+      "Hong S",
+      "Pan XF",
+      "Zheng Y."
+    ],
+    "published": "2026-08-10",
+    "venue": "MED",
+    "abstract": "Gestational diabetes mellitus (GDM) reflects metabolic dysregulation that becomes clinically apparent during pregnancy and shares key pathophysiological features with broader forms of diabetes. Gut microbiome-host metabolic interactions may contribute to this process, yet their role in early pregnancy remains incompletely understood. In this prospective nested case-control study within the Tongji-Huaxi-Shuangliu Birth Cohort, 784 pregnant women, including 222 who developed GDM, underwent first-trimester gut metagenomic and plasma lipidomic profiling. Cross-omics analyses were performed to identify microbiome-lipid associations and potential mediation patterns. Women who later developed GDM showed reduced gut microbial diversity and altered microbial profiles in early pregnancy. We identified 26 microbial species associated with GDM risk, with seven species, including Ruminococcus bicirculans (R. bicirculans), showing concordant associations in external type 2 diabetes populations. Microbial pathways related to fatty acid and lipid biosynthesis were enriched in women at higher risk. Plasma lipidomics revealed widespread alterations, particularly among glycosphingolipid-related metabolites. Integrated analyses suggested that lipidomic variation statistically accounted for part of the microbiome-GDM association. A class-level dihexosylceramide feature, DHC 24:1, consistent with lactosylceramide-related metabolites, emerged as a potential mediator and was prioritized for exploratory follow-up. Experimental analyses provided functional support for a microbiome-lipid-host interaction axis. R. bicirculans promoted lactosylceramide 24:1 production in vitro, bacterial colonization and metabolite administration improved insulin tolerance in vivo, and lactosylceramide 24:1 modulated insulin-stimulated AKT signaling dynamics in hepatocytes. These findings identify a gut microbiome-lipid axis associated with metabolic dysregulation in pregnancy and suggest a potential mechanism linking microbial metabolism to host insulin signaling.",
+    "url": "https://doi.org/10.1002/imt2.70166",
+    "doi": "10.1002/imt2.70166",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 21,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42573259",
+    "title": "Utilizing natural competence to genetically manipulate Lactobacillus iners.",
+    "authors": [
+      "Cao KY",
+      "Serrador D",
+      "Campbell JR",
+      "Kaul R",
+      "Navarre WW."
+    ],
+    "published": "2026-08-10",
+    "venue": "MED",
+    "abstract": "The healthy human vaginal microbiota is typically dominated by one species of Lactobacillus: L. iners, L. crispatus, L. jensenii, or L. gasseri. L. iners, the most prevalent vaginal microbe globally, is the most fastidious of the vaginal lactobacilli, has the smallest genome, and produces less lactic acid (only the L-isoform). L. iners is also less protective against bacterial vaginosis and uniquely encodes a cholesterol-dependent cytolysin, inerolysin, suggesting it may be a pathobiont. Despite its central role in the health of over one billion females, L. iners biology remains poorly understood, in part, due to a lack of genetic editing tools. Here, we present findings that L. iners is naturally competent and can be transformed easily by exogenous DNA. Natural competence was leveraged to disrupt the iny gene encoding inerolysin, and comGA, encoding the ATPase component of the competence pilus. Both gene disruptions were accomplished using PCR-assembled DNA fragments comprising a drug resistance gene cassette (tetM or ermB) flanked by ~2 kb regions of homology to the L. iners chromosome. We further demonstrate that comGA is essential for L. iners transformation. The ability to rapidly perform targeted deletions in L. iners with in vitro generated DNA templates provides a straightforward and much-needed method to probe the genetics and physiology of these important vaginal bacteria.ImportanceThis study describes, to our knowledge, the first method for genetically manipulating L. iners, the most prevalent bacteria of the human vaginal microbiota. This work paves the way for the rapid development of genetic tools to explore the physiology of L. iners in the context of the vaginal microbiome and potentially alter its properties as a probiotic.",
+    "url": "https://doi.org/10.1128/aem.00441-26",
+    "doi": "10.1128/aem.00441-26",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 19,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42582770",
+    "title": "Comparative Effects of Intravaginal Progesterone Sponge Durations (Short vs. Long Duration) With or Without Probiotics on Vaginal Microbiota Balance and Reproductive Performance in Black Iraqi Goats.",
+    "authors": [
+      "Ghafil MJ",
+      "Al-Taie MAK",
+      "Mohammed AK."
+    ],
+    "published": "2026-08-10",
+    "venue": "MED",
+    "abstract": "Intravaginal progesterone sponges have been widely utilized to synchronize estrus in goats; however, extended use may be accompanied by vaginal microbial imbalance, vaginal discharge abnormalities, and diminished reproductive performance. Intravaginal probiotics have been suggested as an alternative to antibiotics for addressing vaginal dysbiosis, but their effects across varying synchronization durations have not been thoroughly studied in goats. The current study was conducted to assess the effect of intravaginal probiotic use in association with various progesterone sponge durations on vaginal microbiota and reproductive efficiency in Black Iraqi goats. Forty-four adult goats (2-5 years) were randomly assigned to four groups (n = 11) for 7 and 14 days of treatment with a progesterone sponge alone or in combination with probiotics. Two strains of Lactobacillus (L. plantarum and L. acidophilus) were used in a lyophilized product (2 × 109 CFU/sponge). The following were assessed: cultivable vaginal bacteria (total bacteria, Enterobacteriaceae, Lactobacillus), score of vaginal discharge, onset of estrus and duration of estrus, and early pregnancy rate. Larger Enterobacteriaceae and total bacterial counts, and lower Lactobacillus counts, were observed with prolonged retention (14 days) compared to the short-duration protocol (p Lactobacillus counts (2.75 ± 0.69 vs. 0.44 ± 0.25 log CFU/mL) (p Enterobacteriaceae and total counts, especially in the long protocol (Enterobacteriaceae 4.37 ± 0.36 vs. 5.20 ± 0.44; total 5.26 ± 0.43 vs. 6.14 ± 0.44 log CFU/mL), with a significantly earlier onset of estrus (29.82 ± 0.66 vs. 33.00 ± 1.18 h), longer duration of estrus (29.91 ± 0.79 vs. 24.73 ± 0.84 h), and milder discharge (Fisher's exact test, p = 0.01-0.03) than controls. The early pregnancy rate was numerically higher in the probiotic-treated groups but not statistically significant (p > 0.05). Overall, the duration of sponge use was associated with vaginal health and reproductive responses, with short-sponge duration protocols with high-dose Lactobacillus associated with decreased dysbiosis and enhanced vaginal health, suggesting a non-antibiotic strategy that warrants testing in larger studies for its potential role in conception.",
+    "url": "https://doi.org/10.1155/vmi/2031122",
+    "doi": "10.1155/vmi/2031122",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42586789",
+    "title": "HIV-associated CD8 encephalitis: role of metagenomics in complex CNS presentations.",
+    "authors": [
+      "Deas G",
+      "Macgregor K",
+      "Kite D",
+      "Ward H",
+      "May A",
+      "Powell M",
+      "Jenkins M."
+    ],
+    "published": "2026-08-12",
+    "venue": "MED",
+    "abstract": "We describe a 54-year-old woman living with HIV who presented with a tonic-clonic seizure and rapidly progressive encephalitis. Despite an undetectable plasma viral load while taking Biktarvy, initial investigations revealed cerebrospinal fluid escape with an HIV viral load of 474 copies/mL. Extensive testing for opportunistic infections and autoantibodies was negative. Brain biopsy and metagenomic next-generation sequencing identified frequent CD8+ T-cell infiltration and human pegivirus, though the latter was deemed a bystander. The patient's condition improved significantly, notably without the high-dose corticosteroids typically required for CD8+ encephalitis. This recovery suggests a moderate, self-limiting phenotype of the disease. The case highlights the diagnostic utility of metagenomics in complex presentations while cautioning against the misinterpretation of non-pathogenic commensals.",
+    "url": "https://doi.org/10.1136/pn-2026-005308",
+    "doi": "10.1136/pn-2026-005308",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42584724",
+    "title": "Microplastics and nanoplastics in human toxicity: ROS-mediated mechanisms, cellular damage and systemic effects.",
+    "authors": [
+      "Chakraborty S",
+      "Chakraborty A",
+      "Ghosh A",
+      "Bishwanath Singh N",
+      "Ghosh D",
+      "Kundu T",
+      "Das A."
+    ],
+    "published": "2026-08-12",
+    "venue": "MED",
+    "abstract": "Microplastics (MPs, less than 5 mm) and nanoplastics (NPs, less than 1 μm) have become widespread environmental contaminants with significant implications for human health. Owing to their small size, large surface area, and physicochemical reactivity, MPs and NPs readily interact with biological membranes, promote cellular uptake, and accumulate within organelles such as mitochondria, lysosomes, and the endoplasmic reticulum. ROS overproduction disrupts mitochondrial dynamics, induces DNA damage, alters lipid metabolism, and affects redox-sensitive signalling pathways, including MAPK, PI3K/Akt, NF-κB, p53, and TGF-β. These molecular events collectively initiate apoptosis, autophagy, inflammation, and genotoxicity. At the systemic level, experimental MP and NP exposure has been associated with hepatotoxicity, nephrotoxicity, cardiopulmonary injury, reproductive impairment, neurotoxicity, gut microbiome dysbiosis, endocrine disruption, and elevated cancer risk. Furthermore, MPs and NPs can act as vectors of co-contaminants, increasing the bioavailability and toxicity of associated pollutants such as plasticizers and heavy metals. This review consolidates current understanding of the sources, cellular uptake, ROS-mediated mechanisms, and multi-organ toxicological effects of MPs and NPs.",
+    "url": "https://doi.org/10.1007/s11033-026-12575-3",
+    "doi": "10.1007/s11033-026-12575-3",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42599922",
+    "title": "Sex differences in the effects of shift work-like schedules on gut microbiome and intestinal barrier in relation to stroke survival.",
+    "authors": [
+      "Barnum E",
+      "Turck JL",
+      "Souza KA",
+      "Mani KK",
+      "Pilla R",
+      "Selvamani A",
+      "Sohrabji F",
+      "Earnest DJ."
+    ],
+    "published": "2026-08-14",
+    "venue": "MED",
+    "abstract": "Disturbances of 24-hour or circadian rhythms imposed by everyday irregular work and/or social schedules have been linked to vascular disease, including ischemic stroke. Using an established shift work-like paradigm and preclinical model for ischemic stroke, we have shown that environment-induced circadian dysregulation exacerbates stroke outcomes differentially to a greater extent in male than female rats. Because more severe stroke outcomes and circadian rhythm disturbances have been linked to gut pathophysiology, the present study examined the effects of chronic shifts in the LD cycle on gut cytoarchitecture, microbiota composition, metabolites, and inflammatory mediators for evidence of corresponding sex differences. Two independent cohorts of adult (5-7mo) rats exposed for 50d to fixed or shifted (12hr advance/5d) LD 12:12 cycles were used to examine the effects of circadian dysregulation on: fecal microbiome composition in relation to stroke survival (Cohort 1); and gut morphology, metabolites and inflammatory mediators (Cohort 2). Circadian entrainment of activity rhythms was stable during exposure to fixed LD cycles but was severely disrupted in shifted LD rats. Relative to fixed LD controls, male but not female rats exposed to shifted LD cycles were distinguished by significant alterations in the composition of the gut microbiome including reduced alpha diversity, shifts in beta diversity and correlations between the abundance of beneficial gut bacteria and stroke survival. The effects of circadian dysregulation on gut microbiota were accompanied by evidence of pathologic gut morphology (i.e., shorter and blunted villi, crypt hyperplasia, disruption of tight junction proteins and gut barrier integrity), decreased circulating levels of the neuroprotective short-chain fatty acid butyrate, and elevated serum concentrations of endotoxin and proinflammatory cytokine IL-17A in shifted LD male rats. These results suggest that alterations in gut cytoarchitecture, microbiota, metabolites and inflammatory mediators may contribute to sex differences in the effects of circadian dysregulation on ischemic stroke outcomes.",
+    "url": "https://doi.org/10.1371/journal.pone.0355842",
+    "doi": "10.1371/journal.pone.0355842",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42595281",
+    "title": "The association of gut microbiome composition with musculoskeletal features in middle-aged and older adults: A two-cohort joint study.",
+    "authors": [
+      "Li R",
+      "Okoro PC",
+      "Zillikens MC",
+      "Vasan RS",
+      "Sahni S",
+      "Rivadeneira F",
+      "Kiel DP",
+      "Medina-Gomez C."
+    ],
+    "published": "2026-08-13",
+    "venue": "MED",
+    "abstract": "BackgroundBones and muscles are connected chemically, anatomically, and functionally. While animal studies suggest the gut microbiome influences musculoskeletal aging, human evidence remains limited. We assessed associations between musculoskeletal phenotypes and gut microbiome composition in community-dwelling middle-aged and older adults.MethodsWe analyzed DXA-derived phenotypes from two population-based cohorts: the Rotterdam Study (mean age 62.7 years; n = 1249) and the Framingham Heart Study (mean age 55.2 years; n = 1227). Phenotypes included appendicular lean mass (ALM), femoral neck bone mineral density (FN-BMD), and trabecular bone score (TBS). Gut microbiome composition was assessed via 16S rRNA sequencing, and functional potential predicted using PICRUSt2. Multivariate linear regression analyses were adjusted for demographic, lifestyle, and clinical covariates.ResultsAlpha diversity was not associated with any musculoskeletal phenotype after multiple testing, whereas beta diversity was associated with ALM in the combined and female analyses. Four genera associated with ALM: lower abundance of Oscillibacter (β = -0.51, 95%CI [-0.74,-0.29]), Anaerotruncus (β = -0.41, 95%CI[-0.61,-0.21]), Eisenbergiella (β = -0.39, 95%CI[-0.59,-0.19]) and higher abundance of Agathobacter (β = 0.40, 95%CI [0.20,0.60]) were associated with higher ALM. In females, lower abundance of Anaerotruncus (β = -0.32, 95%CI[-0.45,-0.19]), Hungatella (β = -0.26, 95%CI[-0.38,-0.15]), and Clostridiales bacterium DTU089 (β = -0.37, 95%CI[-0.55,-0.19]), and higher biotin biosynthesis II pathway (β = 0.44, 95%CI[0.24,0.64]) associated with higher ALM. No robust associations were observed for bone traits.ConclusionAlthough no associations were identified between gut microbial features and bone measures, several microbial genera were associated with appendicular lean mass in middle-aged and older adults, with evidence of sex-specific effects. Larger studies are needed to confirm these findings and clarify underlying mechanisms.",
+    "url": "https://doi.org/10.1016/j.bone.2026.118051",
+    "doi": "10.1016/j.bone.2026.118051",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42593369",
+    "title": "Pilot Study of Oral Microbiome and Psychoneurological Symptom Cluster in Breast Cancer.",
+    "authors": [
+      "Slack J",
+      "Vogtmann E",
+      "Docherty S",
+      "Albrecht TA."
+    ],
+    "published": "2026-08-12",
+    "venue": "MED",
+    "abstract": "BackgroundWomen with breast cancer experience high symptom burden from a psychoneurological symptom cluster consisting of fatigue, anxiety, depression, sleep disturbances, and pain. Interventions to manage this symptom cluster are limited as its etiology is not well understood. One system that has been linked with this symptom cluster in both healthy and other chronically ill populations but has not been explored in breast cancer is the oral microbiome.ObjectiveWe examined differences in oral microbiome diversity and composition between women with breast cancer who reported high versus low levels of psychoneurological symptoms.MethodsOral microbial changes based on bacterial diversity and relative abundance were estimated from 16S rRNA gene sequencing data of oral tongue swabs from 22 women with breast cancer prior to mastectomy. The fatigue, anxiety, depression, sleep disturbance, and pain interference subscales of the Patient-Reported Outcomes Measurement Information System 29 scale were used to calculate the symptom groups.ResultsObserved amplicon sequence variants were lower in the high-symptom group than in the low-symptom group, but no differences between groups were seen in other alpha diversity metrics (Shannon, Inverse Simpson). No differences in beta diversity were found between the high- and low-symptom groups. For differential abundance, three genera were more abundant in the high-symptom group than the low-symptom group: Aggregatibacter, Lautropia, and Prevotellaceae UCG-001.DiscussionPreliminary associations were identified between the psychoneurological symptom cluster and oral microbiome diversity and composition. Of the differentially abundant genera, Lautropia has been previously linked with anxiety, and Aggregatibacter has been researched due to its pro-inflammatory potential. As inflammation is posited to influence psychoneurological symptom cluster severity, further research on the relationship between the oral microbiome and the psychoneurological symptom cluster, specifically in relation to potential causal mechanisms, is warranted. Enhanced insight into this relationship could inform targeted interventions to improve the symptom experience for women with breast cancer.",
+    "url": "https://doi.org/10.1097/nnr.0000000000000939",
+    "doi": "10.1097/nnr.0000000000000939",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42584675",
+    "title": "Postoperative Nocardia cyriacigeorgica infection after glioblastoma resection: correlating metagenomic next-generation sequencing with conventional microbiology.",
+    "authors": [
+      "Tozluyurt A",
+      "Acar A."
+    ],
+    "published": "2026-08-12",
+    "venue": "MED",
+    "abstract": "Postoperative nocardial infection after cranial surgery is rare and difficult to diagnose because Nocardia spp. grow slowly in conventional culture. Metagenomic next-generation sequencing (mNGS) can shorten the interval to microbial detection, but read abundance is influenced by commensal DNA and by contamination during sampling, laboratory processing, and sequencing. mNGS findings therefore require correlation with conventional microbiology and with the clinical context. An 84-year-old woman developed purulent surgical wound discharge with epidural empyema approximately 2 weeks after resection of a World Health Organization grade 4 glioblastoma and postoperative corticosteroid exposure. Revision surgery comprised extensive debridement, removal of the infected bone flap and fixation screw, and evacuation of the empyemas. Direct Gram and modified acid-fast stains of the operative specimen showed branching, acid-fast filamentous organisms on day 1. mNGS of abscess fluid reported 196,785 reads assigned to Nocardia cyriacigeorgica on day 7, and culture on buffered charcoal yeast extract agar yielded N. cyriacigeorgica on day 18, confirmed by matrix-assisted laser desorption/ionization time-of-flight mass spectrometry. More than 20 million reads were assigned to Corynebacterium tuberculostearicum, yet no corresponding coryneform predominance was seen microscopically; its significance was therefore interpreted cautiously as a possible skin-derived or background contribution, although a true polymicrobial contribution could not be excluded. Surgical source control with intravenous meropenem and amikacin was followed by resolution of the infection. Additionally, three multimodal artificial intelligence systems were each queried five times with the same prompt. mNGS enabled earlier species-level recognition of N. cyriacigeorgica than culture, but direct microscopy gave the earliest diagnostic clue and culture remained essential for confirmation and isolate recovery. Taxonomic read abundance must not be equated with causality. The artificial intelligence outputs were discordant between systems and, in one system, incorrect in a stable and reproducible way; this illustrates current limitations rather than clinical readiness and supports the need for prespecified, blinded, multi-case validation before clinical deployment.",
+    "url": "https://doi.org/10.1007/s00210-026-05799-4",
+    "doi": "10.1007/s00210-026-05799-4",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
