@@ -1,0 +1,305 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1311612",
+    "title": "Sepsis caused by Klebsiella pneumoniae after multifetal pregnancy reduction: a case report",
+    "authors": [
+      "Yu Y",
+      "Wang J."
+    ],
+    "published": "2026-09-03",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Although assisted reproductive technology successfully addresses fertility issues for many infertile couples, it also increases the risk of iatrogenic multiple pregnancies. For pregnancies with three or more fetuses, fetal reduction with retention of one or two fetuses is generally recommended to reduce maternal and fetal complications. Although the likelihood of infection after multifetal pregnancy reduction (MFPR) is low, the development of postoperative uterine infection is associated with an extremely high risk of maternal sepsis, often resulting in fetal loss. To date, very few cases of postoperative sepsis have been reported in patients undergoing MFPR, and experience in clinical management is thus limited. This report describes the detailed diagnosis and treatment course of a patient with polycystic ovary syndrome combined with ovulatory dysfunction and impaired glucose tolerance. She underwent four cycles of ovulation induction and one cycle of MFPR at our reproductive medicine center without success, after which in vitro fertilization resulted in a triplet pregnancy with the transfer of two embryos. She underwent transvaginal MFPR in early pregnancy, which was followed by a bloodstream Klebsiella pneumoniae infection and subsequent embryonic demise. Eight months after dilation and curettage, the patient conceived naturally for the first time and delivered at term via cesarean section. One and a half years after delivery, she again conceived naturally and delivered at term via cesarean section. This case led us to conclude that any invasive procedure or surgery in pregnant women requires the strict exclusion of acute infections in all body systems. Preoperative examination of the reproductive tract microbiome is necessary to identify any dominant opportunistic pathogens, thereby reducing the risk of postoperative intrauterine infection. Cases of intrauterine infection and sepsis require active multidisciplinary management, particularly infectious disease consultation and anti-infective therapy, to reduce maternal and fetal mortality and ensure medical safety.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10480504/v1",
+    "doi": "10.21203/rs.3.rs-10480504/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 28,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42684889",
+    "title": "Mother-infant sharing of gut and vaginal microbes at the species and strain level.",
+    "authors": [
+      "Mueller NT",
+      "Xiao S",
+      "Liu T",
+      "Debelius J",
+      "Kress AM",
+      "Zhao N",
+      "Moore B",
+      "McKee KS",
+      "Jacobson LP",
+      "Comstock SS",
+      "program collaborators for Environmental Influences on Infant Health Outcomes."
+    ],
+    "published": "2026-09-01",
+    "venue": "MED",
+    "abstract": "Mother-to-offspring microbial transmission is a foundational process for seeding the infant gut microbiome, yet the relative contributions of maternal body sites and the influence of birth delivery mode remain incompletely understood. We use shotgun metagenomic sequencing in 68 mother-infant dyads to investigate species- and strain-level sharing of the maternal gut and vaginal microbiomes with the infant gut during the first year of life. At 2-4 months of age, infants share an average of 35% of species with their mother's microbiomes, with markedly greater sharing from the maternal gut than the vagina. Vaginally delivered infants exhibit higher levels of sharing than those born by cesarean section (C-section). Strain-level analyses reveal persistent mother-infant transmission across multiple Bacteroides and Bifidobacterium species genome bins, with strain-sharing frequencies varying by species and birth mode. C-section reduces the extent of mother-infant species- and strain-level sharing.",
+    "url": "https://doi.org/10.1016/j.celrep.2026.117920",
+    "doi": "10.1016/j.celrep.2026.117920",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 27,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1311903",
+    "title": "Mycoplasmal endosymbionts of Trichomonas vaginalis are associated with reduced risk for Chlamydia trachomatis endometrial infection in asymptomatic, coinfected, women.",
+    "authors": [
+      "Sun X",
+      "Yount KS",
+      "Batsuli NN",
+      "Campbell C",
+      "Jeong S",
+      "Tollison TS",
+      "Peng X",
+      "Darville T",
+      "Zheng X",
+      "O'Connell CM."
+    ],
+    "published": "2026-09-03",
+    "venue": "{'publisher': 'bioRxiv', 'yearOfPublication': 2026}",
+    "abstract": "Trichomonas vaginalis is a protozoan parasite that causes trichomoniasis, the most common curable non-viral sexually transmitted infection, and Chlamydia trachomatis is a bacterial pathogen that can ascend to the upper genital tract and cause pelvic inflammatory disease, infertility, and ectopic pregnancy. T. vaginalis harbors bacterial endosymbionts, including Candidatus Malacoplasma girerdii, an obligate symbiont, and Metamycoplasma hominis, which can live freely or symbiotically. In a 16S rRNA sequencing study of the cervicovaginal microbiome of women at high risk for chlamydial infection, Ca. M. girerdii abundance was one of 13 features predicting lack of chlamydial spread to the endometrium, despite no direct association between T. vaginalis infection and reduced chlamydial ascension. Investigating the relationship between these microorganisms further, we found that T. vaginalis vaginal abundance correlated positively with chlamydial burden in women whose infection was confined to the cervix, while a nonsignificant inverse relationship was seen in women with endometrial spread. Among participants with high chlamydial burden, Ca. M. girerdii was detected exclusively in women without endometrial infection. Both endosymbionts trended toward more frequent detection, and higher abundance, in coinfected women without endometrial spread, while M. hominis abundance correlated strongly with T. vaginalis burden in this group. These findings suggest that mycoplasmal endosymbionts of T. vaginalis, rather than T. vaginalis itself, are microbial factors limiting chlamydial ascension, and point to a three-way interaction between parasite, endosymbiont, and bacterial pathogen that shapes upper genital tract C. trachomatis infection risk.",
+    "url": "https://doi.org/10.64898/2026.08.31.748291",
+    "doi": "10.64898/2026.08.31.748291",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42657515",
+    "title": "Maternal gut microbiota-psychotropic drug interactions and their impact on offspring neurodevelopment.",
+    "authors": [
+      "Craig AM",
+      "Clemens KJ",
+      "Leigh SJ."
+    ],
+    "published": "2026-09-01",
+    "venue": "MED",
+    "abstract": "Pregnancy is associated with a unique and dynamic gut microbiota profile that supports fetal growth and neurodevelopment. Psychotropic drug-gut microbiota interactions are documented in the general population, yet less well described in pregnant women. Research has independently linked both perinatal psychotropic exposure and alterations to the maternal gut microbiome with potential changes to offspring neurodevelopment; therefore, it is plausible that similar interactions occur during pregnancy where they may influence maternal-fetal signaling pathways relevant to brain development. The aim of the present review is to explore the potential for interactions between perinatal psychotropic exposure and the maternal gut microbiota to shape long-term offspring neurodevelopment and psychiatric outcomes. By focusing on antidepressants, opioids/analgesics, and psychostimulants, potential mechanistic insights and gaps in the literature are highlighted to inform future research directions and therapeutic interventions. Collectively, the present review proposes the maternal gut microbiota as a previously underexplored yet significant modulator of neurodevelopment in the context of psychotropic drug exposure.",
+    "url": "https://doi.org/10.1042/cs20250049",
+    "doi": "10.1042/cs20250049",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42700535",
+    "title": "Torque Teno Virus in the vagina: potential influence on health and disease.",
+    "authors": [
+      "Leitão LM",
+      "Witkin SS",
+      "Tozetto-Mendoza TR",
+      "Soares-Jr JM",
+      "Linhares IM."
+    ],
+    "published": "2026-09-05",
+    "venue": "MED",
+    "abstract": "Torque Teno Virus (TTV) is one of the most prevalent dna viruses identified in the vagina. while its presence under a variety of conditions is undisputed, whether this is of functional relevance remains unresolved. in this review we question the prevailing assumption that TTV is an endogenous commensal virus with no role in health or disease at that site. we present data from published studies, and extrapolate from relevant related investigations, to suggest that TTV is likely an active contributor to both vaginal well-being and pathological processes. the host immune response to TTV is reviewed and how various aspects of this interaction may impact immunity to pathogenic microorganisms. whether the presence of TTV inhibits or potentiates the pathogenic potential of other viruses, as well as the possible involved mechanisms, is presented. properties of vaginal epithelial cells are described and the potential influences of TTV on their activities are delineated. Known differences in the composition of the vaginal bacterial microbiota are described and how these changes are reflected by concomitant alterations in the TTV level. Lastly, how detection of TTV in the vagina of female partners of infertile couples may be relevant to indicators of potential causation is reviewed. The sum of our efforts will hopefully encourage further TTV-related investigations, especially in women, and provide an enhanced understanding of the role of this virus in clinically relevant processes.",
+    "url": "https://doi.org/10.1016/j.clinsp.2026.101087",
+    "doi": "10.1016/j.clinsp.2026.101087",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 24,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42694794",
+    "title": "Effects of two different perineal preparations before vaginal birth on maternal and neonatal infections and hospital resources: A randomized controlled trial.",
+    "authors": [
+      "Huang TY",
+      "Chen LL",
+      "Peng FS",
+      "Chu FY",
+      "Gau ML."
+    ],
+    "published": "2026-09-03",
+    "venue": "MED",
+    "abstract": "IntroductionPerineal preparation during the second stage of labor may influence maternal and neonatal infection risk and healthcare resource utilization. Although povidone-iodine sterilization is traditionally used, microbial flora theory suggests that water cleansing may preserve normal flora without increasing infection while reducing workload and cost. This study compared water cleansing with povidone-iodine sterilization for perineal preparation at Far East Memorial Hospital, Taiwan, from 26 November 2024 to 5 June 2025.MethodsA randomized controlled trial design was employed, including 143 mothers randomly assigned to either the water cleansing group (n=72) or the povidone-iodine sterilization group (n=71). Outcome measures included maternal and neonatal infection parameters (maternal postpartum temperature, C-reactive protein, REEDA scores, neonatal temperature, and neonatal oral flora colonization), along with cleansing time and medical costs. Data were analyzed using t-tests, chi-squared tests, and generalized estimating equation (GEE).ResultsGEE analysis revealed no significant differences between the two groups in maternal and neonatal infection indicators (REEDA, 95% CI: -0.53-0.18, p=0.337; maternal temperature, 95% CI: -0.06-0.21, p=0.278; neonate temperature, 95% CI: -0.12-0.19, p=0.636). The water group had significantly lower average medical costs than the povidone-iodine group (7.49 vs 110.92 TWD, t= -50.22, p2=10.88, p=0.028).ConclusionsPerineal preparation with water was not associated with an increased risk of maternal or neonatal infection or adverse neonatal oral microbial colonization at birth and was associated with lower medical costs. These findings suggest that water may be a safe and cost-effective alternative to povidone-iodine for perineal preparation among women with low-risk pregnancies in hospitals with high episiotomy rates. Further longitudinal studies are needed to determine the effects of intrapartum povidone-iodine exposure on neonatal microbiome development and its potential long-term health consequences.Clinical trial registrationThe study is registered on the official website of ClinicalTrials.gov.IdentifierNCT06880445.",
+    "url": "https://doi.org/10.18332/ejm/226734",
+    "doi": "10.18332/ejm/226734",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42695976",
+    "title": "Intra-individual genetic diversity of vaginal Lactobacillus crispatus revealed through citizen science-driven isolation and pangenome analysis.",
+    "authors": [
+      "de Kreek F",
+      "Hertzberger R",
+      "van Eeden F",
+      "Illidge S",
+      "Teunis EJ",
+      "Hanemaaijer M",
+      "Lievens E",
+      "Rienstra F",
+      "Wiedhaup DE",
+      "Lisotto P",
+      "Butler D",
+      "Molenaar D",
+      "Kort R."
+    ],
+    "published": "2026-09-04",
+    "venue": "MED",
+    "abstract": "AimsA vaginal microbiome dominated by Lactobacillus crispatus is associated with positive reproductive and sexual health outcomes, yet intra-individual genetic diversity within this species remains largely unexplored. This study characterised inter- and intra-individual genomic variation in L. crispatus strains isolated through a citizen science initiative and assessed implications for multi-strain probiotic development.Methods and resultsFifty-three women participated in this citizen science project. Self-sampling resulted in 48 shotgun metagenomes. Twenty-two participants isolated their own L. crispatus strains using selective enrichment and LAMP-based species confirmation, resulting in 53 whole-genome-sequenced isolates. L. crispatus dominated 20 of 48 metagenomes (50.1-99.6% relative abundance). Pangenome analysis revealed 3 456 gene families, of which 43.7% were core and 56.3% accessory. A 14-kb plasmid harbouring a Fic-domain toxin-antitoxin protein, but devoid of antimicrobial resistance genes, was present in 44 of 53 strains. Strains from the same individual clustered closely together yet harboured 1-123 gene differences. Intra-individual variation was observed in the pullulanase type I gene required for glycogen degradation: 40 strains were predicted to grow on glycogen, six showed genetic disruptions with unknown consequences, and seven were predicted to lack this ability entirely. Variation within individuals was also found for bacteriocin classes and CRISPR-Cas genes.ConclusionsSubstantial functional diversity exists within L. crispatus, even among strains from the same individual, supporting the rationale for multi-strain vaginal probiotics. This citizen science approach enabled discovery of host-specific adaptations while ensuring participant ownership of their strains.",
+    "url": "https://doi.org/10.1093/jambio/lxag218",
+    "doi": "10.1093/jambio/lxag218",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42702911",
+    "title": "Do individual or societal consequences matter more? Reducing antibiotic expectations for uncomplicated urinary tract infections in females.",
+    "authors": [
+      "Sievert EDC",
+      "Eitze S",
+      "Betsch C."
+    ],
+    "published": "2026-09-01",
+    "venue": "MED",
+    "abstract": "Antimicrobial resistance (AMR) is an urgent public health threat. Antibiotic prescriptions in primary care, such as for uncomplicated urinary tract infections (UTIs) in females, contribute substantially to antibiotic overuse. We examined whether consequence-based risk communication emphasizing either individual (gut microbiome disruption) or societal (AMR) consequences can reduce expectations to receive antibiotics and improve decision-related outcomes. Across three online experiments (N = 3057), women in the United Kingdom were exposed to a hypothetical physician consultation for an uncomplicated UTI. Depending on the experimental condition, the physician explained individual consequences of antibiotic use, societal consequences or no such consequences. Outcomes included expectations to receive antibiotics, trust in the physician and decisional conflict. An internal meta-analysis showed that both societal and individual consequence messages significantly reduced patients' expectations to receive antibiotics. Neither message type undermined trust in the physician (in Studies 1 and 2), and both communication messages significantly reduced decisional conflict (in Study 3). These findings indicate that brief, targeted communication regarding consequences of antibiotic use can lower antibiotic expectations and support decision-making without eroding physician trust. Such messages represent a useful tool that can be adapted to different clinical contexts for patient-centred antibiotic stewardship in primary care.",
+    "url": "https://doi.org/10.1111/bjhp.70109",
+    "doi": "10.1111/bjhp.70109",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42698331",
+    "title": "Evaluation of metabolic, reproductive, and gut microbiota alterations in a comparative study of different preclinical models of polycystic ovary syndrome.",
+    "authors": [
+      "Khobragade NH",
+      "Sheth DB",
+      "Patel CA",
+      "Beladiya JV",
+      "Patel S",
+      "Dalal M",
+      "Dholakia S."
+    ],
+    "published": "2026-09-01",
+    "venue": "MED",
+    "abstract": "Polycystic ovary syndrome (PCOS) is a multifaceted, complex metabolic and endocrine disease where gut flora is considered an important factor in causing PCOS. This study aimed to identify a suitable PCOS model that contributes to gut microbial dysbiosis and metabolic and hormonal disturbances. Prepubertal SD rats were administered with normal control (NC), dihydrotestosterone (DHT), DHT with fructose (F), DHT+ high fat diet (HFD) for 91 days, dehydroepiandrosterone (DHEA), DHEA with fructose, DHEA with HFD for 30 days, sodium valproate (SV), sodium valproate with fructose, and sodium valproate with HFD for 21 days. The estrous cycles were assessed over this timeframe. At the end of the experiment, superoxide dismutase and uterine and ovarian morphology were evaluated, along with hormone levels, lipid profiles, and 16S rRNA genomic sequencing. All models exhibited PCOS characteristics, including hormonal imbalances, insulin resistance (p ≤ .001), multiple follicular cysts on ultrasonography, and histological alterations. Gut microbial dysbiosis was observed across all PCOS-induced groups; however, the DHT alone group showed more pronounced alterations in microbial composition than the other experimental groups. Specifically, the DHT alone group exhibited reduced abundance of Firmicutes and increased abundance of Proteobacteria. Among the evaluated models, the DHT-only model showed more pronounced metabolic, hormonal, reproductive, and gut microbial alterations and may serve as a suitable model for PCOS research.",
+    "url": "https://doi.org/10.1111/jne.70247",
+    "doi": "10.1111/jne.70247",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Comparative Study",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42591009",
+    "title": "Patterns of Antibiotic Dispensing Among New Zealand Children: A Linkage Study.",
+    "authors": [
+      "Ram S",
+      "Corbin M",
+      "Kvalsvig A",
+      "Baker MG",
+      "Mannetje A'",
+      "Eng A",
+      "Douwes J."
+    ],
+    "published": "2026-09-01",
+    "venue": "MED",
+    "abstract": "BackgroundOveruse of antibiotics contributes to antibiotic resistance, and may result in gut microbiome dysbiosis, potentially increasing the risk of chronic childhood conditions.ObjectivesTo examine patterns of antibiotic dispensing in utero and during the first 5 years of life.MethodsWe conducted a retrospective cohort study of all children (n = 315 786) born in New Zealand from 2005 to 2010 using linked pharmaceutical dispensing data to ascertain antibiotic use during the mother's pregnancy and for the first 5 years of life. Descriptive analyses were conducted as well as negative binomial regression controlled for potential confounders.ResultsIn total, 96% of children had been dispensed ≥ 1 course of antibiotics by age five; for pregnant women this was 30%. Penicillin, particularly Amoxicillin, was most frequently dispensed during both periods. Postnatal antibiotic dispensing was higher for males (adjusted IRR 1.09, 95% CI 1.08-1.10); Māori (1.16, 1.15-1.17), Pacific peoples (1.32, 1.30-1.33), and Middle East Latin American and African (MELAA) ethnicities (1.07, 1.04-1.10); children in the highest deprivation quintile (1.16, 1.15-1.17) and those born pre-term (1.05, 1.04-1.05); and urban children (1.21, 1.20-1.22). Low and high birthweight and caesarean deliveries were also associated with higher antibiotic dispensing. Similar patterns were observed for antibiotic dispensing for mothers during pregnancy. Dispensing rates were highest during winter months.ConclusionAntibiotic dispensing is high in New Zealand children and pregnant women, with significant ethnic and socioeconomic differences, suggesting that current antibiotic stewardship programmes are not fully effective.",
+    "url": "https://doi.org/10.1002/pds.70450",
+    "doi": "10.1002/pds.70450",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
