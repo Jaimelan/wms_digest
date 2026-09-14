@@ -1,0 +1,315 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42732072",
+    "title": "Inferred functional microbiome features are associated with clinical trajectories of low-grade cervical lesions.",
+    "authors": [
+      "Stosic M",
+      "Molina MA",
+      "Mukhedkar D",
+      "Hassan SS",
+      "Sahlin A",
+      "Ballester CR",
+      "Wang J",
+      "Mühr LSA."
+    ],
+    "published": "2026-09-12",
+    "venue": "MED",
+    "abstract": "BackgroundThe cervicovaginal microbiome has been associated with human papillomavirus (HPV)-related cervical disease, but its role in determining the clinical trajectory of low-grade squamous intraepithelial lesions (LSIL) remains unclear. We investigated whether microbial taxonomic, ecological, and inferred functional features could distinguish LSIL regression from progression and improve risk stratification.ResultsThe cervicovaginal microbiome of 90 women with LSIL and known clinical outcomes was profiled using 16S rRNA gene sequencing. Overall microbiome diversity and composition did not differ significantly between regression and progression groups. Instead, microbial profiles clustered primarily by community state type (CST), with CST I-B nominally more frequent among regression cases. Within Lactobacillus-dominated communities, CST I-B exhibited distinct inferred functional profiles characterized by enrichment of carbohydrate metabolism and fermentation pathways and relative depletion of nucleotide biosynthesis pathways compared with CST I-A. Exploratory logistic regression models based on age, or microbiome taxa alone, showed limited discriminatory performance, whereas an integrated model incorporating age, microbiome, and inferred functional pathway features improved apparent discrimination between regression and progression in this cohort (AUC = 0.76, 95% CI 0.66-0.86).ConclusionsDifferences in microbial community organization and inferred functional profiles were observed to be associated with LSIL clinical trajectories, whereas taxonomic composition alone showed limited discriminatory value. Integrating microbial taxonomic, ecological, and functional features modestly improved the apparent discrimination of LSIL outcomes, suggesting that inferred functional features may provide complementary information that warrants future research.",
+    "url": "https://doi.org/10.1186/s12866-026-05648-7",
+    "doi": "10.1186/s12866-026-05648-7",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 26,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42729576",
+    "title": "Vitamin D Level and Antibody Response to the BBIBP-CorV Vaccine in Pregnant Women.",
+    "authors": [
+      "Falahi S",
+      "Vahabi M",
+      "Sayyadi H",
+      "Kenarkoohi A."
+    ],
+    "published": "2026-09-11",
+    "venue": "MED",
+    "abstract": "Background and aimsSeveral factors influence the response to the vaccine, including age, gender, pregnancy, microbiota composition, immune function, sex hormones, and micronutrients (such as vitamin D). This study aimed to evaluate antibody responses induced by the BBIBP-CorV vaccine in pregnant women and investigate its association with serum vitamin D levels.MethodsSerum samples were collected from 140 pregnant women 1-2 months after administering the second dose of the BBIBP-CorV vaccine from August 2021 to April 2022. IgG antibody titers against RBD and serum vitamin D levels were measured using enzyme-linked immunosorbent assay (ELISA). The relationship between vitamin D levels and anti-RBD IgG antibody titer was investigated with linear regression analysis.ResultsAnti-RBD IgG antibodies were detected in 17% (24 out of 140) of the population studied. A positive correlation was observed between serum vitamin D level and anti-RBD IgG antibody titer (p ConclusionOur study showed that two doses of the BBIBP-CorV vaccine elicited antibody responses against COVID-19 in only a small proportion of pregnant women, suggesting that higher doses or alternative vaccine platforms may be required to protect pregnant women. Despite the existence of a relationship between vitamin D levels and antibody response in our study, prospective clinical trial studies are needed to draw definitive conclusions regarding the effect of vitamin D on antibody response.",
+    "url": "https://doi.org/10.1155/jotm/1649421",
+    "doi": "10.1155/jotm/1649421",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42730975",
+    "title": "Clinical Course and Treatment Outcomes of Vulvar Condylomas in Immunocompromised Women: A Retrospective Cohort Study.",
+    "authors": [
+      "Fonseca FV",
+      "Kmita CE",
+      "Maestri CA",
+      "Maestri IC",
+      "Nisihara R."
+    ],
+    "published": "2026-09-12",
+    "venue": "MED",
+    "abstract": "Human papillomavirus (HPV) infection is highly prevalent worldwide and is associated with a broad spectrum of anogenital diseases, including vulvar condylomas and malignancies. Immunosuppression plays a key role in HPV persistence, recurrence, and progression; however, data on the clinical course of vulvar condylomas in immunocompromised women remain limited. This retrospective cohort study evaluated clinical progression, treatment response, recurrence, and neoplastic outcomes in women diagnosed with vulvar condyloma between January 2008 and January 2021 at a tertiary referral center in Brazil. Immunosuppressed patients, including women living with HIV, those receiving immunosuppressive therapy for autoimmune diseases, and patients undergoing chemotherapy, were compared with an age-matched immunocompetent group. Among 294 women included, 41 (13.9%) were immunosuppressed. Lesion extent was significantly greater in immunosuppressed patients, although lesion number did not differ between groups. Clinical remission after first-line treatment was significantly lower among immunosuppressed women (21.9%vs55.0%; p < 0.0001; OR = 4.5) with a higher need for multiple treatment sessions. Similarly, the complete remission rate at the end of follow-up was higher for the immunocompetent patients (75.9% vs. 48.8%; p < 0.0001; OR = 3.3). Immunosuppressed women had a 2.3-fold increased risk of recurrence and a higher risk of progression to vulvar intraepithelial neoplasia (OR = 6.7) and invasive disease (OR = 8.5). In the HIV patients, recurrence was not associated with CD4T-lymphocyte count or HIV viral load. These findings indicate that immunosuppressed women with vulvar condylomas experience more extensive disease, poorer treatment response, higher recurrence rates, and an increased risk of neoplastic progression, highlighting the importance of closer surveillance and individualized management in this high-risk population.",
+    "url": "https://doi.org/10.1007/s12026-026-09843-6",
+    "doi": "10.1007/s12026-026-09843-6",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42727634",
+    "title": "Microbiome Crosstalk Across Oral, Gut, and Breast Niches: Implications for Breast Cancer Diagnosis, Prevention, and Therapy.",
+    "authors": [
+      "Narasimhamurthy RK",
+      "N RK",
+      "Rajendra VKJ",
+      "Shetty P."
+    ],
+    "published": "2026-09-11",
+    "venue": "MED",
+    "abstract": "Breast cancer is a leading cause of morbidity and mortality in women worldwide. Breast tissue, oral and gut microbiota, are actively involved in regulating tumor onset, progression, and treatment response. Multiple factors, including ethnicity, sex, disease subtype, and stage, influence their signatures. The oral-gut-breast microbiome tripartite axis influences breast cancer by inducing DNA damage, altering the host immune response, and activating or suppressing cell-signaling processes through regulation of hormones, metabolites, and inflammatory markers. Modulating microbial homeostasis through diet, selective depletion of causative bacteria, and precise delivery techniques, such as nanotechnology, for delivering bioengineered microbes or microbial cargo, are among the recent therapeutic approaches with potential. However, generalizing findings and standardizing clinical regimens across diverse populations remains a persistent challenge. This review highlights the importance of microbiome-informed, integrated strategies for enhancing breast cancer prevention, diagnosis, and treatment by exploring the causal and mechanistic microbial trends.",
+    "url": "https://doi.org/10.1016/j.trsl.2026.09.007",
+    "doi": "10.1016/j.trsl.2026.09.007",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42730047",
+    "title": "Association between breastfeeding and neurodevelopmental outcomes after late preterm birth.",
+    "authors": [
+      "Palatnik A",
+      "de Voest JA",
+      "Tita ATN",
+      "Blackwell SC",
+      "Longo M",
+      "O'Shea TM",
+      "Rouse DJ",
+      "Metz TD",
+      "Saade GR",
+      "Rood KM",
+      "Heyborne KD",
+      "Thorp JM",
+      "Swamy GK",
+      "Gibson KS",
+      "El-Sayed YY",
+      "Gyamfi-Bannerman C",
+      "Eunice Kennedy Shriver National Institute of Child Health",
+      "Human Development Maternal‐Fetal Medicine Units Network."
+    ],
+    "published": "2026-09-11",
+    "venue": "MED",
+    "abstract": "ObjectiveTo test the hypothesis that breastfeeding is associated with improved neurodevelopmental outcomes among children delivered late preterm.Study designSecondary analysis of a prospective, follow-up study of ≥6-year-old children enrolled in the Antenatal Late Preterm Steroid (ALPS) Trial, a multicenter study that assessed betamethasone administration in pregnancies deemed to be at imminent risk of late preterm birth (34-36 weeks). Term births and those with missing breastfeeding data were excluded. The primary exposure was breastfeeding (exclusive or partial) at 3 months of life collected via maternal interviews. Any breastfeeding at 6 months was examined as a secondary exposure. The primary outcome was cognitive function at age ≥6, measured by the Differential Ability Scales, 2nd Edition (DAS-II) core components of the General Conceptual Ability (GCA) that includes verbal, non-verbal reasoning, and spatial abilities. Secondary outcomes included Gross Motor Function Classification System level, Social Responsiveness Scale, and Child Behavior Checklist scores. Multivariable analyses were adjusted for prespecified baseline characteristics (maternal age and education, gestational age at birth, child age, sex, tobacco use in pregnancy, ALPS study group, study center).ResultsOf 797 mothers included in the analysis, 414 (51.9%) were breastfeeding 3 months after giving birth. Participants who breastfed were older, of lower body mass index (BMI), and were more likely to be White, have a college degree, be married, have private insurance, and less likely to have used tobacco in pregnancy. Children of participants who breastfed were also older at follow-up. There were no differences in birth weight or gestational age at birth by breastfeeding status. The primary outcome, DAS-II GCA, was higher among children who were breastfed at 3 months, 100.5 ± 13.7 vs. 93.2 ± 13.2, mean difference of 7.27 (95% confidence interval [CI], 5.32, 9.22; adjusted mean difference, 2.54; 95% CI, 0.70, 4.37). In secondary analyses, differences in the overall GCA appeared to be driven by increased scores for spatial ability and nonverbal reasoning. There were no differences in secondary outcomes.ConclusionsAmong children born late preterm at 34-36 weeks, breastfeeding (exclusive or partial) at 3 months of life was associated with improved neurodevelopmental outcomes at age 6 or older. Breastfeeding for ≥3 months was associated with a modest increase in GCA score (2.5 points; 0.17 SD), the clinical significance of which is likely greater at the population than individual level.",
+    "url": "https://doi.org/10.1002/pmf2.70384",
+    "doi": "10.1002/pmf2.70384",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1316782",
+    "title": "Reproductive Success Dependencies of Gut Microbiome: Insights from a Wild Population of Blue Tits",
+    "authors": [
+      "Cendrowska-Pek M",
+      "Zagalska-Neubauer M",
+      "Janas K",
+      "Barczyk J",
+      "Arct A",
+      "Cichoń M",
+      "Gustafsson L",
+      "Drobniak S."
+    ],
+    "published": "2026-09-10",
+    "venue": "{'publisher': 'Authorea Preprints', 'yearOfPublication': 2026}",
+    "abstract": "The diversity of parental gut microbiome may contribute to reproductive success in wild birds, yet its effects on different fitness components remain poorly understood. Here, we investigated whether variation in the diversity of parental gut microbiome was associated with offspring survival, clutch size and mean offspring body size in wild blue tits (Cyanistes caeruleus) from a population on Gotland, Sweden. .We characterized parental gut microbiome communities using high-throughput amplicon sequencing and quantified alfa and beta diversity metrics. Parental gut microbiome diversity was associated specifically with offspring survival until fledging. These significant relationships with fledging success varied between sexes: higher maternal Shannon diversity and ASV richness were associated with lower fledging success, whereas several paternal alpha-diversity metrics showed positive associations with reproductive parameters. In females, alpha diversity was not associated with clutch size, and neither in females nor in males it was associated with mean brood tarsus length. Beta diversity showed no consistent association with any fitness proxy in neither sex. These results suggest that parental microbiome diversity may influence reproductive success primarily through offspring survival, with effects potentially differing between females and males.",
+    "url": "https://doi.org/10.22541/authorea.15008666/v1",
+    "doi": "10.22541/authorea.15008666/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42725726",
+    "title": "VISTA: a classifier for metagenomic subspecies and community state typing of the vaginal microbiome.",
+    "authors": [
+      "Holm JB",
+      "Maros A",
+      "Williams A",
+      "France M",
+      "Ravel J."
+    ],
+    "published": "2026-09-11",
+    "venue": "MED",
+    "abstract": "Metagenomic community state types (mgCSTs) capture within-species genetic and functional diversity and community structure of the vaginal microbiome, enabling precise links between microbiome composition, function, and health-related risk. VISTA, the Vaginal Inference of Subspecies and Typing Algorithm, is a two-step classifier that assigns mgCSTs to vaginal metagenomes, providing standardized, scalable classifications.",
+    "url": "https://doi.org/10.1128/mra.00612-26",
+    "doi": "10.1128/mra.00612-26",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 13,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42721180",
+    "title": "Friends or foes: Unraveling the tsetse fly-Spiroplasma symbiosis.",
+    "authors": [
+      "Aksoy S",
+      "Weiss BL",
+      "Bruzzese DJ",
+      "Gstöttenmayer F",
+      "Echodu R",
+      "Fiorenza G",
+      "Piccinno R",
+      "Malacrida AR",
+      "Abd-Alla AMM."
+    ],
+    "published": "2026-09-10",
+    "venue": "MED",
+    "abstract": "Tsetse flies (Glossina spp.) transmit African trypanosomes, the causative agents of human African and African animal trypanosomiases (HAT and AAT, respectively). These neglected tropical diseases impose significant public health and economic burdens across sub-Saharan Africa. Trypanosome transmission by tsetse flies is influenced by multiple factors, including host genetic background, ecological factors, and interactions with heritable microbial endosymbionts. Spiroplasma glossinidia has recently emerged as an important modulator of tsetse reproductive fitness and vector competence, making it a potential target for symbiont-based vector control strategies. In this review, we summarize the current knowledge of the tsetse-Spiroplasma symbiosis. We detail Spiroplasma's spatial and temporal infection dynamics in laboratory-reared and natural populations. Additionally, we highlight key aspects of the bacterium's genomics, phylogenetics, and physiological interactions with its tsetse host, including influences on host gene expression reproductive physiology, and vector competence. Finally, we discuss how the tsetse-Spiroplasma symbiosis could be harnessed to develop innovative, biological-based vector control and trypanosome transmission-blocking strategies, and we identify critical gaps that must be addressed to translate these findings into effective disease control interventions.",
+    "url": "https://doi.org/10.1371/journal.pntd.0014698",
+    "doi": "10.1371/journal.pntd.0014698",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 13,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42717892",
+    "title": "Enlarged facial pores are associated with skin barrier impairment and microbiome dysbiosis in young Chinese women.",
+    "authors": [
+      "Shao L",
+      "Zhang M",
+      "Li Y",
+      "Ma L",
+      "Li J",
+      "Jiang H",
+      "Bai T",
+      "Yang S."
+    ],
+    "published": "2026-09-10",
+    "venue": "MED",
+    "abstract": "ObjectiveEnlarged facial pores represent a prominent and widely concerning skin condition, as well as a challenging issue in skin care. The unique structure of pores provides a favourable habitat for microorganisms. Consequently, it is of great significance to explore the relationship between pore size, skin microbiota and their microenvironment. This study is the first to investigate the correlations between pore area, skin physiological and microbiota characteristics, providing a theoretical basis for the care of skin with enlarged pores.MethodsBased on VISIA CR photographs, 199 women aged 18-35 years living in Shanghai were enrolled and categorized into four groups (P1, P2, P3 and P4) according to pore area, ranging from the smallest (P1) to the largest (P4). Non-invasive biophysical techniques and 16S rRNA high-throughput sequencing were employed to analyse facial skin physiological parameters and skin microbiome, respectively.ResultsAs facial pore size increased, trans-epidermal water loss (TEWL), haemoglobin and melanin levels increased significantly, whereas skin elasticity decreased. Sebum exhibited an increasing trend, with the P4 group showing significantly higher sebum than the P2 group. Alpha diversity, as assessed by the Shannon index, decreased significantly as pore size increased, suggesting that enlarged pores may be closely associated with skin microbiome dysbiosis. Furthermore, with increasing pore size, the abundance of Cutibacterium increased significantly, whereas those of Pseudomonas, Streptococcus and Rhodococcus decreased. Correlation analysis of skin physiological parameters revealed that sebum was positively associated with TEWL, haemoglobin, and a value. Meanwhile, the abundance of Cutibacterium was significantly positively correlated with sebum, haemoglobin and a value. Correlation network analysis of skin microbial communities indicated significantly different correlation patterns for P1 and P4. Collectively, these findings suggest that sebum and Cutibacterium abundance play critical roles in regulating pore size.ConclusionEnlarged pores were associated with excessive sebum production, reduced skin elasticity and increased TEWL, indicative of compromised skin barrier function. Furthermore, pore size significantly modulated the structure of the local skin microbiome, as regions with different pore sizes exhibited marked disparities in microbial diversity and abundance. These findings highlight the potential role of skin microbiome dysbiosis in the pathogenesis of pore enlargement.",
+    "url": "https://doi.org/10.1111/ics.70144",
+    "doi": "10.1111/ics.70144",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 13,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42731611",
+    "title": "Safety evaluation of yeast β-glucan at elevated dose levels: toxicological and gut microbiota analyses.",
+    "authors": [
+      "Yang S",
+      "Qu J",
+      "Zhang Y",
+      "Fu S",
+      "Yang W",
+      "Zeng Y",
+      "Fan J",
+      "Fan B",
+      "Li Y",
+      "Liu H."
+    ],
+    "published": "2026-09-12",
+    "venue": "MED",
+    "abstract": "This study evaluated the safety and gut microbiota effects of high-dose yeast β-glucan (YBG). In the acute toxicity assay, the LD50 exceeded 6.0 g/kg BW with no mortality. The 90-day subchronic study revealed no toxicologically relevant effects on clinical signs, body weight, hematology, serum chemistry, or histopathology at doses up to 3.0 g/kg BW; transient parameter alterations were within reference ranges and showed no delayed toxicity post-recovery. Developmental toxicity assessment (up to 2.84 g/kg BW) showed no adverse effects on maternal health, reproduction, or fetal development. Genotoxicity assays were negative. 16S rRNA sequencing indicated YBG did not disrupt microbial diversity; α-diversity remained stable, while β-diversity showed subtle shifts. Taxonomic analysis revealed increased relative abundance of beneficial genera (Lactobacillus, Akkermansia) without enrichment of pathogens. Collectively, these results demonstrate a wide safety margin for YBG under the tested conditions.",
+    "url": "https://doi.org/10.1016/j.yrtph.2026.106242",
+    "doi": "10.1016/j.yrtph.2026.106242",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 12,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
