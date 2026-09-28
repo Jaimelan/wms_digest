@@ -1,0 +1,387 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42787834",
+    "title": "Psoriasis and Psoriatic Arthritis in Pregnancy: Current Evidence and Clinical Considerations.",
+    "authors": [
+      "Paczkowska A",
+      "Danieluk J",
+      "Glinski M",
+      "Adamaszek N",
+      "Grabowska K",
+      "Gawda A",
+      "Nawrocka A."
+    ],
+    "published": "2026-09-24",
+    "venue": "MED",
+    "abstract": "Psoriasis and psoriatic arthritis (PsA) are chronic, immune-mediated inflammatory diseases that commonly affect individuals of reproductive age, presenting unique challenges relating to fertility, pregnancy, lactation, and long-term reproductive health. This narrative review summarizes the current evidence on the relationship between psoriatic diseases and pregnancy, focusing particularly on disease activity, fertility, obstetric outcomes, hereditary risk, the psychosocial impact, and treatment options throughout the reproductive journey. The available evidence indicates that psoriasis and PsA can impact reproductive health and fertility, as well as pregnancy outcomes, particularly in individuals with active or severe disease. Chronic systemic inflammation and associated comorbidities likely play an important role in these associations. While pregnancy-related immunological adaptations may improve disease activity in some women, flare-ups remain common during the postpartum period. The management of psoriatic disease during pregnancy has undergone a substantial paradigm shift. Contemporary evidence increasingly supports maintaining adequate disease control throughout the reproductive period with therapies with an established safety profile. This review highlights the evolving understanding of psoriasis and PsA as systemic diseases that extend beyond dermatological and rheumatological manifestations and may influence reproductive health at multiple levels. Future research should focus on the long-term safety of newer targeted therapies, the impact of paternal exposure, patient-reported reproductive outcomes, and developing evidence-based, multidisciplinary care pathways for women with psoriatic disease during pregnancy and the postpartum period.",
+    "url": "https://doi.org/10.7759/cureus.116859",
+    "doi": "10.7759/cureus.116859",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 25,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1328426",
+    "title": "Benchmarking virus identification tools on vaginal metagenomes",
+    "authors": [
+      "Dube F",
+      "Happel A",
+      "Jaspan HB",
+      "Hugerth LW."
+    ],
+    "published": "2026-09-25",
+    "venue": "{'publisher': 'bioRxiv', 'yearOfPublication': 2026}",
+    "abstract": "The vaginal microbiome is associated with reproductive and sexual health, yet its viral component remains understudied. A recent vaginal genome catalogue reported that 85.8% of its species-level viral groups were absent from all five viral databases examined. Viral identification tools depend on reference sequences, either directly or through their training data. Previous benchmarks used simulated or non-vaginal datasets. How well these tools generalise to vaginal metagenomes therefore remains unclear. We benchmarked 14 tools spanning five methodological approaches. Evaluations used controlled genome fragments, viral spike-in co-assemblies and virus-like particle (VLP)-enriched co-assemblies. A multi-evidence benchmark assessed 13 vaginal shotgun assemblies (primary cohort). An independent 30-sample cohort provided external validation. geNomad ranked first or second by Matthews correlation coefficient (MCC) in every ranked evaluation. VIBRANT achieved similar MCC to geNomad on the primary assemblies. It made eight false-positive calls among 11,577 negatives but recovered only 22% of viral contigs. VIBRANT ranked first in the independent cohort. Tool rankings agreed closely between cohorts (Spearman rho = 0.952; 95% CI 0.921 - 0.960). Detection of sequences lacking reference homologues differed substantially between tools. Two phage genomes without detectable reference homologues provided a controlled novelty test. Each evaluated composition-based tool recovered at least 74% of their 1,500-bp fragments. Marker- or reference-dependent tools recovered at most 31%. A separate analysis examined 48 unconfirmed candidate viral contigs lacking detectable nucleotide or protein homologues. Jaeger flagged 41, compared with four for VIBRANT and one for geNomad. On short fragments, attention-based tools achieved 4.0-5.5 times the mean area under the precision-recall curve of feature-based tools. ViraLM accounted for most of this difference. ViraLM also had the highest recall (sensitivity) of eukaryote-infecting viruses in the evaluated panel. VirSorter2 achieved the highest MCC on VLP-enriched contigs. These results support geNomad when prioritising overall classification performance and VIBRANT when minimising false-positive phage calls is the priority. ViraLM supports short-contig and eukaryote-infecting-virus detection. VirSorter2 supports identification in VLP-enriched assemblies, and Jaeger supports screening for candidate novel phages. These findings guide tool selection for studies investigating the vaginal virome in reproductive and sexual health.",
+    "url": "https://doi.org/10.64898/2026.09.24.753817",
+    "doi": "10.64898/2026.09.24.753817",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 20,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42802018",
+    "title": "The Complex Interplay of Duration of Residence and Region of Birth on Perinatal Outcomes Among Migrant Women in Australia: A Cohort Study.",
+    "authors": [
+      "Holowko N",
+      "Juárez SP",
+      "Palmer KR",
+      "Knight M",
+      "El Assaad F",
+      "Davies-Tuck M."
+    ],
+    "published": "2026-09-27",
+    "venue": "MED",
+    "abstract": "Although migrants are recognised as heterogeneous, research often emphasises origin over receiving-context experiences. We investigated maternal risk factors and perinatal outcomes by duration of residence in Australia, stratified by region of birth. This population-based cohort study using Victorian Perinatal Data Collection data included singleton births between 2017-2019 (N = 199,935). Exposures were maternal region of birth (United Nations-grouped countries) and duration of residence ( 10 years, [~15% missing]). Outcomes were grouped into preconception health (smoking, body mass index (BMI), pre-existing conditions, social disadvantage), structural factors (antenatal care, early ultrasound) and pregnancy/perinatal outcomes (gestational diabetes, hypertensive disorders, gestation at birth, stillbirth). Relative risks were estimated using robust Poisson regression, adjusted for maternal age and birth year, stratified by region of birth. Among the 36.7% of women born outside of Australia, most were from South Asia or South-East/East Asia, with a mean residence of 10 years. Compared with Australia-born women, migrant women generally had a lower risk of smoking, pre-existing hypertension, BMI ≥ 25, preeclampsia and preterm birth-although advantages were less pronounced in women residing longer and varied by region. Some groups had a higher risk of gestational diabetes (Oceania, South Asia, South-East/East Asia, West Asia) and stillbirth (Oceania, South Asia, Africa), with risks persisting regardless of residence duration. Late initiation of antenatal care was consistently observed among women born in New Zealand, Oceania, Africa, West Asia and Other regions. Sensitivity analyses (i) treating missing duration as a category; (ii) restricting to women migrating ≥ 18 years; and (iii) imputing missing data for duration, BMI and smoking, yielded similar results. Perinatal outcomes varied by region of birth and duration of residence, indicating the importance of both origin and receiving-context factors. Improving outcomes requires addressing structural barriers and upstream determinants disproportionately affecting specific migrant groups.",
+    "url": "https://doi.org/10.1111/ppe.70205",
+    "doi": "10.1111/ppe.70205",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 19,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1327283",
+    "title": "Study of Ancestry, Health, Environment, and Late-Life Neurodegeneration (SAHEL)",
+    "authors": [
+      "Kwairanga SH",
+      "Iwar HJ",
+      "Faruk AU",
+      "Wakawa IA",
+      "Musami UB",
+      "Ogualili PN",
+      "Mahmood MY",
+      "Fugu MA",
+      "Gimba MM",
+      "Allamin MM",
+      "Abbas ZU",
+      "Sunkani MK",
+      "Yaganami ZB",
+      "Kadau FM",
+      "Sani NM",
+      "Danmallam P",
+      "Nanjul LE",
+      "Babazau L",
+      "Muhammad Z",
+      "Usman D",
+      "Alkhamis AI",
+      "Goni BW",
+      "Machina BK",
+      "Lee CS",
+      "Allamin IA",
+      "Mustapha A",
+      "Isaha MB",
+      "Joji S",
+      "Oguntunde O",
+      "Aniweh Y",
+      "Grossman RL",
+      "Yoshimatsu T",
+      "Anazodo U",
+      "Udeh-Momoh C",
+      "Karikari TK",
+      "Karch CM",
+      "Onyike CU",
+      "Maina MB."
+    ],
+    "published": "2026-09-24",
+    "venue": "{'publisher': 'medRxiv', 'yearOfPublication': 2026}",
+    "abstract": "INTRODUCTION: Dementia research in sub-Saharan Africa remains limited despite rapid population aging and substantial ancestral, environmental, and vascular diversity. The Study of Ancestry, Health, Environment, and Late-Life Neurodegeneration (SAHEL) characterizes late-life cognitive decline and neurodegeneration in north-eastern Nigeria. METHODS: SAHEL comprises community and hospital cohorts of adults aged 55 years or older in Yobe and Borno States. Participants undergo cognitive, functional, environmental, cardiovascular, metabolic, neuropsychiatric, and neurological assessments. Blood is collected for clinical profiling and biobanking, and consenting hospital participants provide skin biopsies for induced pluripotent stem cell generation. Planned analyses will integrate gut microbiota profiling, retinal imaging, and brain magnetic resonance imaging to investigate biological pathways and markers associated with healthy aging and cognitive outcomes. RESULTS: From August 2025 through February 2026, 1,044 community participants were screened (mean age, 69.4 years; 56.4% female); 379 (36.3%) screened positive for cognitive concern and entered longitudinal follow-up. The hospital cohort enrolled 102 participants (mean age, 73.5 years; 57.8% male), including participants with Alzheimers disease, vascular dementia, mixed dementia, and mild cognitive impairment. Blood was collected from 809 community participants and all hospital participants. The cohort includes Kanuri, Fulani, Hausa, Babur/Bura, and Shuwa Arab participants. DISCUSSION: SAHEL has established a large, deeply characterized aging and dementia research platform in north-eastern Nigeria. Its linked clinical, environmental, biomarker, genomic, imaging, microbiome, and cellular resources will enable investigation of population-specific risk and resilience mechanisms and strengthen dementia research and precision medicine in African populations.",
+    "url": "https://doi.org/10.64898/2026.09.23.26363703",
+    "doi": "10.64898/2026.09.23.26363703",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 17,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13613018",
+    "title": "COVID-19 and female reproductive health: pathophysiological mechanisms and clinical reproductive outcomes",
+    "authors": [
+      "Yerkenova S",
+      "Lokshin V",
+      "Aldangarova G",
+      "Skakova R",
+      "Koshkimbayeva G",
+      "Mireeva A",
+      "Nurseitova L",
+      "Dzhardemaliyeva N",
+      "Akhmentayeva D",
+      "Maimakova A",
+      "Suieubekov B",
+      "Moiynbayeva S."
+    ],
+    "published": "2026-09-26",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13613018",
+    "doi": "10.3389/fmed.2026.1911269",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42799686",
+    "title": "Supplementation with Bacillus-based direct-fed microbials for developing beef heifers: impacts on fecal and vaginal microbiome, growth, and reproductive performance.",
+    "authors": [
+      "Sousa LM",
+      "Moriel P",
+      "Izquierdo VS",
+      "Crawford CA",
+      "Brauner CC",
+      "Bittar JHJ",
+      "Monteiro P",
+      "Binelli M",
+      "Lazarin JV",
+      "Vendramini JMB",
+      "Cappellozza BI."
+    ],
+    "published": "2026-09-26",
+    "venue": "MED",
+    "abstract": "This 2-year study evaluated the effects of Bacillus-based direct-fed microbial (DFM) supplementation on fecal and vaginal microbiomes, growth, and reproduction of beef heifers. On day 0 (30 days after weaning), Brangus crossbred beef heifers (n = 64 per year) were stratified by body weight (BW; 261 ± 29 kg) and age (286 ± 11 days) and randomly allocated into 1 of 16 bahiagrass pastures (1 ha and 4 heifers per pasture). Treatments (8 pastures per treatment) consisted of daily concentrate supplementation at 1.50% of BW (dry matter basis), with (BAC) or without (CON) a DFM supplement containing Bacillus subtilis 810 and B. licheniformis 809 (3 g per heifer; 6.6 × 109 CFU per day) from day 0 to 244. Heifers were estrus-synchronized from day 98 to 112, artificially inseminated (AI) on days 109 to 112, and exposed to Angus bulls from day 120 to 210 (1 bull per pasture). Fecal and vaginal swab samples were collected on days 0, 112 (timed-AI), and 210 (end of the breeding season). Effects of treatment × year were not detected (P ≥ 0.18) for any variable. Treatments did not affect herbage utilization, heifer BW, or plasma concentrations of glucose and insulin-like growth factor 1 (IGF-1). Percentage of pubertal heifers and reproductive tract scores were greater on day 60 (P = 0.05), but not on day 90 (P ≥ 0.22), for BAC vs. CON heifers. Pregnancy per AI tended (P = 0.10) to be greater for BAC vs. CON heifers. Final pregnancy percentage did not differ (P = 0.65) between treatments, whereas a greater (P ≤ 0.05) proportion of BAC heifers calved within the first 28 days of the calving season. Effects of treatment × day were detected for fecal Firmicutes, Bacteroidetes, and Clostridium, Butyrivibrio, and Blautia, which were greater in BAC vs. CON heifers on day 112 (P ≤ 0.02). Fecal Shannon and Simpson diversity indexes on day 112 were lower (P < 0.01) for BAC vs. CON heifers. Effects of treatment were detected (P ≤ 0.04) for vaginal Methanobrevibacter and Euryarchaeota, both of which were lower overall in BAC vs. CON heifers. These findings indicate that Bacillus-based DFM supplementation modulated fecal and vaginal microbial communities and improved reproductive outcomes in developing beef heifers, suggesting that reproductive benefits may be partly mediated through microbiome-host interactions.",
+    "url": "https://doi.org/10.1093/jas/skag313",
+    "doi": "10.1093/jas/skag313",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "IM",
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42785937",
+    "title": "Multimodality detection of early relapse in radically treated high-risk HPV-negative head and neck squamous cell carcinoma: study protocol for a prospective multicentre UK cohort study (HERD).",
+    "authors": [
+      "Mithra S",
+      "Ahmed AA",
+      "Roshan A",
+      "Barber PR",
+      "de Carvalho Gomes C",
+      "Coolen T",
+      "Sawyer E",
+      "Rosenfeld N",
+      "Sinkus R",
+      "Reis-Ferreira M",
+      "Connor S",
+      "Shmueli K",
+      "Morley S",
+      "Nenclares P",
+      "Apsey C",
+      "Hackshaw A",
+      "Arora A",
+      "Beeston T",
+      "Tuazon J",
+      "Berin M",
+      "Yeung A",
+      "Curtis C",
+      "Ng K",
+      "Mustapha R",
+      "Gillett C",
+      "Issa B",
+      "Brew-Graves C",
+      "Lioumi M",
+      "Ng T",
+      "Forster M."
+    ],
+    "published": "2026-09-24",
+    "venue": "MED",
+    "abstract": "IntroductionHead and neck squamous cell carcinoma (HNSCC) is the seventh most common cancer globally, with over 12 000 new cases annually in the UK. Despite aggressive radical treatment, approximately 50% of patients with locally advanced (stage III/IV), human papilloma virus (HPV)-negative disease relapse within 2 years, often in the first year. Although current post-treatment follow-up schedules are recommended by clinical guidelines, imaging surveillance is led by symptoms after the initial 3 months and reliable biomarkers for early relapse are lacking. Consequently, recurrences are frequently detected too late for surgical salvage, though timely surgery can improve survival by up to 73% in selected cases. Head and Neck Early Relapse Detection Study represents a large-scale, prospective effort to integrate imaging, genomic, immunologic and microbiome datasets for relapse risk stratification and post-treatment surveillance in this high-risk patient group.Methods and analysisDesign: Prospective, observational cohort study.SettingSecondary and tertiary NHS hospitals in the UK.ParticipantsRecruiting up to 200 patients with stage III/IV (high-risk) HPV-negative HNSCC. Participants are enrolled into discovery (n=100) and validation (n=100) cohorts. Patients with HPV-positive tumours, metastatic disease or other contraindications defined in the protocol will be excluded.InterventionsObservational study with no experimental intervention. Participants are followed for 2 years with longitudinal collection of blood, saliva, urine, stool, fresh and archival tumour tissue and advanced MRI where possible in addition to their standard of clinical care.Primary outcomesDevelopment and independent validation of a multimodal recurrence risk prediction model.Secondary outcomesIdentifying patient populations for primary treatment stratification, establishment of a longitudinal biorepository and identifying biological mechanisms of recurrence. Multimodal data will be integrated using machine learning and Bayesian modelling.Ethics and disseminationEthical approval was granted by the Bromley Research Ethics Committee (21/PR/1581). Findings will be disseminated through peer-reviewed publications, conference presentations and scientific meetings.Trial registration numberNCT05097625.",
+    "url": "https://doi.org/10.1136/bmjopen-2026-121924",
+    "doi": "10.1136/bmjopen-2026-121924",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Multicenter Study",
+      "Journal Article",
+      "Observational Study"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42785338",
+    "title": "Faecal microbiota transplantation in irritable bowel syndrome (REFIT2): a randomised, double-blind, placebo-controlled, phase 3 trial.",
+    "authors": [
+      "Johnsen PH",
+      "Juul FE",
+      "Hoff DAL",
+      "Hillestad ER",
+      "Holme Ø",
+      "Skjevling LK",
+      "Hansen HM",
+      "Rasmus MH",
+      "Barnett L",
+      "Barry SJE",
+      "Hjerde E",
+      "Lindstedt K",
+      "Buczek DJ",
+      "Hatlebakk JG",
+      "Steinsvik EK",
+      "Berentsen B",
+      "Garborg KK",
+      "Valeur J",
+      "Valle PC",
+      "Løberg M",
+      "Kalager M",
+      "Bretthauer M",
+      "Goll R."
+    ],
+    "published": "2026-09-24",
+    "venue": "MED",
+    "abstract": "BackgroundGut microbiota composition might have a role in the pathogenesis of irritable bowel syndrome (IBS), and faecal microbiota transplantation has been proposed as a means of restoring healthy gut microbiota for individuals with this condition. We aimed to investigate the efficacy and safety of faecal microbiota transplantation in patients with IBS.MethodsIn this parallel-group, randomised, double-blind, placebo-controlled, phase 3 trial, conducted at five hospitals in Norway, we enrolled men and women aged 18-65 years with moderate-to-severe IBS. IBS diagnosis was defined by the Rome IV criteria and an IBS-Severity Scoring System (IBS-SSS) score of 175 points or higher. A colonoscopy within 5 years before study enrolment was required for all participants aged 50 years or older to rule out colorectal cancer, and participants with IBS with predominantly diarrhoea required negative biopsies to exclude microscopic colitis. Participants were randomly assigned 2:1 to faecal microbiota transplantation with faeces samples from either healthy donors (intervention) or the participants themselves (placebo group). All investigators, participants, and study personnel involved in treatment administration, patient care, and outcome assessment were masked to treatment allocation throughout the study. Treatments were delivered as a once-only rectal enema. The primary endpoint was the proportion of participants with a reduction of 75 points or more in IBS-SSS score at 90 days after treatment compared with baseline, assessed in all patients who received their allocated treatment. All participants were advised to report any adverse event during follow-up to their study contact, preferably by telephone. A patient representative was involved in the planning of the trial. The trial was registered at ClinicalTrials.gov (NCT04691544).FindingsBetween May 5, 2021, and July 14, 2022, we assessed 2304 individuals for eligibility, and 450 participants were enrolled and randomly assigned to the intervention group (299) or placebo group (151); two randomly assigned participants were excluded from analyses because their allocated treatments were switched. 293 (65%) of 448 participants were women, 155 (35%) were men, and the median age was 36 years (IQR 29-44). 119 (40%) participants in the donor faecal microbiota transplantation group and 57 (38%) in the placebo group showed an improvement of at least 75 points on the IBS-SSS at 90 days after treatment. The absolute difference was 1·9 percentage points (95% CI -8·1 to 12·0; p=0·76). The proportion of participants with adverse events was similar in the two study groups.InterpretationThe trial did not show a clinical benefit of faecal microbiota transplantation in patients with IBS. These findings suggest that microbiota modulation alone might be insufficient for symptom improvement in IBS.FundingKLINBEFORSK.",
+    "url": "https://doi.org/10.1016/s0140-6736(26)01424-8",
+    "doi": "10.1016/s0140-6736(26)01424-8",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13600864",
+    "title": "Gut microbiota and short-chain fatty acids in pregnant women with group B Streptococcus colonization and their impact on neonatal outcomes",
+    "authors": [
+      "Zhu Y",
+      "Ni Y",
+      "Lin Y",
+      "Chen X",
+      "Lai J",
+      "Lin X",
+      "Chen C."
+    ],
+    "published": "2026-09-25",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13600864",
+    "doi": "10.3389/fcimb.2026.1912234",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 11,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1327299",
+    "title": "Late lactation represents the main window for sow-to-piglet transmission of persistent gut strains",
+    "authors": [
+      "Pomiès M",
+      "Agoutin G",
+      "Auer L",
+      "Castinel A",
+      "Bouchez O",
+      "Achard CS",
+      "Quesnel H",
+      "Pascal G",
+      "Combes S."
+    ],
+    "published": "2026-09-24",
+    "venue": "{'publisher': 'bioRxiv', 'yearOfPublication': 2026}",
+    "abstract": "A bstract The gut microbiota plays a key role in piglet health, and maternal microbial transmission may represent a promising lever to shape early-life microbiota and prevent post-weaning digestive disorders. This study aimed to better characterize sow-to-piglet microbiota transmission and persistence using a long-read metabarcoding approach targeting the 16S-ITS-23S region. Fecal samples (n = 204) were collected from 17 families, a family being as sow and three of her piglets, at multiple stages: late gestation (G110), early (L6) and late lactation (L28) for sows; early lactation (L6), late lactation (L28), and 5 days post-weaning for piglets. To approximate strain-level resolution, a putative strain (PS) approach was developed by clustering ASVs (n = 6064) affiliated with the same species based on abundance covariance (r ≥ 0.9), resulting in 4857 PS. Piglet microbiota progressively diversified during lactation and converged toward that of sow. In sows, 27 ± 6% of PS were persistent from late gestation to late lactation. In piglets, only 4.2 ± 2.5% of PS persisted from d6 to 5 days post-weaning. Persistent PS in piglets were mainly affiliated with Limosilactobacillus reuteri and Lactobacillus amylovorus followed with Holdemanella porci and H. biformis, Lentihominibacter hominis and Dorea formicigenerans . Shared PS were significantly higher within families than between unrelated pairs (p < 0.05). Maternal transmission peaked at the end of lactation (35 ± 7% at L28). Persistent transmitted PS represented 2.7 ± 1.6% (d6-post-weaning) and 15.4 ± 5.6% (d28-post-weaning). Early-transmitted persistent PS were mainly affiliated with Limosilactobacillus reuteri, Lactobacillus amylovorus , and Paraeggerthella hominis , whereas late-transmitted persistent PS were associated with Prevotella spp., Sphaerochaeta globosa , and Bariatricus comes . These findings highlight the significance of maternal transmission in shaping the post-weaning microbiota and identify late lactation as a critical window for microbiota transfer.",
+    "url": "https://doi.org/10.64898/2026.09.23.753686",
+    "doi": "10.64898/2026.09.23.753686",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 10,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  }
+]
