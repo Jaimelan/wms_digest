@@ -1,0 +1,344 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "42829202",
+    "title": "Clinical Landscape of Microbiome Modulators in Gynecological Tumor Treatment: From Pre-Clinical to Clinical Trials.",
+    "authors": [
+      "Zhang J",
+      "Jiang X",
+      "Lin Z",
+      "Li H",
+      "Jiang S."
+    ],
+    "published": "2026-10-03",
+    "venue": "MED",
+    "abstract": "Intestinal microbiota dysbiosis is linked to gynecological tumors (endometrial, ovarian, cervical cancers), and microbiome modulators show therapeutic potential by regulating gut microbiota. This Perspective analyzes the field from pre-clinical to clinical stages. Pre-clinically, a Web of Science bibliometric analysis (2010-2025, 114 articles, 86 reviews) revealed focus on \"epithelial ovarian cancer,\" \"estrogen,\" and \"mechanism,\" with key studies by Baker et al. (2017, gut microbiota-estrogen-endometrial cancer link) and Kopustinskiene et al. (2020, flavonoids' anti-tumor effect via gut flora). Clinically, 4 INFORMA-database trials (2 closed, 1 completed, 1 planning) targeted ovarian/endometrial cancer (no cervical cancer trials), using live microorganisms/faecal modulators mainly for immuno-oncology therapy; bacteriophages (e.g., M13) also emerged as potential modulators. Challenges include unclear optimal combination therapies, lack of cervical cancer trials, and limited modulator types. This analysis offers a field overview and future research directions. The intestinal microbiota constitutes a complex ecological community that influences the normal physiological and pathological processes of distal organs through its metabolic activities. Previous research has demonstrated that dysbiosis of the intestinal microbiota can contribute to the development of endometrial cancer, ovarian cancer, and cervical cancer 1-3. Microbiome modulators enhance host health by regulating the intestinal microbiota and hold potential as therapeutic agents for gynecological tumors 4. Consequently, it is imperative to analyze the landscape of clinical trials investigating the efficacy of microbiome modulators in the treatment of gynecological tumors.",
+    "url": "https://doi.org/10.1016/j.bj.2026.101043",
+    "doi": "10.1016/j.bj.2026.101043",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 27,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42828720",
+    "title": "Gut dysbiosis, blood pressure regulation, and cardiometabolic risk in polyendocrine metabolic ovarian syndrome (PMOS).",
+    "authors": [
+      "Naveed M",
+      "Yang T",
+      "Togliatti O",
+      "Joe B",
+      "Hill JW."
+    ],
+    "published": "2026-10-03",
+    "venue": "MED",
+    "abstract": "Polyendocrine metabolic ovarian syndrome (PMOS), formerly known as polycystic ovary syndrome (PCOS), is a common endocrine-metabolic disorder associated with increased hypertension and cardiometabolic risk. Gut dysbiosis is also frequently reported in affected women, raising the question of whether microbiome-linked pathways contribute to blood pressure elevation or vascular risk in this syndrome. To evaluate and synthesize the available evidence linking gut dysbiosis, gut microbial function, and microbiome-related mechanisms to hypertension, blood pressure regulation, and cardiovascular risk in women with PMOS, we conducted a narrative review of the literature in PubMed, Scopus, Web of Science, Google Scholar, and citation tracking. Search terms included PCOS, PMOS, gut microbiota, gut dysbiosis, hypertension, blood pressure, cardiovascular risk, microbial metabolites, bile acids, intestinal permeability, inflammation, renin-angiotensin signaling, renal sodium handling, and autonomic regulation. Human studies, animal models, interventional studies, and mechanistic investigations relevant to PMOS and hypertension were reviewed according to predefined inclusion and exclusion criteria. Eligible publications were preclinical studies, human studies, English language, adult females, and peer-reviewed original or review articles. Clarifying whether gut dysbiosis contributes to hypertension in PMOS may improve understanding of the mechanisms underlying cardiometabolic risk in affected women and inform the development of microbiome-targeted diagnostic and therapeutic strategies. Achieving this goal will require well-phenotyped clinical studies integrating PMOS, blood pressure and vascular assessments with functional microbiome analyses.",
+    "url": "https://doi.org/10.1007/s11154-026-10085-y",
+    "doi": "10.1007/s11154-026-10085-y",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 23,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42827404",
+    "title": "Evaluating Vaginal Microbiome Effects on Antiretroviral Exposure in the Female Genital Tract Using Pharmacometric and Machine Learning Approaches.",
+    "authors": [
+      "Yan D",
+      "Collins LB",
+      "Staley C",
+      "Matovu FK",
+      "Jacobson P",
+      "Nicol M",
+      "Cheng S."
+    ],
+    "published": "2026-10-03",
+    "venue": "MED",
+    "abstract": "Antiretroviral pre-exposure prophylaxis (PrEP) is less effective in women than expected, partly because drug exposure within the female genital tract is variable and may be influenced by the vaginal microbiome. We developed an integrated pharmacometrics and machine learning framework to evaluate associations between vaginal microbiome composition and cervical antiretroviral exposure in women with human immunodeficiency virus (HIV) receiving tenofovir (TFV)-, lamivudine (3TC)-, or emtricitabine (FTC)-containing regimens. Pharmacokinetic and microbiome data were obtained from two single-center studies in Uganda and the United States. Published population pharmacokinetic models were used to estimate individual parameters by maximum a posteriori Bayesian estimation and to simulate plasma and cervical tissue exposure metrics under sexual-activity-driven dosing that were not studied in these trials. Microbiome diversity was assessed using alpha and beta diversity analyses. Associations between microbial genera and cervical drug exposure were evaluated using correlation analysis, differential abundance testing, and three machine learning approaches: LASSO, random forest, and XGBoost. Overall vaginal microbiome diversity was not associated with cervical exposure to TFV, 3TC, or FTC. In contrast, specific taxa-level associations with cervical drug exposure were identified. For TFV, Gemella was positively associated with cervical TFV-diphosphate exposure, whereas Megasphaera and Falsiporphyromonas were negatively associated across multiple models. For 3TC, Dialister, Prevotella, Atopobium, Streptobacillus, and Gardnerella were repeatedly identified. For FTC, Bifidobacteriaceae was consistently selected, with Lachnospiraceae and Prevotellaceae also implicated. This pharmacometrics-machine learning framework identified specific vaginal taxa associated with cervical antiretroviral exposure, supporting the future development of microbiome-based biomarkers and precision PrEP strategies for women.",
+    "url": "https://doi.org/10.1002/cpt.70499",
+    "doi": "10.1002/cpt.70499",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 22,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42821694",
+    "title": "Sex-specific mechanisms of chronic pain.",
+    "authors": [
+      "Venkataraman A",
+      "Midavaine É",
+      "Ingraham HA."
+    ],
+    "published": "2026-10-01",
+    "venue": "MED",
+    "abstract": "For decades, we have known that women, especially younger women, are disproportionately affected by pain disorders, including irritable bowel syndrome, endometriosis, menstrual migraines, fibromyalgia, osteoarthritis, and neuropathic pain, all of which degrade quality of life. The adoption of sex as a biological variable in 2016 has begun to transform the field, revealing distinct sex-specific pathways that initiate, amplify, and resolve pain. In this Review, we synthesize recent advances across visceral and somatic pain, highlighting the impact of sex hormones, immune-neural cross-talk, the gut microbiome, and endogenous analgesic circuits. Rather than clinging to the historical standard that simply described the female bias in pain symptoms, these studies begin to explain why females experience heightened pain, paving the path for mechanism-based precision therapeutics.",
+    "url": "https://doi.org/10.1126/science.aeh4468",
+    "doi": "10.1126/science.aeh4468",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 18,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42822491",
+    "title": "Importance of faecal sample collection in prospective cohort studies to evaluate the effect of the gut microbiome on cancer development.",
+    "authors": [
+      "Vogtmann E",
+      "Um CY",
+      "Zouiouich S",
+      "Absher D",
+      "Benamouzig R",
+      "Chan AT",
+      "Fu J",
+      "Garrett WS",
+      "Greiser KH",
+      "Havulinna AS",
+      "Huttenhower C",
+      "Hveem K",
+      "Kushi LH",
+      "Lahti L",
+      "Liou JM",
+      "Lituev A",
+      "Michaëlsson K",
+      "Milne RL",
+      "Næss M",
+      "Niiranen TJ",
+      "Olsen A",
+      "Patel AV",
+      "Rimm EB",
+      "Rowell S",
+      "Salomaa V",
+      "Sayols-Baixeras S",
+      "Segal E",
+      "Shrubsole MJ",
+      "Shu XO",
+      "Skarbinski J",
+      "Song M",
+      "Southey MC",
+      "Tjønneland A",
+      "Veiga P",
+      "Weersma RK",
+      "Wu MS",
+      "Zheng W",
+      "Zhernakova A",
+      "Shi J",
+      "Hong HG",
+      "Abnet CC",
+      "Sinha R."
+    ],
+    "published": "2026-10-01",
+    "venue": "MED",
+    "abstract": "The gut microbiome has been linked to cancer in many cross-sectional studies. These studies compared individuals with and without cancer, but they do not establish causation. Prospective cohort studies, with faecal samples collected before a cancer diagnosis, will be instrumental in assessing the role of the gut microbiome in human cancer risk. We identified 18 prospective cohort studies, each of which collected faecal samples from at least 5000 individuals with expected future cancer linkages, and calculated the projected numbers of colorectal, stomach, pancreatic, and female breast cancers. Larger numbers of incident cancer cases need to be evaluated to identify robust associations between the gut microbiome and cancer with sufficient power. To achieve this goal, we propose that additional cohorts collect faecal samples, particularly those with participants from various backgrounds and from under-represented world regions. Furthermore, sufficient data sharing and improved methods are needed to pool and meta-analyse microbiome data. These data can then be used to gain a better understanding of how the gut microbiome is involved in cancer development and other health outcomes at multiple body sites.",
+    "url": "https://doi.org/10.1016/j.lanmic.2026.101525",
+    "doi": "10.1016/j.lanmic.2026.101525",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Review",
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42822490",
+    "title": "Host and environmental factors associated with upper respiratory tract mycobiota in healthy individuals: a cross-sectional observational study.",
+    "authors": [
+      "Odendaal ML",
+      "Binkowska J",
+      "Zhang J",
+      "Groot JA",
+      "Chu MLJ",
+      "van der Klis FR",
+      "Bogaert D",
+      "van den Beld MJ."
+    ],
+    "published": "2026-10-01",
+    "venue": "MED",
+    "abstract": "BackgroundAlthough the bacterial microbiome in the respiratory tract is well-characterised, the fungal microbiome or mycobiome remains underexplored. We aimed to characterise the upper respiratory tract mycobiome within the general population, assess its variation across niches and in relation to host and environmental factors, and evaluate its role as a source community for the fungal pathogens Candida auris (also called Candidozyma auris), Candida albicans, and Aspergillus fumigatus.MethodsIn this cross-sectional population-based observational study, we characterised paired nasopharyngeal and oropharyngeal mycobiota from 108 participants in the Dutch population-based PIENTER-3 cohort using internal transcribed spacer-amplicon sequencing. Participants were recruited via municipal registers from four municipalities in the central Netherlands between Feb 1, 2016, and Oct 16, 2017. No clinical inclusion or exclusion criteria were applied. In addition, pan-Aspergillus and A fumigatus qPCR assays were performed on oropharynx samples. The primary outcome was to characterise niche-specific differences in the mycobiota.FindingsWe analysed samples from 108 participants (55 [51%] female and 53 [49%] male); the participant age ranged between 10 and 87 years (median 58; IQR 30-67). After quality-control filtering, 107 nasopharyngeal and 89 oropharyngeal samples were retained for analysis. Nasopharyngeal and oropharyngeal mycobiota differed in composition (p=0·0010) and diversity (pInterpretationOur study identified niche-specific fungal communities, with their distinct influencing factors. Our findings also suggest that respiratory mycobiota might serve as a source community for potentially pathogenic fungi. Future studies should investigate which fungi represent commensals versus potential pathogens and elucidate the mechanisms underlying colonisation resistance and infection risk.FundingNational Institute for Public Health and the Environment (RIVM), Netherlands Organization for Scientific Research, and Chief Scientist Office grant.",
+    "url": "https://doi.org/10.1016/j.lanmic.2026.101517",
+    "doi": "10.1016/j.lanmic.2026.101517",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 16,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "methods and benchmarks"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42822660",
+    "title": "Antimicrobial resistance profiles and genomic diversity of vaginal Prevotella bivia isolates from South African women, including the first report of nimK in South African vaginal P. bivia isolates.",
+    "authors": [
+      "Welp K",
+      "Paul L",
+      "Froissart R",
+      "Happel AU",
+      "Pidwell T",
+      "Gill K",
+      "Bekker LG",
+      "Jaspan HB",
+      "Vasse M",
+      "Passmore JS",
+      "Kullin BR."
+    ],
+    "published": "2026-10-01",
+    "venue": "MED",
+    "abstract": "ObjectivesTo characterise the phenotypic and genotypic antimicrobial resistance (AMR) profiles and genomic diversity of vaginal Prevotella bivia isolates obtained from South African women and to compare them with publicly available genomes.MethodsP. bivia isolates were recovered from lateral vaginal wall swabs and identified by polymerase chain reaction (PCR) and 16S rRNA gene sequencing. Antimicrobial susceptibility testing against metronidazole, clindamycin, azithromycin, amoxicillin and doxycycline was performed using MIC test strips (MTS). Whole-genome sequencing was undertaken using the Illumina MiSeq platform to investigate genomic diversity, AMR gene carriage and mobile genetic elements.ResultsThirty-five P. bivia isolates from 30 vaginal samples underwent phenotypic characterisation, and 33 high-quality genomes were included in genomic analyses. Resistance to metronidazole and clindamycin was low (11.4% and 8.6%, respectively). The tetQ and cfxA genes were the most frequently detected AMR determinants (90.9% and 72.7% of genomes, respectively), whereas ermF and nimK were rare (3.0% each). Comparative genomic analysis revealed generally low within-sample diversity, although one participant harboured genetically distinct strains, and strain persistence was observed in another participant over a 16-week interval. South African isolates clustered separately from most publicly available isolates originating from the United States. One isolate harboured nimK within a previously described Tn6456-like mobile element, representing, to our knowledge, the first identification of nimK in a South African vaginal P. bivia isolate.ConclusionsVaginal P. bivia isolates from South African women exhibited low genomic diversity, evidence of strain persistence and occasional co-colonisation with multiple P. bivia strains. Although resistance to standard bacterial vaginosis therapies remained low, the presence of mobile AMR determinants highlights the importance of continued genomic and phenotypic surveillance of vaginal P. bivia populations.",
+    "url": "https://doi.org/10.1016/j.anaerobe.2026.103086",
+    "doi": "10.1016/j.anaerobe.2026.103086",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 15,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42825830",
+    "title": "Early-onset neonatal sepsis and neonatal antibiotic exposure in Hungary a nationwide population-based study.",
+    "authors": [
+      "Mari J",
+      "Klingenberg C",
+      "Rosa-Mangeret F",
+      "Mlinarics LS",
+      "Szabó M",
+      "Valek A",
+      "Kiss JK",
+      "Tálosi G."
+    ],
+    "published": "2026-10-02",
+    "venue": "MED",
+    "abstract": "Neonatal sepsis remains a challenge in perinatal medicine. We aimed to estimate incidence of culture positive early-onset sepsis (CP-EOS), causative pathogens and overall antibiotic exposure in newborn infants in Hungary. Retrospective national registry analysis (2020-2023). Data were mainly collected from the Hungarian National Perinatal Registry covering all level II-III neonatal intensive care units (NICUs) in Hungary. The number of livebirths in each gestational age group was provided by Hungarian Central Statistical Office. Overall CP-EOS incidence was 0.41/1,000 livebirths (0.20/1,000 ≥ 35 weeks gestation, 7.0/1,000 ConclusionsOur results provide the first national incidence estimates for CP-EOS in Central-Eastern Europe. The study identified high antibiotic use with a concurrently relatively low EOS incidence. The results support implementing new strategies to reduce unnecessary antibiotic exposure in the newborn period.What is known• Neonatal early-onset sepsis (EOS) causes substantial neonatal morbidity, prompting widespread, frequent empirical antibiotic use. • Unnecessary early-life antibiotic exposure shifts the infant gut microbiota and increases risks for long-term adverse health outcomes.What is new• This first nationwide Central-Eastern European study reveals a low EOS incidence (0.41/1,000 live births) but high NICU antibiotic exposure (63.9%) in Hungary. • Escherichia coli has overtaken GBS as the leading EOS pathogen, causing significant mortality primarily in preterm infants.",
+    "url": "https://doi.org/10.1007/s00431-026-07455-8",
+    "doi": "10.1007/s00431-026-07455-8",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 12,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42830864",
+    "title": "Maturation-Dependent Constraints in the Ability of Human Monocytes to Initiate Trained Immunity.",
+    "authors": [
+      "Eigenschink M",
+      "Davogg E",
+      "Pristner M",
+      "Seki D",
+      "Arzmüller M",
+      "Kiss H",
+      "Farr A",
+      "Berger A",
+      "Berry D",
+      "Warth B",
+      "Wisgrill L."
+    ],
+    "published": "2026-10-04",
+    "venue": "MED",
+    "abstract": "The survival of nonvertebrate species that lack adaptive immunity has prompted the discovery of memory mechanisms in innate immune cells, termed trained immunity. Because infants depend on innate immunity to fight off pathogens, leveraging these mechanisms in neonatal care may hold clinical significance. Yet, this is constrained by limited understanding of innate immune memory development during early-life. By performing systems-level characterization of β-glucan-trained monocytes from adults, term infants, and preterm infants, we report maturation-dependent constraints in trained immunity. We corroborate these findings in a small cohort of premature infants with in utero pathogen exposure. Alongside limited stimulus-induced reprogramming of innate immune responses in the clinical cohort, monocytes from premature infants exhibited metabolic alterations in glutaminolysis and tricarboxylic acid cycle metabolism, pathways central to trained immunity. They also displayed a treatment-robust long noncoding RNA landscape and transcriptional alterations in enzymes relevant to epigenetic induction of innate immune memory. Finally, network-based analyses implicated SMAD5 and ARNT as potential drivers of differences and provided evidence for altered transcriptional regulation of chromatin organization across early-life development. Our results suggest that metabolic and transcriptomic immaturity constrains trained immunity in premature infants, highlighting a developmental mechanism that may affect host defense and guide future immunomodulatory strategies.",
+    "url": "https://doi.org/10.1002/mco2.70939",
+    "doi": "10.1002/mco2.70939",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "Journal Article"
+    ],
+    "score": 11,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "42826283",
+    "title": "Long-term integrative personalized medicine care in massive brainstem hemorrhage: A CARE-compliant case report.",
+    "authors": [
+      "Lee YV",
+      "Ahn J",
+      "Lee E",
+      "Park C",
+      "Son EJ",
+      "Jeong JY."
+    ],
+    "published": "2026-10-01",
+    "venue": "MED",
+    "abstract": "RationaleBrainstem hemorrhage is a rare but devastating subtype of intracerebral hemorrhage that frequently presents with impaired consciousness, quadriplegia, and recurrent infections. Integrative personalized medicine care (IPMC), which combines essential conventional treatments with personalized traditional Korean medicine interventions, has been suggested to improve functional outcomes and support immune regulation. By closely monitoring a patient with massive brainstem hemorrhage treated with IPMC, we observed neurological improvement, effective control of recurrent infections and inflammation, and sustained safety of long-term herbal medications.Patient concernsA 48-year-old female patient with a brainstem hemorrhage was managed at Kyung Hee University Hospital with IPMC for posthemorrhagic functional impairment and recurrent infection.DiagnosesThe patient was diagnosed with a massive pontine hemorrhage with posthemorrhagic functional impairment and recurrent infection.InterventionsThe patient received conventional treatment and integrative personalized traditional Korean medicine interventions, including herbal medications and acupuncture.OutcomesWe retrospectively analyzed the 2-year clinical course of the patient who received IPMC to evaluate the efficacy and safety of the treatment. Functional outcomes and inflammation control were assessed using standardized scales (modified Barthel index, Korean mini-mental state examination, Glasgow Coma Scale, global deterioration scale, level of consciousness, manual muscle testing, and Fugl-Meyer assessment) and hematological markers (C-reactive protein, neutrophil-to-lymphocyte ratio, and systemic inflammation response index). Liver and renal functions were monitored through laboratory tests (alanine aminotransferase, aspartate aminotransferase, γ-glutamyltransferase, blood urea nitrogen, serum creatinine, and estimated glomerular filtration rate). Regarding the efficacy of IPMC, functional improvements in neurological and motor outcomes were observed throughout the treatment period. Dependence on antibiotics progressively decreased, whereas the proportion of herbal medication-centered treatments increased. Infections with C-reactive protein levels LessonsThis case demonstrates the efficacy and safety of IPMC, which integrates herbal medications with conventional treatment, for managing posthemorrhagic functional impairment and recurrent infections. These findings provide a foundation for future prospective studies. Further research is required to strengthen this evidence and validate the effectiveness of IPMC.",
+    "url": "https://doi.org/10.1097/md.0000000000050954",
+    "doi": "10.1097/md.0000000000050954",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article",
+      "Case Reports"
+    ],
+    "score": 11,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
