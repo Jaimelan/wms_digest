@@ -1,0 +1,290 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1338618",
+    "title": "HPV co-infection burden, vaginal microbiota restructuring, and host context are associated with Cervical precancer risk in a racially restricted observational cohort",
+    "authors": [
+      "Tossas KY",
+      "Zhu B",
+      "Tyc KM",
+      "Rhodes C",
+      "III JFS",
+      "Serrano MG",
+      "Buck GA."
+    ],
+    "published": "2026-10-11",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background High-risk human papillomavirus (HPV) infection is necessary for cervical carcinogenesis, but HPV detection alone does not distinguish transient infection from lesions at greatest risk of progression. We evaluated whether HPV burden, vaginal microbiota structure, and host-context variables jointly characterize cervical intraepithelial neoplasia grade 3 (CIN3) in a Black/African American and White analytic cohort from the Vaginal Microbiome Health Project (VaMHP), integrating L1-based HPV typing, 16S rRNA vaginal microbiota profiling, and linked clinical metadata. Results Among 1181 participants, 75 had CIN3. CIN3 was associated with HPV positivity (55/75, 73.3% vs 431/1106, 39.0%; odds ratio [OR] 4.31, 95% CI 2.55–7.29; Fisher exact p = 7.9 x 10^-9) and with multiple HPV infection among HPV-positive participants (35/55, 63.6% vs 176/431, 40.8%; OR 2.54, 95% CI 1.42–4.54; p = 0.0022). HPV communities in CIN3-positive samples showed higher Shannon diversity, greater observed strain richness, higher evenness, and significant beta-diversity separation. In vaginal microbiota analyses, alpha diversity did not differ by CIN3 status, but community composition did, and Lactobacillus crispatus was the only taxon depleted in CIN3 after multiple-testing correction. Race, age, and metronidazole exposure were central nodes in the host-factor network. In predictive modeling, a full integrated model combining metadata, HPV, and vaginal microbiota features (auROC = 0.745) outperformed both HPV + vaginal microbiota (auROC = 0.670) and HPV-only (auROC = 0.440) models. Conclusions CIN3 in this cohort was associated with coordinated shifts in virologic burden, vaginal community structure, and host social-clinical context. The results support a structure-function interpretation in which loss of Lactobacillus crispatus-dominant states and enrichment of dysbiosis-associated communities define a host-microbiome context that is more permissive to HPV persistence and precancer. These findings move beyond descriptive omics by showing that microbiome and host-context features add nonredundant discriminatory signal beyond HPV-only models.",
+    "url": "https://doi.org/10.21203/rs.3.rs-11028378/v1",
+    "doi": "10.21203/rs.3.rs-11028378/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 27,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13645782",
+    "title": "Clinical efficacy and pregnancy outcomes of doxycycline plus medroxyprogesterone acetate therapy for chronic endometritis in women with recurrent reproductive failure: a prospective cohort study",
+    "authors": [
+      "Yang F",
+      "Peng D",
+      "Wang C",
+      "Yang X",
+      "Wang L",
+      "Chen Y",
+      "Wang F."
+    ],
+    "published": "2026-10-09",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13645782",
+    "doi": "10.3389/fmed.2026.1913511",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 14,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1338621",
+    "title": "Indolent Postoperative Endophthalmitis With Vitreous Metagenomic Detection of Enterobacter hormaechei in an Eye With Central Retinal Vein Occlusion: A Case Report",
+    "authors": [
+      "Zhang S",
+      "Ma H."
+    ],
+    "published": "2026-10-11",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background Enterobacter hormaechei is a member of the Enterobacter cloacae complex and an emerging multidrug-resistant opportunistic pathogen. Enterobacter endophthalmitis is uncommon and usually aggressive; an indolent postoperative presentation associated with species-level detection of E. hormaechei has not been well characterized. Case presentation: A 68-year-old woman with previous central retinal vein occlusion and retinal laser photocoagulation underwent left cataract surgery. Approximately 1 month later, after postoperative drops had been stopped, she developed ocular symptoms diagnosed as conjunctivitis. Follow-up was irregular, and she re-presented approximately 4 months later with persistent visual loss. At admission, left visual acuity was 0.08 (decimal), intraocular pressure was 13 mmHg, the conjunctiva and anterior chamber were quiet, the intraocular lens was centered, and vitreous opacity was most marked anteriorly. Vitreous DNA metagenomic next-generation sequencing (mNGS) detected E. hormaechei (656 reads; relative abundance, 2.80%); the laboratory categorized the signal as a low-attention finding. Intravitreal ceftazidime (1.0 mg/0.1 mL) and norvancomycin hydrochloride (1.0 mg/0.1 mL) produced no clear improvement after 1 week. Pars plana vitrectomy with silicone-oil tamponade was then performed. At 2 months, the retina was attached, intraocular inflammation was controlled, and best-corrected visual acuity was 0.12 (decimal); residual visual limitation was confounded by ischemic retinal disease. Conclusion Delayed postoperative endophthalmitis may present with little anterior-segment inflammation. Vitreous mNGS can identify unexpected organisms, but a low-abundance result without orthogonal confirmation should be interpreted as supportive rather than definitive evidence of causation. Persistent vitreous opacity despite intravitreal antibiotics may justify vitrectomy for source control, diagnostic sampling, and media clearance.",
+    "url": "https://doi.org/10.21203/rs.3.rs-11003088/v1",
+    "doi": "10.21203/rs.3.rs-11003088/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 12,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13651846",
+    "title": "Standardizing Cell Ontology terms for cross-study integration in the female reproductive tract",
+    "authors": [
+      "Ong H",
+      "Saunders D",
+      "Eastwood C",
+      "Puig-Barbe A",
+      "Kochersberger A",
+      "Galligos A",
+      "Marshall B",
+      "Johnson B",
+      "Kratka C",
+      "Jin C",
+      "Betancur D",
+      "Guimarães G",
+      "Machlin J",
+      "Isola J",
+      "Adam K",
+      "Morales-Casanova O",
+      "Djirackor S",
+      "Schissel T",
+      "Lorenzi V",
+      "Wang X",
+      "Shen X",
+      "Soygur B",
+      "Aevermann B",
+      "Gaylord E",
+      "Foecke M",
+      "Tavares N",
+      "Samuel R",
+      "Szady S",
+      "Mahalingam S",
+      "Biswas S",
+      "Liao W",
+      "Benayoun B",
+      "Chung H",
+      "Winuthayanon W",
+      "Li J",
+      "Molè M",
+      "Angelo M",
+      "Jeudin P",
+      "Drapkin R",
+      "Shikanov A",
+      "Laird D",
+      "Duncan F",
+      "Shen H",
+      "Garrison J",
+      "Boroni M",
+      "Stout M",
+      "Vento-Tormo R",
+      "George S",
+      "Suh Y",
+      "Young J",
+      "Laronda M."
+    ],
+    "published": "2026-10-09",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13651846",
+    "doi": "10.1126/sciadv.aef2358",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 12,
+    "score_reasons": [
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1337713",
+    "title": "Microbial Signatures and Functional Profiles in Paired Tumour Tissue, Adjacent Normal Tissue, and Urine from Patients with Bladder Cancer",
+    "authors": [
+      "Zhou X",
+      "Shi S",
+      "Li W",
+      "Yi Z",
+      "Jiang B",
+      "Pan G",
+      "Lu X",
+      "Liu Y."
+    ],
+    "published": "2026-10-09",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Background The urogenital microbiome has been implicated in bladder cancer, but the extent to which urine reflects the microbial community in tumour tissue remains unclear. We compared tumour tissue, adjacent normal tissue, and urine from the same patients to identify compartment-specific microbial signatures and infer their functional potential. Methods Paired tumour tissue, adjacent normal tissue, and urine were collected from 20 patients with histologically confirmed urothelial carcinoma. Bacterial DNA was processed alongside sampling, extraction, and no-template amplification controls. Five 16S rRNA gene variable regions were sequenced on an Illumina NovaSeq 6000 platform and integrated using the Short Multiple Regions Framework. Diversity, differential abundance, linear discriminant analysis effect size, exploratory receiver operating characteristic analysis, and PICRUSt2 functional prediction were performed. Results Good's coverage was higher in tumour tissue than in urine (P = 0.012) and in adjacent normal tissue than in urine (P = 0.0021); Chao1 also differed between adjacent normal tissue and urine (P = 0.02). Community composition differed among the three compartments (Adonis, P = 0.01, pseudo-R2 = 0.07). Planctomycetota was more abundant in adjacent normal tissue than in urine. At the genus level, three genera, including Geobacillus, were enriched and 17, including Anaerococcus, were depleted in tumour tissue relative to urine; Coprococcus was more abundant in tumour than in adjacent normal tissue. Exploratory analysis of c_Cytophagia, s_ Hydrogenophaga atypica , and s_ Vibrio diabolicus yielded individual areas under the curve of 0.600, 0.625, and 0.771 and a combined value of 0.897. PICRUSt2 predicted 40 differentially abundant genes or proteins and lower abundance of the superpathway of haem biosynthesis from uroporphyrinogen III in tumour-associated communities. Conclusions Microbial profiles differed mainly between tissue and urine, whereas tumour and adjacent normal tissue were more similar. The three candidate discriminating taxa and the predicted haem-biosynthesis difference are hypothesis-generating findings that require independent validation.",
+    "url": "https://doi.org/10.21203/rs.3.rs-11170480/v1",
+    "doi": "10.21203/rs.3.rs-11170480/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 12,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13647465",
+    "title": "Maternal obesity, diet, and the gut microbiome: implications for offspring cardiometabolic programming",
+    "authors": [
+      "Jahan-Mihan A",
+      "Salamat S",
+      "Nodarse R",
+      "Shangraw R",
+      "Labyak C",
+      "Snyder J",
+      "Berg K",
+      "Leftwich J."
+    ],
+    "published": "2026-10-09",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13647465",
+    "doi": "10.3389/fnut.2026.1909112",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 9,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "human health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1338670",
+    "title": "Social network and ikigai are interconnected pathways to frailty, with physical activity as an independent parallel input, among community- dwelling older Japanese adults in the Kyotango longevity area",
+    "authors": [
+      "Naito Y",
+      "Yasuda T",
+      "Kitae H",
+      "Mizushima K",
+      "Ouchi N",
+      "Adachi A",
+      "Kamitani T",
+      "Narumoto J",
+      "Kitani T",
+      "Matoba S",
+      "Inoue R",
+      "Takagi T."
+    ],
+    "published": "2026-10-11",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract The Kyotango Declaration of Healthy Aging formulated at the First World Longevity Summit proposes four interconnected pillars as the foundation of healthy longevity: dietary diversity, life-long physical activity (PA), strong social ties, and ikigai. Nonetheless, the mutual quantitative relationships among these pillars have not yet been formally investigated. This cross-sectional study aimed to quantify pathways linking the Lubben Social Network Scale-6, an ikigai composite (WHO-5 well-being + life-satisfaction score), and total PA to the Mitnitski–Rockwood frailty index in 751 community-dwelling older adults (mean age: 72.9 ± 5.8 years; women, 59.4%) from the Kyotango Multipurpose Cohort. In a serial-mediation model, the indirect pathway through ikigai alone accounted for 95.3% of the total indirect effect (β = −0.00845, 95% bootstrap confidence interval: [− 0.01101, − 0.00610]), whereas the a priori three-step serial chain was statistically null (β = −0.00005 [− 0.00023, + 0.00008]). PA operated as an independent parallel pathway (β = −0.006, p = 0.002), uncoupled from ikigai ( d = + 0.025, p = 0.485). Findings were robust across four prespecified versions of the frailty index and remained unchanged after adjustment for dietary fiber intake, indicating independence from the diet–microbiota pathway previously reported in the same cohort. Integrating these results with our previously reported paradoxical observation of significantly higher plasma interleukin (IL)-6 concentrations in non-frail individuals than in frail participants from the same cohort and with the recent Kashiwa cohort finding of increased plasma IL-6 concentrations in ikigai-positive women who did not develop frailty, we propose a unified interpretation in which IL-6 acts as a muscle-derived exerkine rather than a canonical inflammaging marker and may constitute a biological signature of successful aging in this population. These findings, along with the results of our concurrent food–microbiota–frailty analysis, provide the first quantitative empirical support for a parallel-pillar architecture of healthy longevity and highlight ikigai as a substantive, biologically plausible, and intervenable mediator of frailty prevention.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10659201/v1",
+    "doi": "10.21203/rs.3.rs-10659201/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 8,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13650742",
+    "title": "Insulin signaling in PCOS/PMOS: molecular insights and clinical implications",
+    "authors": [
+      "Goel A",
+      "Grover A",
+      "Shekhar S."
+    ],
+    "published": "2026-10-10",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13650742",
+    "doi": "10.3389/fendo.2026.1955884",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 6,
+    "score_reasons": [
+      "female reproductive health",
+      "human health"
+    ]
+  }
+]
