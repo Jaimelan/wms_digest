@@ -1,0 +1,116 @@
+[
+  {
+    "source": "Europe PMC",
+    "source_id": "PPR1344488",
+    "title": "A pilot study evaluating microbiome profiles of breast tissue, vaginal samples and stool in patients with benign breast lesions (fibroadenoma)",
+    "authors": [
+      "Tomusiak-Plebanek A",
+      "Streb J",
+      "Hodorowicz-Zaniewska D",
+      "Muszyńska A",
+      "Strus M."
+    ],
+    "published": "2026-10-18",
+    "venue": "{'publisher': 'Research Square', 'yearOfPublication': 2026}",
+    "abstract": "Abstract Although breast microbiota has been studied in healthy and malignant tissues, its composition in benign lesions such as fibroadenoma remains largely unknown. This pilot study compared the microbiota of fibroadenoma tissue, the vagina, and the gastrointestinal tract to identify microbial taxa shared across these anatomically distinct niches. Tumor, vaginal, and fecal samples were collected from three women with fibroadenoma. Samples were analyzed by quantitative culture, 16S rRNA gene sequencing, MALDI-TOF identification, and PCR detection of selected atypical bacterial pathogens. Culture-based analysis revealed abundant bacterial colonization of the gastrointestinal and vaginal niches, whereas no cultivable microorganisms were detected in fibroadenoma tissue. However, 16S rRNA sequencing identified diverse bacterial taxa across all niches. Despite distinct microbial communities, several taxa were shared among niches. Beta diversity analysis showed significant inter-niche differences (PERMANOVA, p = 0.01) and greater similarity between fibroadenoma and gut microbiota than between fibroadenoma and reproductive tract microbiota. PCR additionally detected U. urealyticum and M. hominis . In summary, fibroadenoma tissue harbors a distinct microbiota while sharing selected taxa with the gastrointestinal and reproductive tracts, supporting its integration within the broader host-associated microbial ecosystem.",
+    "url": "https://doi.org/10.21203/rs.3.rs-10959923/v1",
+    "doi": "10.21203/rs.3.rs-10959923/v1",
+    "is_preprint": true,
+    "cited_by": 0,
+    "categories": [
+      "Preprint"
+    ],
+    "score": 23,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health",
+      "preprint"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13661963",
+    "title": "Investigation into biomarkers to predict preterm birth (INSIGHT): a longitudinal UK pregnancy cohort for spontaneous preterm birth research",
+    "authors": [
+      "Jackson R",
+      "Valensin C",
+      "Chin-Smith E",
+      "Suff N",
+      "Shennan A",
+      "Hezelgrave N",
+      "Tribe R."
+    ],
+    "published": "2026-10-16",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13661963",
+    "doi": "10.3389/frph.2026.1926506",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "methods-article",
+      "Journal Article"
+    ],
+    "score": 8,
+    "score_reasons": [
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13658080",
+    "title": "Beyond community state types: vaginal microbial diversity and CST-IV signatures are associated with pregnancy in euploid embryo transfer cycles",
+    "authors": [
+      "Zou Y",
+      "Zhang W",
+      "Gao A",
+      "Fu J",
+      "Sui Y."
+    ],
+    "published": "2026-10-16",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13658080",
+    "doi": "10.3389/fendo.2026.1881146",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "research-article",
+      "Journal Article"
+    ],
+    "score": 8,
+    "score_reasons": [
+      "female reproductive health"
+    ]
+  },
+  {
+    "source": "Europe PMC",
+    "source_id": "PMC13659663",
+    "title": "Maternal microbiota and fetal brain development: a multidisciplinary review of cognitive, neurological, and metabolic outcomes",
+    "authors": [
+      "Satanovsky D",
+      "Beloyartseva M",
+      "Kuznetsov P",
+      "Savin N",
+      "Nesterenko A",
+      "Vekilova K."
+    ],
+    "published": "2026-10-16",
+    "venue": "PMC",
+    "abstract": "",
+    "url": "https://europepmc.org/article/PMC/PMC13659663",
+    "doi": "10.3389/fneur.2026.1778399",
+    "is_preprint": false,
+    "cited_by": 0,
+    "categories": [
+      "review-article",
+      "Review",
+      "Journal Article"
+    ],
+    "score": 7,
+    "score_reasons": [
+      "core metagenomics",
+      "female reproductive health"
+    ]
+  }
+]
